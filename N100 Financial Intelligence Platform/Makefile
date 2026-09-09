@@ -1,26 +1,20 @@
-PYTHON=python
+install:
+	python3 -m pip install -r requirements.txt
 
-load:
-	$(PYTHON) src/etl/loader.py
-
-validate:
-	$(PYTHON) src/etl/validator.py
-
-test:
-	pytest -q
-
-report:
-	$(PYTHON) src/etl/validator.py
+setup-test:
+	python3 src/analytics/create_demo_data.py
+	python3 src/analytics/run_engine.py
 
 ratios:
-	$(PYTHON) src/etl/ratios.py
+	python3 src/analytics/run_engine.py
 
-dashboard:
-	@echo "Dashboard module placeholder — database is ready."
+test:
+	python3 -m pytest -q
 
-api:
-	@echo "API module placeholder — database is ready."
+screener:
+	python3 src/analytics/screener.py
 
 clean:
 	rm -f nifty100.db
 	rm -f output/*.csv
+	rm -f output/*.log
