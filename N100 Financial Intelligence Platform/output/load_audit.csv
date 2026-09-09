@@ -1,0 +1,44 @@
+source_or_table,status,severity,message
+analysis,LOADED,INFO,
+analysis,LOADED,INFO,
+analysis,LOADED,INFO,
+balancesheet,LOADED,INFO,
+balancesheet,LOADED,INFO,
+balancesheet,LOADED,INFO,
+balancesheet,LOADED,INFO,
+balancesheet,LOADED,INFO,
+balancesheet,LOADED,INFO,
+cashflow,LOADED,INFO,
+cashflow,LOADED,INFO,
+cashflow,LOADED,INFO,
+cashflow,LOADED,INFO,
+cashflow,LOADED,INFO,
+cashflow,LOADED,INFO,
+documents,LOADED,INFO,
+documents,LOADED,INFO,
+documents,LOADED,INFO,
+financial_ratios,LOADED,INFO,
+financial_ratios,LOADED,INFO,
+financial_ratios,LOADED,INFO,
+peer_groups,REJECTED,CRITICAL,missing ticker
+peer_groups,REJECTED,CRITICAL,missing ticker
+profitandloss,REJECTED,CRITICAL,table profitandloss has 13 columns but 12 values were supplied
+profitandloss,REJECTED,CRITICAL,table profitandloss has 13 columns but 12 values were supplied
+profitandloss,REJECTED,CRITICAL,table profitandloss has 13 columns but 12 values were supplied
+profitandloss,REJECTED,CRITICAL,table profitandloss has 13 columns but 12 values were supplied
+profitandloss,REJECTED,CRITICAL,table profitandloss has 13 columns but 12 values were supplied
+profitandloss,REJECTED,CRITICAL,table profitandloss has 13 columns but 12 values were supplied
+prosandcons,LOADED,INFO,
+prosandcons,LOADED,INFO,
+prosandcons,LOADED,INFO,
+prosandcons,LOADED,INFO,
+prosandcons,LOADED,INFO,
+prosandcons,LOADED,INFO,
+sectors,REJECTED,CRITICAL,missing ticker
+sectors,REJECTED,CRITICAL,missing ticker
+stock_prices,LOADED,INFO,
+stock_prices,LOADED,INFO,
+stock_prices,LOADED,INFO,
+profitandloss,REJECTED,CRITICAL,table profitandloss has 13 columns but 12 values were supplied
+profitandloss,REJECTED,CRITICAL,table profitandloss has 13 columns but 12 values were supplied
+profitandloss,REJECTED,CRITICAL,table profitandloss has 13 columns but 12 values were supplied
