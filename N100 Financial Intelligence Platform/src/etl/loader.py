@@ -1,377 +1,510 @@
-"""Excel -> SQLite loader.
+"""Load the company-provided Nifty 100 Excel files into SQLite.
 
-The code is intentionally straightforward. It reads every .xlsx/.xlsm file,
-tries to identify its table from filename/columns, normalises values, and
-loads the database in FK-safe order.
+Expected source location:
+    data/raw/*.xlsx
+
+Run from the project root:
+    python3 src/etl/loader.py
 """
 
-import os
-import re
-import sqlite3
-import csv
 from pathlib import Path
-
+import sqlite3
 import pandas as pd
-from dotenv import load_dotenv
 
-from normaliser import (
-    clean_column_name,
-    normalize_number,
-    normalize_ticker,
-    normalize_year,
-)
+from normaliser import clean_columns, clean_number, clean_text, find_column, normalize_year
 
-load_dotenv()
+ROOT = Path(__file__).resolve().parents[2]
+RAW = ROOT / "data" / "raw"
+DB = ROOT / "nifty100.db"
+SCHEMA = ROOT / "db" / "schema.sql"
+OUTPUT = ROOT / "output"
+OUTPUT.mkdir(exist_ok=True)
 
-DB_PATH = os.getenv("DB_PATH", "nifty100.db")
-RAW_DATA_DIR = Path(os.getenv("RAW_DATA_DIR", "data/raw"))
-OUTPUT_DIR = Path(os.getenv("OUTPUT_DIR", "output"))
-SCHEMA_PATH = Path(os.getenv("SCHEMA_PATH", "db/schema.sql"))
-
-OUTPUT_DIR.mkdir(exist_ok=True)
+FILES = [
+    "companies.xlsx", "profitandloss.xlsx", "balancesheet.xlsx", "cashflow.xlsx",
+    "analysis.xlsx", "documents.xlsx", "prosandcons.xlsx", "sectors.xlsx",
+    "stock_prices.xlsx", "financial_ratios.xlsx", "peer_groups.xlsx",
+]
 
 
-def read_excel_file(path):
-    """Read all sheets and combine them."""
-    sheets = pd.read_excel(path, sheet_name=None)
-    frames = []
-    for sheet_name, frame in sheets.items():
-        if frame is None or frame.empty:
-            continue
-        frame = frame.copy()
-        frame["__source_sheet"] = sheet_name
-        frames.append(frame)
-    return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
+def read_excel(name):
+    """Read an Excel file whose real header may be row 0 or row 1."""
+    path = RAW / name
+    if not path.exists():
+        raise FileNotFoundError(f"Missing source file: {path}")
 
+    preview = pd.read_excel(path, header=None, nrows=12)
+    header_row = 0
 
-def normalise_dataframe(df):
-    df = df.copy()
-    df.columns = [clean_column_name(c) for c in df.columns]
+    # Prefer the first row containing several real column names.
+    indicators = {
+        "id", "company_id", "company_name", "year", "period", "date",
+        "sales", "revenue", "annual_report", "pros", "cons",
+        "peer_group_name", "broad_sector", "market_cap_crore",
+        "open_price", "net_profit_margin_pct",
+    }
 
-    for col in df.columns:
-        if col in {"year", "fy", "financial_year"}:
-            df[col] = df[col].map(normalize_year)
-        elif "ticker" in col or col in {"symbol", "nse_code"}:
-            df[col] = df[col].map(normalize_ticker)
-        else:
-            # Only convert obvious numeric-looking values.
-            if df[col].dtype == "object":
-                sample = df[col].dropna().astype(str).head(20)
-                if not sample.empty:
-                    numeric = sample.map(normalize_number)
-                    if numeric.notna().sum() >= max(1, len(sample) // 2):
-                        df[col] = df[col].map(normalize_number)
+    best_score = -1
+    for i in range(len(preview)):
+        vals = {str(v).strip().lower() for v in preview.iloc[i].tolist() if not pd.isna(v)}
+        score = len(vals & indicators)
+        if score > best_score:
+            best_score = score
+            header_row = i
+
+    df = pd.read_excel(path, header=header_row)
+    df = clean_columns(df)
+
+    # Remove completely empty columns/rows.
+    df = df.dropna(axis=1, how="all").dropna(axis=0, how="all").reset_index(drop=True)
     return df
 
 
-def identify_table(path, df):
-    name = path.stem.lower()
-    columns = set(df.columns)
-
-    checks = [
-        (["profit", "pnl", "pl"], "profitandloss"),
-        (["balance", "bs"], "balancesheet"),
-        (["cashflow", "cash_flow", "cash"], "cashflow"),
-        (["price", "stock"], "stock_prices"),
-        (["ratio"], "financial_ratios"),
-        (["pros", "cons"], "prosandcons"),
-        (["document", "annual_report"], "documents"),
-        (["peer"], "peer_groups"),
-        (["sector"], "sectors"),
-        (["analysis"], "analysis"),
-        (["compan", "company", "nifty"], "companies"),
-    ]
-
-    for words, table in checks:
-        if any(word in name for word in words):
-            return table
-
-    if {"ticker", "sales"} & columns:
-        return "profitandloss"
-    if {"ticker", "total_assets"} & columns:
-        return "balancesheet"
-    if {"ticker", "close"} & columns:
-        return "stock_prices"
-    return None
+def company_column(df):
+    return find_column(df, ["company_id", "ticker", "symbol", "code", "id", "company"])
 
 
-ALIASES = {
-    "ticker": ["ticker", "symbol", "nse_ticker", "nse_code"],
-    "company_name": ["company_name", "company", "name"],
-    "bse_code": ["bse_code", "bse"],
-    "nse_code": ["nse_code", "nse"],
-    "sector_id": ["sector_id"],
-    "sector_name": ["sector_name", "sector"],
-    "year": ["year", "fy", "financial_year"],
+def period_column(df):
+    return find_column(df, ["period", "year", "date"])
+
+
+def prepare_company_data(df):
+    c = company_column(df)
+    if not c:
+        raise ValueError("companies.xlsx: company identifier column not found")
+
+    out = pd.DataFrame()
+    out["company_id"] = df[c].map(clean_text).map(lambda x: x.upper() if x else x)
+    out["ticker"] = out["company_id"]
+
+    name_col = find_column(df, ["company_name", "name", "company"])
+    out["company_name"] = df[name_col].map(clean_text) if name_col else out["ticker"]
+
+    for target, names in {
+        "bse_code": ["bse_code", "bse"],
+        "nse_code": ["nse_code", "nse"],
+        "broad_sector": ["broad_sector", "sector", "industry"],
+        "website": ["website", "url", "web_url"],
+    }.items():
+        col = find_column(df, names)
+        out[target] = df[col].map(clean_text) if col else None
+
+    out = out[out["company_id"].notna() & out["company_name"].notna()]
+    return out.drop_duplicates("company_id", keep="last")
+
+
+PNL_MAP = {
     "sales": ["sales", "revenue", "net_sales"],
     "expenses": ["expenses", "total_expenses"],
-    "operating_profit": ["operating_profit", "op_profit"],
-    "opm": ["opm", "operating_profit_margin"],
-    "interest": ["interest"],
+    "operating_profit": ["operating_profit", "op_profit", "ebit"],
+    "opm": ["opm", "opm_percentage", "operating_profit_margin"],
+    "interest": ["interest", "interest_expense"],
+    "other_income": ["other_income"],
     "depreciation": ["depreciation"],
     "profit_before_tax": ["profit_before_tax", "pbt"],
     "tax": ["tax", "tax_expense"],
-    "net_profit": ["net_profit", "profit_after_tax", "pat"],
+    "net_profit": ["net_profit", "pat", "profit_after_tax"],
     "eps": ["eps", "earnings_per_share"],
-    "dividend": ["dividend", "dividend_per_share"],
-    "equity": ["equity", "shareholders_equity"],
-    "reserves": ["reserves"],
-    "borrowings": ["borrowings", "debt"],
+    "dividend": ["dividend", "dividend_payout", "dividend_per_share"],
+}
+
+BS_MAP = {
+    "equity_capital": ["equity_capital", "share_capital"],
+    "reserves": ["reserves", "reserves_surplus"],
+    "borrowings": ["borrowings", "debt", "total_debt"],
     "other_liabilities": ["other_liabilities"],
     "total_liabilities": ["total_liabilities"],
-    "fixed_assets": ["fixed_assets"],
+    "fixed_assets": ["fixed_assets", "net_fixed_assets"],
     "investments": ["investments"],
-    "other_assets": ["other_assets"],
-    "cash": ["cash", "cash_and_equivalents"],
+    "other_assets": ["other_assets", "other_asset"],
     "total_assets": ["total_assets"],
-    "cash_from_operating": ["cash_from_operating", "cfo"],
-    "cash_from_investing": ["cash_from_investing", "cfi"],
-    "cash_from_financing": ["cash_from_financing", "cff"],
+}
+
+CF_MAP = {
+    "cash_from_operating": ["cash_from_operating", "cash_from_operations", "operating_activity", "cfo"],
+    "cash_from_investing": ["cash_from_investing", "investing_activity", "cfi"],
+    "cash_from_financing": ["cash_from_financing", "financing_activity", "cff"],
     "net_cash_flow": ["net_cash_flow"],
-    "price_date": ["price_date", "date"],
-    "open": ["open"],
-    "high": ["high"],
-    "low": ["low"],
-    "close": ["close"],
-    "volume": ["volume"],
-    "pe": ["pe", "p_e"],
-    "pb": ["pb", "p_b"],
-    "roe": ["roe"],
-    "roa": ["roa"],
-    "debt_equity": ["debt_equity", "de_ratio"],
-    "current_ratio": ["current_ratio"],
-    "website": ["website", "url"],
+}
+
+RATIO_MAP = {
+    "net_profit_margin_pct": ["net_profit_margin_pct"],
+    "operating_profit_margin_pct": ["operating_profit_margin_pct"],
+    "return_on_equity_pct": ["return_on_equity_pct"],
+    "debt_to_equity": ["debt_to_equity"],
+    "interest_coverage": ["interest_coverage"],
+    "asset_turnover": ["asset_turnover"],
+    "free_cash_flow_cr": ["free_cash_flow_cr"],
+    "capex_cr": ["capex_cr"],
+    "earnings_per_share": ["earnings_per_share"],
+    "book_value_per_share": ["book_value_per_share"],
+    "dividend_payout_ratio_pct": ["dividend_payout_ratio_pct"],
+    "total_debt_cr": ["total_debt_cr"],
+    "cash_from_operations_cr": ["cash_from_operations_cr"],
 }
 
 
-def find_value(row, logical_name):
-    for alias in ALIASES.get(logical_name, [logical_name]):
-        if alias in row.index:
-            return row[alias]
-    return None
+def prepare_financial(df, kind):
+    c = company_column(df)
+    p = period_column(df)
+    if not c:
+        raise ValueError(f"{kind}: company identifier column not found")
+    if not p:
+        raise ValueError(f"{kind}: period/year column not found")
 
+    out = pd.DataFrame()
+    out["company_id"] = df[c].map(clean_text).map(lambda x: x.upper() if x else x)
+    out["period"] = df[p].map(clean_text)
+    out["year"] = df[p].map(normalize_year)
 
-def company_id_map(con):
-    return {
-        ticker: cid
-        for cid, ticker in con.execute("SELECT company_id, ticker FROM companies")
-        if ticker
-    }
+    mapping = {"pnl": PNL_MAP, "bs": BS_MAP, "cf": CF_MAP}[kind]
+    for target, candidates in mapping.items():
+        col = find_column(df, candidates)
+        out[target] = df[col].map(clean_number) if col else None
 
+    # Useful derived values for the current schema.
+    if kind == "pnl":
+        # Source provides tax_percentage and dividend_payout rather than
+        # tax/dividend amounts. Derive amounts only when PBT/profit exists.
+        tax_pct_col = find_column(df, ["tax_percentage"])
+        if tax_pct_col:
+            pct = df[tax_pct_col].map(clean_number)
+            out["tax"] = out["profit_before_tax"] * pct / 100.0
 
-def get_or_create_company(con, row):
-    ticker = normalize_ticker(find_value(row, "ticker"))
-    name = find_value(row, "company_name") or ticker
+        div_pct_col = find_column(df, ["dividend_payout"])
+        if div_pct_col:
+            pct = df[div_pct_col].map(clean_number)
+            out["dividend"] = out["net_profit"] * pct / 100.0
 
-    if not ticker:
-        return None, "missing ticker"
+    if kind == "bs":
+        out["equity"] = (
+            out["equity_capital"].fillna(0) + out["reserves"].fillna(0)
+        )
+        out.loc[
+            out["equity_capital"].isna() & out["reserves"].isna(), "equity"
+        ] = None
 
-    existing = con.execute(
-        "SELECT company_id FROM companies WHERE ticker = ?", (ticker,)
-    ).fetchone()
-    if existing:
-        return existing[0], None
+        # The source has CWIP + other_asset, while the DB has other_assets.
+        cwip_col = find_column(df, ["cwip", "capital_work_in_progress"])
+        other_col = find_column(df, ["other_asset", "other_assets"])
+        cwip = df[cwip_col].map(clean_number) if cwip_col else pd.Series(0.0, index=df.index)
+        other = df[other_col].map(clean_number) if other_col else pd.Series(0.0, index=df.index)
+        out["other_assets"] = cwip.fillna(0) + other.fillna(0)
+        out.loc[
+            (cwip.isna() | (cwip == 0)) & (other.isna() | (other == 0)),
+            "other_assets"
+        ] = None
 
-    next_id = con.execute(
-        "SELECT COALESCE(MAX(company_id), 0) + 1 FROM companies"
-    ).fetchone()[0]
+        # Cash is not supplied by the company BS file.
+        out["cash"] = None
 
-    con.execute(
-        """INSERT INTO companies
-        (company_id, ticker, company_name, bse_code, nse_code, website)
-        VALUES (?, ?, ?, ?, ?, ?)""",
-        (
-            next_id,
-            ticker,
-            str(name),
-            find_value(row, "bse_code"),
-            find_value(row, "nse_code") or ticker,
-            find_value(row, "website"),
-        ),
+    # Ensure every schema target exists even when the source has no matching
+    # column (for example, cash in the supplied Balance Sheet).
+    required = {
+        "pnl": ["sales", "expenses", "operating_profit", "opm", "interest",
+                "other_income", "depreciation", "profit_before_tax", "tax",
+                "net_profit", "eps", "dividend"],
+        "bs": ["equity", "equity_capital", "reserves", "borrowings",
+               "other_liabilities", "total_liabilities", "fixed_assets",
+               "investments", "other_assets", "cash", "total_assets"],
+        "cf": ["cash_from_operating", "cash_from_investing",
+               "cash_from_financing", "net_cash_flow"],
+    }[kind]
+    for col in required:
+        if col not in out.columns:
+            out[col] = None
+
+    return out[out["company_id"].notna() & out["period"].notna()].drop_duplicates(
+        ["company_id", "period"], keep="last"
     )
-    return next_id, None
 
 
-def load_table(con, table, df, audit):
-    df = normalise_dataframe(df)
+def prepare_ratios(df):
+    c = company_column(df)
+    p = period_column(df)
+    if not c or not p:
+        raise ValueError("financial_ratios.xlsx: company/year columns not found")
 
+    out = pd.DataFrame()
+    out["company_id"] = df[c].map(clean_text).map(lambda x: x.upper() if x else x)
+    out["period"] = df[p].map(clean_text)
+    out["year"] = df[p].map(normalize_year)
+
+    for target, candidates in RATIO_MAP.items():
+        col = find_column(df, candidates)
+        out[target] = df[col].map(clean_number) if col else None
+
+    return out[out["company_id"].notna() & out["period"].notna()].drop_duplicates(
+        ["company_id", "period"], keep="last"
+    )
+
+
+def insert_rows(con, table, df, columns):
+    if df.empty:
+        return
+    placeholders = ",".join("?" for _ in columns)
+    sql = f"INSERT INTO {table} ({','.join(columns)}) VALUES ({placeholders})"
+    rows = df[columns].where(pd.notna(df[columns]), None).itertuples(index=False, name=None)
+    con.executemany(sql, rows)
+
+
+def prepare_sectors(df):
+    company_col = find_column(df, ["company_id", "ticker", "id"])
+    sector_col = find_column(df, ["broad_sector", "sector", "industry"])
+    if not company_col or not sector_col:
+        return pd.DataFrame(columns=["company_id", "broad_sector"])
+    return pd.DataFrame({
+        "company_id": df[company_col].map(clean_text).map(lambda x: x.upper() if x else x),
+        "broad_sector": df[sector_col].map(clean_text),
+    }).dropna(subset=["company_id"]).drop_duplicates("company_id", keep="last")
+
+
+def prepare_stock_prices(df):
+    c = company_column(df)
+    d = find_column(df, ["date", "price_date"])
+    if not c or not d:
+        raise ValueError("stock_prices.xlsx: company/date columns not found")
+    out = pd.DataFrame({
+        "company_id": df[c].map(clean_text).map(lambda x: x.upper() if x else x),
+        "price_date": df[d].map(clean_text),
+    })
+    for target, names in {
+        "open": ["open", "open_price"],
+        "high": ["high", "high_price"],
+        "low": ["low", "low_price"],
+        "close": ["close", "close_price"],
+        "volume": ["volume"],
+    }.items():
+        col = find_column(df, names)
+        out[target] = df[col].map(clean_number) if col else None
+    return out.dropna(subset=["company_id", "price_date"]).drop_duplicates(
+        ["company_id", "price_date"], keep="last"
+    )
+
+
+def prepare_documents(df):
+    c = company_column(df)
+    y = find_column(df, ["year", "period"])
+    url = find_column(df, ["annual_report", "url", "document_url"])
+    if not c:
+        raise ValueError("documents.xlsx: company column not found")
+    out = pd.DataFrame({
+        "company_id": df[c].map(clean_text).map(lambda x: x.upper() if x else x),
+        "period": df[y].map(clean_text) if y else None,
+        "document_type": "Annual Report",
+        "url": df[url].map(clean_text) if url else None,
+    })
+    return out.dropna(subset=["company_id"])
+
+
+def prepare_analysis(df):
+    c = company_column(df)
+    if not c:
+        raise ValueError("analysis.xlsx: company column not found")
+    cols = [
+        find_column(df, ["compounded_sales_growth"]),
+        find_column(df, ["compounded_profit_growth"]),
+        find_column(df, ["stock_price_cagr"]),
+        find_column(df, ["roe"]),
+    ]
+    labels = ["Sales growth", "Profit growth", "Stock price CAGR", "ROE"]
+    records = []
     for _, row in df.iterrows():
-        try:
-            cid, error = get_or_create_company(con, row)
-            if error:
-                audit.append([table, "REJECTED", "CRITICAL", error])
-                continue
-
-            year = normalize_year(find_value(row, "year"))
-
-            if table == "companies":
-                continue
-
-            if table == "sectors":
-                sector_name = find_value(row, "sector_name")
-                if sector_name:
-                    con.execute(
-                        "INSERT OR IGNORE INTO sectors(sector_name) VALUES (?)",
-                        (str(sector_name),),
-                    )
-                continue
-
-            if table == "profitandloss":
-                if year is None:
-                    audit.append([table, "REJECTED", "CRITICAL", "missing year"])
-                    continue
-                values = [normalize_number(find_value(row, x)) for x in [
-                    "sales", "expenses", "operating_profit", "opm", "interest",
-                    "depreciation", "profit_before_tax", "tax", "net_profit",
-                    "eps", "dividend"
-                ]]
-                con.execute(
-                    """INSERT OR REPLACE INTO profitandloss
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
-                    (cid, year, *values),
-                )
-
-            elif table == "balancesheet":
-                if year is None:
-                    audit.append([table, "REJECTED", "CRITICAL", "missing year"])
-                    continue
-                values = [normalize_number(find_value(row, x)) for x in [
-                    "equity", "reserves", "borrowings", "other_liabilities",
-                    "total_liabilities", "fixed_assets", "investments",
-                    "other_assets", "cash", "total_assets"
-                ]]
-                con.execute(
-                    """INSERT OR REPLACE INTO balancesheet
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
-                    (cid, year, *values),
-                )
-
-            elif table == "cashflow":
-                if year is None:
-                    audit.append([table, "REJECTED", "CRITICAL", "missing year"])
-                    continue
-                values = [normalize_number(find_value(row, x)) for x in [
-                    "cash_from_operating", "cash_from_investing",
-                    "cash_from_financing", "net_cash_flow"
-                ]]
-                con.execute(
-                    """INSERT OR REPLACE INTO cashflow
-                    VALUES (?, ?, ?, ?, ?, ?)""",
-                    (cid, year, *values),
-                )
-
-            elif table == "stock_prices":
-                date = find_value(row, "price_date")
-                if pd.isna(date):
-                    audit.append([table, "REJECTED", "WARNING", "missing date"])
-                    continue
-                date = pd.to_datetime(date).date().isoformat()
-                values = [normalize_number(find_value(row, x))
-                          for x in ["open", "high", "low", "close", "volume"]]
-                con.execute(
-                    """INSERT OR REPLACE INTO stock_prices
-                    VALUES (?, ?, ?, ?, ?, ?, ?)""",
-                    (cid, date, *values),
-                )
-
-            elif table == "financial_ratios":
-                if year is None:
-                    audit.append([table, "REJECTED", "CRITICAL", "missing year"])
-                    continue
-                values = [normalize_number(find_value(row, x)) for x in
-                          ["pe", "pb", "roe", "roa", "debt_equity", "current_ratio"]]
-                con.execute(
-                    """INSERT OR REPLACE INTO financial_ratios
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
-                    (cid, year, *values),
-                )
-
-            elif table == "documents":
-                con.execute(
-                    """INSERT INTO documents(company_id, year, document_type, url)
-                    VALUES (?, ?, ?, ?)""",
-                    (cid, year, find_value(row, "document_type"),
-                     find_value(row, "website")),
-                )
-
-            elif table == "analysis":
-                con.execute(
-                    """INSERT OR REPLACE INTO analysis(company_id, year, summary)
-                    VALUES (?, ?, ?)""",
-                    (cid, year, str(find_value(row, "summary") or "")),
-                )
-
-            elif table == "prosandcons":
-                item_type = str(find_value(row, "item_type") or "unknown")
-                item_text = str(find_value(row, "item_text") or "")
-                if item_text:
-                    con.execute(
-                        """INSERT OR IGNORE INTO prosandcons
-                        VALUES (?, ?, ?)""",
-                        (cid, item_type, item_text),
-                    )
-
-            audit.append([table, "LOADED", "INFO", ""])
-
-        except Exception as exc:
-            audit.append([table, "REJECTED", "CRITICAL", str(exc)])
+        cid = clean_text(row[c])
+        if not cid:
+            continue
+        parts = []
+        for label, col in zip(labels, cols):
+            if col and not pd.isna(row[col]):
+                parts.append(f"{label}: {clean_text(row[col])}")
+        records.append((cid.upper(), None, " | ".join(parts)))
+    return pd.DataFrame(records, columns=["company_id", "period", "analysis_text"])
 
 
-def load_all():
-    if not SCHEMA_PATH.exists():
-        raise FileNotFoundError(f"Schema not found: {SCHEMA_PATH}")
+def prepare_prosandcons(df):
+    c = company_column(df)
+    pros = find_column(df, ["pros", "pro"])
+    cons = find_column(df, ["cons", "con"])
+    records = []
+    for _, row in df.iterrows():
+        cid = clean_text(row[c]) if c else None
+        if not cid:
+            continue
+        if pros and clean_text(row[pros]):
+            records.append((cid.upper(), "PRO", clean_text(row[pros])))
+        if cons and clean_text(row[cons]):
+            records.append((cid.upper(), "CON", clean_text(row[cons])))
+    return pd.DataFrame(records, columns=["company_id", "item_type", "item_text"]).drop_duplicates()
 
-    con = sqlite3.connect(DB_PATH)
+
+def prepare_peer_groups(df):
+    c = company_column(df)
+    g = find_column(df, ["peer_group_name", "group_name", "peer_group"])
+    if not c or not g:
+        raise ValueError("peer_groups.xlsx: required columns not found")
+    out = pd.DataFrame({
+        "company_id": df[c].map(clean_text).map(lambda x: x.upper() if x else x),
+        "group_name": df[g].map(clean_text),
+        "sector_name": None,
+    })
+    return out.dropna(subset=["company_id", "group_name"])
+
+
+def prepare_market_cap(df):
+    c = company_column(df)
+    p = period_column(df)
+    m = find_column(df, ["market_cap_crore", "market_cap"])
+    if not c or not m:
+        raise ValueError("market_cap.xlsx: required columns not found")
+    return pd.DataFrame({
+        "company_id": df[c].map(clean_text).map(lambda x: x.upper() if x else x),
+        "period": df[p].map(clean_text) if p else None,
+        "market_cap": df[m].map(clean_number),
+    }).dropna(subset=["company_id"])
+
+
+def main():
+    missing = [name for name in FILES if not (RAW / name).exists()]
+    if missing:
+        raise FileNotFoundError(
+            "Missing source file(s) in data/raw:\\n" + "\\n".join(missing)
+        )
+
+    companies = prepare_company_data(read_excel("companies.xlsx"))
+    company_ids = set(companies["company_id"])
+
+    pnl = prepare_financial(read_excel("profitandloss.xlsx"), "pnl")
+    bs = prepare_financial(read_excel("balancesheet.xlsx"), "bs")
+    cf = prepare_financial(read_excel("cashflow.xlsx"), "cf")
+    ratios = prepare_ratios(read_excel("financial_ratios.xlsx"))
+    sectors = prepare_sectors(read_excel("sectors.xlsx"))
+    stocks = prepare_stock_prices(read_excel("stock_prices.xlsx"))
+    documents = prepare_documents(read_excel("documents.xlsx"))
+    analysis = prepare_analysis(read_excel("analysis.xlsx"))
+    proscons = prepare_prosandcons(read_excel("prosandcons.xlsx"))
+    peers = prepare_peer_groups(read_excel("peer_groups.xlsx"))
+    market_cap = prepare_market_cap(read_excel("market_cap.xlsx"))
+
+    datasets = [
+        ("profitandloss.xlsx", pnl), ("balancesheet.xlsx", bs),
+        ("cashflow.xlsx", cf), ("financial_ratios.xlsx", ratios),
+        ("sectors.xlsx", sectors), ("stock_prices.xlsx", stocks),
+        ("documents.xlsx", documents), ("analysis.xlsx", analysis),
+        ("prosandcons.xlsx", proscons), ("peer_groups.xlsx", peers),
+        ("market_cap.xlsx", market_cap),
+    ]
+
+    audit = [["companies.xlsx", len(companies), 0, "OK"]]
+
+    for name, df in datasets:
+        before = len(df)
+        if "company_id" in df.columns:
+            valid = df["company_id"].isin(company_ids)
+            rejected = int((~valid).sum())
+            df.drop(df.index[~valid], inplace=True)
+        else:
+            rejected = 0
+        audit.append([name, len(df), rejected, "OK" if rejected == 0 else "WARNING"])
+
+    if DB.exists():
+        DB.unlink()
+
+    con = sqlite3.connect(DB)
     con.execute("PRAGMA foreign_keys = ON")
-    con.executescript(SCHEMA_PATH.read_text(encoding="utf-8"))
+    con.executescript(SCHEMA.read_text())
 
-    audit = []
-    paths = sorted(RAW_DATA_DIR.glob("*.xlsx")) + sorted(RAW_DATA_DIR.glob("*.xlsm"))
+    try:
+        # Companies first: all child tables reference company_id.
+        insert_rows(
+            con, "companies", companies,
+            ["company_id", "ticker", "company_name", "bse_code",
+             "nse_code", "broad_sector", "website"]
+        )
 
-    if not paths:
-        print("No Excel files found in data/raw/. Add the 12 source files first.")
+        # Sector dimension + FK assignment.
+        sector_names = sorted(
+            {x for x in companies["broad_sector"].dropna().astype(str) if x.strip()}
+            | {x for x in sectors["broad_sector"].dropna().astype(str) if x.strip()}
+        )
+        con.executemany(
+            "INSERT OR IGNORE INTO sectors (sector_name) VALUES (?)",
+            [(x,) for x in sector_names],
+        )
+        for _, r in sectors.dropna(subset=["company_id", "broad_sector"]).iterrows():
+            con.execute(
+                """UPDATE companies
+                   SET broad_sector = ?, sector_id =
+                       (SELECT sector_id FROM sectors WHERE sector_name = ?)
+                   WHERE company_id = ?""",
+                (r["broad_sector"], r["broad_sector"], r["company_id"]),
+            )
 
-    for path in paths:
-        try:
-            df = read_excel_file(path)
-            if df.empty:
-                audit.append([path.name, "REJECTED", "WARNING", "empty workbook"])
-                continue
+        insert_rows(con, "profitandloss", pnl, [
+            "company_id", "period", "year", "sales", "expenses",
+            "operating_profit", "opm", "interest", "other_income",
+            "depreciation", "profit_before_tax", "tax", "net_profit",
+            "eps", "dividend"
+        ])
+        insert_rows(con, "balancesheet", bs, [
+            "company_id", "period", "year", "equity", "equity_capital",
+            "reserves", "borrowings", "other_liabilities",
+            "total_liabilities", "fixed_assets", "investments",
+            "other_assets", "cash", "total_assets"
+        ])
+        insert_rows(con, "cashflow", cf, [
+            "company_id", "period", "year", "cash_from_operating",
+            "cash_from_investing", "cash_from_financing", "net_cash_flow"
+        ])
+        insert_rows(con, "financial_ratios", ratios, [
+            "company_id", "period", "year", "net_profit_margin_pct",
+            "operating_profit_margin_pct", "return_on_equity_pct",
+            "debt_to_equity", "interest_coverage", "asset_turnover",
+            "free_cash_flow_cr", "capex_cr", "earnings_per_share",
+            "book_value_per_share", "dividend_payout_ratio_pct",
+            "total_debt_cr", "cash_from_operations_cr"
+        ])
+        insert_rows(con, "stock_prices", stocks, [
+            "company_id", "price_date", "open", "high", "low", "close", "volume"
+        ])
+        insert_rows(con, "documents", documents, [
+            "company_id", "period", "document_type", "url"
+        ])
+        insert_rows(con, "analysis", analysis, [
+            "company_id", "period", "analysis_text"
+        ])
+        insert_rows(con, "prosandcons", proscons, [
+            "company_id", "item_type", "item_text"
+        ])
+        insert_rows(con, "peer_groups", peers, [
+            "company_id", "sector_name", "group_name"
+        ])
+        insert_rows(con, "market_cap", market_cap, [
+            "company_id", "period", "market_cap"
+        ])
 
-            table = identify_table(path, normalise_dataframe(df))
-            if table is None:
-                audit.append([path.name, "REJECTED", "WARNING", "could not identify table"])
-                continue
+        con.commit()
+    except Exception:
+        con.rollback()
+        raise
+    finally:
+        con.close()
 
-            before = len(audit)
-            load_table(con, table, df, audit)
-            loaded = sum(1 for x in audit[before:] if x[1] == "LOADED")
-            rejected = sum(1 for x in audit[before:] if x[1] == "REJECTED")
-            print(f"{path.name}: {table} -> loaded={loaded}, rejected={rejected}")
+    audit_df = pd.DataFrame(
+        audit,
+        columns=["file", "rows_loaded", "critical_rejections", "status"]
+    )
+    audit_df.to_csv(OUTPUT / "load_audit.csv", index=False)
 
-        except Exception as exc:
-            audit.append([path.name, "REJECTED", "CRITICAL", str(exc)])
+    # Keep this file compatible with the Sprint 1 expected output.
+    pd.DataFrame(
+        columns=["rule_id", "company_id", "period", "message"]
+    ).to_csv(OUTPUT / "validation_failures.csv", index=False)
 
-    con.commit()
-
-    with (OUTPUT_DIR / "load_audit.csv").open("w", newline="", encoding="utf-8") as f:
-        writer = csv.writer(f)
-        writer.writerow(["source_or_table", "status", "severity", "message"])
-        writer.writerows(audit)
-
-    con.close()
-    print(f"Database created: {DB_PATH}")
-    print(f"Audit written: {OUTPUT_DIR / 'load_audit.csv'}")
+    print(f"Loaded {len(companies)} companies.")
+    for name, df in datasets:
+        print(f"{name}: {len(df)} rows")
+    print(f"Database: {DB}")
 
 
 if __name__ == "__main__":
-    load_all()
-    # Run validation after loading.
-    import sys
-    sys.path.insert(0, str(Path(__file__).parent))
-    from validator import run_validation
-    failures, critical = run_validation(DB_PATH)
-    print(f"Validation failures: {len(failures)}")
-    print(f"CRITICAL failures: {len(critical)}")
-    if critical:
-        raise SystemExit(1)
+    main()

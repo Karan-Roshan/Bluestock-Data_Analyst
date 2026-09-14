@@ -1,1 +1,1 @@
-rule,severity,table,company_id,year,message
+rule_id,company_id,period,message

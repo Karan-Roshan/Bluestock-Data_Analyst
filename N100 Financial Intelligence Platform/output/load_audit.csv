@@ -1,44 +1,13 @@
-source_or_table,status,severity,message
-analysis,LOADED,INFO,
-analysis,LOADED,INFO,
-analysis,LOADED,INFO,
-balancesheet,LOADED,INFO,
-balancesheet,LOADED,INFO,
-balancesheet,LOADED,INFO,
-balancesheet,LOADED,INFO,
-balancesheet,LOADED,INFO,
-balancesheet,LOADED,INFO,
-cashflow,LOADED,INFO,
-cashflow,LOADED,INFO,
-cashflow,LOADED,INFO,
-cashflow,LOADED,INFO,
-cashflow,LOADED,INFO,
-cashflow,LOADED,INFO,
-documents,LOADED,INFO,
-documents,LOADED,INFO,
-documents,LOADED,INFO,
-financial_ratios,LOADED,INFO,
-financial_ratios,LOADED,INFO,
-financial_ratios,LOADED,INFO,
-peer_groups,REJECTED,CRITICAL,missing ticker
-peer_groups,REJECTED,CRITICAL,missing ticker
-profitandloss,REJECTED,CRITICAL,table profitandloss has 13 columns but 12 values were supplied
-profitandloss,REJECTED,CRITICAL,table profitandloss has 13 columns but 12 values were supplied
-profitandloss,REJECTED,CRITICAL,table profitandloss has 13 columns but 12 values were supplied
-profitandloss,REJECTED,CRITICAL,table profitandloss has 13 columns but 12 values were supplied
-profitandloss,REJECTED,CRITICAL,table profitandloss has 13 columns but 12 values were supplied
-profitandloss,REJECTED,CRITICAL,table profitandloss has 13 columns but 12 values were supplied
-prosandcons,LOADED,INFO,
-prosandcons,LOADED,INFO,
-prosandcons,LOADED,INFO,
-prosandcons,LOADED,INFO,
-prosandcons,LOADED,INFO,
-prosandcons,LOADED,INFO,
-sectors,REJECTED,CRITICAL,missing ticker
-sectors,REJECTED,CRITICAL,missing ticker
-stock_prices,LOADED,INFO,
-stock_prices,LOADED,INFO,
-stock_prices,LOADED,INFO,
-profitandloss,REJECTED,CRITICAL,table profitandloss has 13 columns but 12 values were supplied
-profitandloss,REJECTED,CRITICAL,table profitandloss has 13 columns but 12 values were supplied
-profitandloss,REJECTED,CRITICAL,table profitandloss has 13 columns but 12 values were supplied
+file,rows_loaded,critical_rejections,status
+companies.xlsx,92,0,OK
+profitandloss.xlsx,1164,99,WARNING
+balancesheet.xlsx,1140,85,WARNING
+cashflow.xlsx,1068,96,WARNING
+financial_ratios.xlsx,1041,24,WARNING
+sectors.xlsx,92,0,OK
+stock_prices.xlsx,5520,0,OK
+documents.xlsx,1457,128,WARNING
+analysis.xlsx,16,4,WARNING
+prosandcons.xlsx,24,2,WARNING
+peer_groups.xlsx,56,0,OK
+market_cap.xlsx,552,0,OK

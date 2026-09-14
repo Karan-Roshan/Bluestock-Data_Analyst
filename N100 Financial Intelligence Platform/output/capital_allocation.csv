@@ -1,1105 +1,1262 @@
-company_id,year,cfo_sign,cfi_sign,cff_sign,pattern_label
-1,2014,+,-,-,Shareholder Returns
-1,2015,+,-,-,Shareholder Returns
-1,2016,+,-,-,Shareholder Returns
-1,2017,+,-,-,Shareholder Returns
-1,2018,+,-,-,Shareholder Returns
-1,2019,+,-,-,Shareholder Returns
-1,2020,+,-,-,Shareholder Returns
-1,2021,+,-,-,Shareholder Returns
-1,2022,+,-,-,Shareholder Returns
-1,2023,+,-,-,Shareholder Returns
-1,2024,+,-,-,Shareholder Returns
-1,2025,+,-,-,Shareholder Returns
-2,2014,+,-,-,Shareholder Returns
-2,2015,+,-,-,Shareholder Returns
-2,2016,+,-,-,Shareholder Returns
-2,2017,+,-,-,Shareholder Returns
-2,2018,+,-,-,Shareholder Returns
-2,2019,+,-,-,Shareholder Returns
-2,2020,+,-,-,Shareholder Returns
-2,2021,+,-,-,Shareholder Returns
-2,2022,+,-,-,Shareholder Returns
-2,2023,+,-,-,Shareholder Returns
-2,2024,+,-,-,Shareholder Returns
-2,2025,+,-,-,Shareholder Returns
-3,2014,+,-,-,Shareholder Returns
-3,2015,+,-,-,Shareholder Returns
-3,2016,+,-,-,Shareholder Returns
-3,2017,+,-,-,Shareholder Returns
-3,2018,+,-,-,Shareholder Returns
-3,2019,+,-,-,Shareholder Returns
-3,2020,+,-,-,Shareholder Returns
-3,2021,+,-,-,Shareholder Returns
-3,2022,+,-,-,Shareholder Returns
-3,2023,+,-,-,Shareholder Returns
-3,2024,+,-,-,Shareholder Returns
-3,2025,+,-,-,Shareholder Returns
-4,2014,+,-,-,Reinvestor
-4,2015,+,-,-,Reinvestor
-4,2016,+,-,-,Reinvestor
-4,2017,+,-,-,Reinvestor
-4,2018,+,-,-,Reinvestor
-4,2019,+,-,-,Reinvestor
-4,2020,+,-,-,Reinvestor
-4,2021,+,-,-,Reinvestor
-4,2022,+,-,-,Reinvestor
-4,2023,+,-,-,Reinvestor
-4,2024,+,-,-,Reinvestor
-4,2025,+,-,-,Reinvestor
-5,2014,+,-,-,Shareholder Returns
-5,2015,+,-,-,Shareholder Returns
-5,2016,+,-,-,Shareholder Returns
-5,2017,+,-,-,Shareholder Returns
-5,2018,+,-,-,Shareholder Returns
-5,2019,+,-,-,Shareholder Returns
-5,2020,+,-,-,Shareholder Returns
-5,2021,+,-,-,Shareholder Returns
-5,2022,+,-,-,Shareholder Returns
-5,2023,+,-,-,Shareholder Returns
-5,2024,+,-,-,Shareholder Returns
-5,2025,+,-,-,Shareholder Returns
-6,2014,+,-,-,Shareholder Returns
-6,2015,+,-,-,Shareholder Returns
-6,2016,+,-,-,Shareholder Returns
-6,2017,+,-,-,Shareholder Returns
-6,2018,+,-,-,Shareholder Returns
-6,2019,+,-,-,Shareholder Returns
-6,2020,+,-,-,Shareholder Returns
-6,2021,+,-,-,Shareholder Returns
-6,2022,+,-,-,Shareholder Returns
-6,2023,+,-,-,Shareholder Returns
-6,2024,+,-,-,Shareholder Returns
-6,2025,+,-,-,Shareholder Returns
-7,2014,+,-,-,Shareholder Returns
-7,2015,+,-,-,Shareholder Returns
-7,2016,+,-,-,Shareholder Returns
-7,2017,+,-,-,Shareholder Returns
-7,2018,+,-,-,Shareholder Returns
-7,2019,+,-,-,Shareholder Returns
-7,2020,+,-,-,Shareholder Returns
-7,2021,+,-,-,Shareholder Returns
-7,2022,+,-,-,Shareholder Returns
-7,2023,+,-,-,Shareholder Returns
-7,2024,+,-,-,Shareholder Returns
-7,2025,+,-,-,Shareholder Returns
-8,2014,+,-,-,Reinvestor
-8,2015,+,-,-,Reinvestor
-8,2016,+,-,-,Reinvestor
-8,2017,+,-,-,Reinvestor
-8,2018,+,-,-,Reinvestor
-8,2019,+,-,-,Reinvestor
-8,2020,+,-,-,Reinvestor
-8,2021,+,-,-,Reinvestor
-8,2022,+,-,-,Reinvestor
-8,2023,+,-,-,Reinvestor
-8,2024,+,-,-,Reinvestor
-8,2025,+,-,-,Reinvestor
-9,2014,+,-,+,Mixed
-9,2015,+,-,+,Mixed
-9,2016,+,-,+,Mixed
-9,2017,+,-,+,Mixed
-9,2018,+,-,+,Mixed
-9,2019,+,-,+,Mixed
-9,2020,+,-,+,Mixed
-9,2021,+,-,+,Mixed
-9,2022,+,-,+,Mixed
-9,2023,+,-,+,Mixed
-9,2024,+,-,+,Mixed
-9,2025,+,-,+,Mixed
-10,2014,+,-,-,Shareholder Returns
-10,2015,+,-,-,Shareholder Returns
-10,2016,+,-,-,Shareholder Returns
-10,2017,+,-,-,Shareholder Returns
-10,2018,+,-,-,Shareholder Returns
-10,2019,+,-,-,Shareholder Returns
-10,2020,+,-,-,Shareholder Returns
-10,2021,+,-,-,Shareholder Returns
-10,2022,+,-,-,Shareholder Returns
-10,2023,+,-,-,Shareholder Returns
-10,2024,+,-,-,Shareholder Returns
-10,2025,+,-,-,Shareholder Returns
-11,2014,+,-,-,Shareholder Returns
-11,2015,+,-,-,Shareholder Returns
-11,2016,+,-,-,Shareholder Returns
-11,2017,+,-,-,Shareholder Returns
-11,2018,+,-,-,Shareholder Returns
-11,2019,+,-,-,Shareholder Returns
-11,2020,+,-,-,Shareholder Returns
-11,2021,+,-,-,Shareholder Returns
-11,2022,+,-,-,Shareholder Returns
-11,2023,+,-,-,Shareholder Returns
-11,2024,+,-,-,Shareholder Returns
-11,2025,+,-,-,Shareholder Returns
-12,2014,+,-,-,Reinvestor
-12,2015,+,-,-,Reinvestor
-12,2016,+,-,-,Reinvestor
-12,2017,+,-,-,Reinvestor
-12,2018,+,-,-,Reinvestor
-12,2019,+,-,-,Reinvestor
-12,2020,+,-,-,Reinvestor
-12,2021,+,-,-,Reinvestor
-12,2022,+,-,-,Reinvestor
-12,2023,+,-,-,Reinvestor
-12,2024,+,-,-,Reinvestor
-12,2025,+,-,-,Reinvestor
-13,2014,+,-,-,Shareholder Returns
-13,2015,+,-,-,Shareholder Returns
-13,2016,+,-,-,Shareholder Returns
-13,2017,+,-,-,Shareholder Returns
-13,2018,+,-,-,Shareholder Returns
-13,2019,+,-,-,Shareholder Returns
-13,2020,+,-,-,Shareholder Returns
-13,2021,+,-,-,Shareholder Returns
-13,2022,+,-,-,Shareholder Returns
-13,2023,+,-,-,Shareholder Returns
-13,2024,+,-,-,Shareholder Returns
-13,2025,+,-,-,Shareholder Returns
-14,2014,+,-,-,Shareholder Returns
-14,2015,+,-,-,Shareholder Returns
-14,2016,+,-,-,Shareholder Returns
-14,2017,+,-,-,Shareholder Returns
-14,2018,+,-,-,Shareholder Returns
-14,2019,+,-,-,Shareholder Returns
-14,2020,+,-,-,Shareholder Returns
-14,2021,+,-,-,Shareholder Returns
-14,2022,+,-,-,Shareholder Returns
-14,2023,+,-,-,Shareholder Returns
-14,2024,+,-,-,Shareholder Returns
-14,2025,+,-,-,Shareholder Returns
-15,2014,+,-,-,Shareholder Returns
-15,2015,+,-,-,Shareholder Returns
-15,2016,+,-,-,Shareholder Returns
-15,2017,+,-,-,Shareholder Returns
-15,2018,+,-,-,Shareholder Returns
-15,2019,+,-,-,Shareholder Returns
-15,2020,+,-,-,Shareholder Returns
-15,2021,+,-,-,Shareholder Returns
-15,2022,+,-,-,Shareholder Returns
-15,2023,+,-,-,Shareholder Returns
-15,2024,+,-,-,Shareholder Returns
-15,2025,+,-,-,Shareholder Returns
-16,2014,+,-,-,Reinvestor
-16,2015,+,-,-,Reinvestor
-16,2016,+,-,-,Reinvestor
-16,2017,+,-,-,Reinvestor
-16,2018,+,-,-,Reinvestor
-16,2019,+,-,-,Reinvestor
-16,2020,+,-,-,Reinvestor
-16,2021,+,-,-,Reinvestor
-16,2022,+,-,-,Reinvestor
-16,2023,+,-,-,Reinvestor
-16,2024,+,-,-,Reinvestor
-16,2025,+,-,-,Reinvestor
-17,2014,+,-,-,Shareholder Returns
-17,2015,+,-,-,Shareholder Returns
-17,2016,+,-,-,Shareholder Returns
-17,2017,+,-,-,Shareholder Returns
-17,2018,+,-,-,Shareholder Returns
-17,2019,+,-,-,Shareholder Returns
-17,2020,+,-,-,Shareholder Returns
-17,2021,+,-,-,Shareholder Returns
-17,2022,+,-,-,Shareholder Returns
-17,2023,+,-,-,Shareholder Returns
-17,2024,+,-,-,Shareholder Returns
-17,2025,+,-,-,Shareholder Returns
-18,2014,+,-,+,Mixed
-18,2015,+,-,+,Mixed
-18,2016,+,-,+,Mixed
-18,2017,+,-,+,Mixed
-18,2018,+,-,+,Mixed
-18,2019,+,-,+,Mixed
-18,2020,+,-,+,Mixed
-18,2021,+,-,+,Mixed
-18,2022,+,-,+,Mixed
-18,2023,+,-,+,Mixed
-18,2024,+,-,+,Mixed
-18,2025,+,-,+,Mixed
-19,2014,+,-,-,Shareholder Returns
-19,2015,+,-,-,Shareholder Returns
-19,2016,+,-,-,Shareholder Returns
-19,2017,+,-,-,Shareholder Returns
-19,2018,+,-,-,Shareholder Returns
-19,2019,+,-,-,Shareholder Returns
-19,2020,+,-,-,Shareholder Returns
-19,2021,+,-,-,Shareholder Returns
-19,2022,+,-,-,Shareholder Returns
-19,2023,+,-,-,Shareholder Returns
-19,2024,+,-,-,Shareholder Returns
-19,2025,+,-,-,Shareholder Returns
-20,2014,+,-,-,Reinvestor
-20,2015,+,-,-,Reinvestor
-20,2016,+,-,-,Reinvestor
-20,2017,+,-,-,Reinvestor
-20,2018,+,-,-,Reinvestor
-20,2019,+,-,-,Reinvestor
-20,2020,+,-,-,Reinvestor
-20,2021,+,-,-,Reinvestor
-20,2022,+,-,-,Reinvestor
-20,2023,+,-,-,Reinvestor
-20,2024,+,-,-,Reinvestor
-20,2025,+,-,-,Reinvestor
-21,2014,+,-,-,Shareholder Returns
-21,2015,+,-,-,Shareholder Returns
-21,2016,+,-,-,Shareholder Returns
-21,2017,+,-,-,Shareholder Returns
-21,2018,+,-,-,Shareholder Returns
-21,2019,+,-,-,Shareholder Returns
-21,2020,+,-,-,Shareholder Returns
-21,2021,+,-,-,Shareholder Returns
-21,2022,+,-,-,Shareholder Returns
-21,2023,+,-,-,Shareholder Returns
-21,2024,+,-,-,Shareholder Returns
-21,2025,+,-,-,Shareholder Returns
-22,2014,+,-,-,Shareholder Returns
-22,2015,+,-,-,Shareholder Returns
-22,2016,+,-,-,Shareholder Returns
-22,2017,+,-,-,Shareholder Returns
-22,2018,+,-,-,Shareholder Returns
-22,2019,+,-,-,Shareholder Returns
-22,2020,+,-,-,Shareholder Returns
-22,2021,+,-,-,Shareholder Returns
-22,2022,+,-,-,Shareholder Returns
-22,2023,+,-,-,Shareholder Returns
-22,2024,+,-,-,Shareholder Returns
-22,2025,+,-,-,Shareholder Returns
-23,2014,+,-,-,Shareholder Returns
-23,2015,+,-,-,Shareholder Returns
-23,2016,+,-,-,Shareholder Returns
-23,2017,+,-,-,Shareholder Returns
-23,2018,+,-,-,Shareholder Returns
-23,2019,+,-,-,Shareholder Returns
-23,2020,+,-,-,Shareholder Returns
-23,2021,+,-,-,Shareholder Returns
-23,2022,+,-,-,Shareholder Returns
-23,2023,+,-,-,Shareholder Returns
-23,2024,+,-,-,Shareholder Returns
-23,2025,+,-,-,Shareholder Returns
-24,2014,+,-,-,Reinvestor
-24,2015,+,-,-,Reinvestor
-24,2016,+,-,-,Reinvestor
-24,2017,+,-,-,Reinvestor
-24,2018,+,-,-,Reinvestor
-24,2019,+,-,-,Reinvestor
-24,2020,+,-,-,Reinvestor
-24,2021,+,-,-,Reinvestor
-24,2022,+,-,-,Reinvestor
-24,2023,+,-,-,Reinvestor
-24,2024,+,-,-,Reinvestor
-24,2025,+,-,-,Reinvestor
-25,2014,+,-,-,Shareholder Returns
-25,2015,+,-,-,Shareholder Returns
-25,2016,+,-,-,Shareholder Returns
-25,2017,+,-,-,Shareholder Returns
-25,2018,+,-,-,Shareholder Returns
-25,2019,+,-,-,Shareholder Returns
-25,2020,+,-,-,Shareholder Returns
-25,2021,+,-,-,Shareholder Returns
-25,2022,+,-,-,Shareholder Returns
-25,2023,+,-,-,Shareholder Returns
-25,2024,+,-,-,Shareholder Returns
-25,2025,+,-,-,Shareholder Returns
-26,2014,+,-,-,Shareholder Returns
-26,2015,+,-,-,Shareholder Returns
-26,2016,+,-,-,Shareholder Returns
-26,2017,+,-,-,Shareholder Returns
-26,2018,+,-,-,Shareholder Returns
-26,2019,+,-,-,Shareholder Returns
-26,2020,+,-,-,Shareholder Returns
-26,2021,+,-,-,Shareholder Returns
-26,2022,+,-,-,Shareholder Returns
-26,2023,+,-,-,Shareholder Returns
-26,2024,+,-,-,Shareholder Returns
-26,2025,+,-,-,Shareholder Returns
-27,2014,+,-,+,Mixed
-27,2015,+,-,+,Mixed
-27,2016,+,-,+,Mixed
-27,2017,+,-,+,Mixed
-27,2018,+,-,+,Mixed
-27,2019,+,-,+,Mixed
-27,2020,+,-,+,Mixed
-27,2021,+,-,+,Mixed
-27,2022,+,-,+,Mixed
-27,2023,+,-,+,Mixed
-27,2024,+,-,+,Mixed
-27,2025,+,-,+,Mixed
-28,2014,+,-,-,Reinvestor
-28,2015,+,-,-,Reinvestor
-28,2016,+,-,-,Reinvestor
-28,2017,+,-,-,Reinvestor
-28,2018,+,-,-,Reinvestor
-28,2019,+,-,-,Reinvestor
-28,2020,+,-,-,Reinvestor
-28,2021,+,-,-,Reinvestor
-28,2022,+,-,-,Reinvestor
-28,2023,+,-,-,Reinvestor
-28,2024,+,-,-,Reinvestor
-28,2025,+,-,-,Reinvestor
-29,2014,+,-,-,Shareholder Returns
-29,2015,+,-,-,Shareholder Returns
-29,2016,+,-,-,Shareholder Returns
-29,2017,+,-,-,Shareholder Returns
-29,2018,+,-,-,Shareholder Returns
-29,2019,+,-,-,Shareholder Returns
-29,2020,+,-,-,Shareholder Returns
-29,2021,+,-,-,Shareholder Returns
-29,2022,+,-,-,Shareholder Returns
-29,2023,+,-,-,Shareholder Returns
-29,2024,+,-,-,Shareholder Returns
-29,2025,+,-,-,Shareholder Returns
-30,2014,+,-,-,Shareholder Returns
-30,2015,+,-,-,Shareholder Returns
-30,2016,+,-,-,Shareholder Returns
-30,2017,+,-,-,Shareholder Returns
-30,2018,+,-,-,Shareholder Returns
-30,2019,+,-,-,Shareholder Returns
-30,2020,+,-,-,Shareholder Returns
-30,2021,+,-,-,Shareholder Returns
-30,2022,+,-,-,Shareholder Returns
-30,2023,+,-,-,Shareholder Returns
-30,2024,+,-,-,Shareholder Returns
-30,2025,+,-,-,Shareholder Returns
-31,2014,+,-,-,Shareholder Returns
-31,2015,+,-,-,Shareholder Returns
-31,2016,+,-,-,Shareholder Returns
-31,2017,+,-,-,Shareholder Returns
-31,2018,+,-,-,Shareholder Returns
-31,2019,+,-,-,Shareholder Returns
-31,2020,+,-,-,Shareholder Returns
-31,2021,+,-,-,Shareholder Returns
-31,2022,+,-,-,Shareholder Returns
-31,2023,+,-,-,Shareholder Returns
-31,2024,+,-,-,Shareholder Returns
-31,2025,+,-,-,Shareholder Returns
-32,2014,+,-,-,Reinvestor
-32,2015,+,-,-,Reinvestor
-32,2016,+,-,-,Reinvestor
-32,2017,+,-,-,Reinvestor
-32,2018,+,-,-,Reinvestor
-32,2019,+,-,-,Reinvestor
-32,2020,+,-,-,Reinvestor
-32,2021,+,-,-,Reinvestor
-32,2022,+,-,-,Reinvestor
-32,2023,+,-,-,Reinvestor
-32,2024,+,-,-,Reinvestor
-32,2025,+,-,-,Reinvestor
-33,2014,+,-,-,Shareholder Returns
-33,2015,+,-,-,Shareholder Returns
-33,2016,+,-,-,Shareholder Returns
-33,2017,+,-,-,Shareholder Returns
-33,2018,+,-,-,Shareholder Returns
-33,2019,+,-,-,Shareholder Returns
-33,2020,+,-,-,Shareholder Returns
-33,2021,+,-,-,Shareholder Returns
-33,2022,+,-,-,Shareholder Returns
-33,2023,+,-,-,Shareholder Returns
-33,2024,+,-,-,Shareholder Returns
-33,2025,+,-,-,Shareholder Returns
-34,2014,+,-,-,Shareholder Returns
-34,2015,+,-,-,Shareholder Returns
-34,2016,+,-,-,Shareholder Returns
-34,2017,+,-,-,Shareholder Returns
-34,2018,+,-,-,Shareholder Returns
-34,2019,+,-,-,Shareholder Returns
-34,2020,+,-,-,Shareholder Returns
-34,2021,+,-,-,Shareholder Returns
-34,2022,+,-,-,Shareholder Returns
-34,2023,+,-,-,Shareholder Returns
-34,2024,+,-,-,Shareholder Returns
-34,2025,+,-,-,Shareholder Returns
-35,2014,+,-,-,Shareholder Returns
-35,2015,+,-,-,Shareholder Returns
-35,2016,+,-,-,Shareholder Returns
-35,2017,+,-,-,Shareholder Returns
-35,2018,+,-,-,Shareholder Returns
-35,2019,+,-,-,Shareholder Returns
-35,2020,+,-,-,Shareholder Returns
-35,2021,+,-,-,Shareholder Returns
-35,2022,+,-,-,Shareholder Returns
-35,2023,+,-,-,Shareholder Returns
-35,2024,+,-,-,Shareholder Returns
-35,2025,+,-,-,Shareholder Returns
-36,2014,+,-,-,Reinvestor
-36,2015,+,-,-,Reinvestor
-36,2016,+,-,-,Reinvestor
-36,2017,+,-,-,Reinvestor
-36,2018,+,-,-,Reinvestor
-36,2019,+,-,-,Reinvestor
-36,2020,+,-,-,Reinvestor
-36,2021,+,-,-,Reinvestor
-36,2022,+,-,-,Reinvestor
-36,2023,+,-,-,Reinvestor
-36,2024,+,-,-,Reinvestor
-36,2025,+,-,-,Reinvestor
-37,2014,+,-,-,Shareholder Returns
-37,2015,+,-,-,Shareholder Returns
-37,2016,+,-,-,Shareholder Returns
-37,2017,+,-,-,Shareholder Returns
-37,2018,+,-,-,Shareholder Returns
-37,2019,+,-,-,Shareholder Returns
-37,2020,+,-,-,Shareholder Returns
-37,2021,+,-,-,Shareholder Returns
-37,2022,+,-,-,Shareholder Returns
-37,2023,+,-,-,Shareholder Returns
-37,2024,+,-,-,Shareholder Returns
-37,2025,+,-,-,Shareholder Returns
-38,2014,+,-,-,Shareholder Returns
-38,2015,+,-,-,Shareholder Returns
-38,2016,+,-,-,Shareholder Returns
-38,2017,+,-,-,Shareholder Returns
-38,2018,+,-,-,Shareholder Returns
-38,2019,+,-,-,Shareholder Returns
-38,2020,+,-,-,Shareholder Returns
-38,2021,+,-,-,Shareholder Returns
-38,2022,+,-,-,Shareholder Returns
-38,2023,+,-,-,Shareholder Returns
-38,2024,+,-,-,Shareholder Returns
-38,2025,+,-,-,Shareholder Returns
-39,2014,+,-,-,Shareholder Returns
-39,2015,+,-,-,Shareholder Returns
-39,2016,+,-,-,Shareholder Returns
-39,2017,+,-,-,Shareholder Returns
-39,2018,+,-,-,Shareholder Returns
-39,2019,+,-,-,Shareholder Returns
-39,2020,+,-,-,Shareholder Returns
-39,2021,+,-,-,Shareholder Returns
-39,2022,+,-,-,Shareholder Returns
-39,2023,+,-,-,Shareholder Returns
-39,2024,+,-,-,Shareholder Returns
-39,2025,+,-,-,Shareholder Returns
-40,2014,+,-,-,Reinvestor
-40,2015,+,-,-,Reinvestor
-40,2016,+,-,-,Reinvestor
-40,2017,+,-,-,Reinvestor
-40,2018,+,-,-,Reinvestor
-40,2019,+,-,-,Reinvestor
-40,2020,+,-,-,Reinvestor
-40,2021,+,-,-,Reinvestor
-40,2022,+,-,-,Reinvestor
-40,2023,+,-,-,Reinvestor
-40,2024,+,-,-,Reinvestor
-40,2025,+,-,-,Reinvestor
-41,2014,+,-,-,Shareholder Returns
-41,2015,+,-,-,Shareholder Returns
-41,2016,+,-,-,Shareholder Returns
-41,2017,+,-,-,Shareholder Returns
-41,2018,+,-,-,Shareholder Returns
-41,2019,+,-,-,Shareholder Returns
-41,2020,+,-,-,Shareholder Returns
-41,2021,+,-,-,Shareholder Returns
-41,2022,+,-,-,Shareholder Returns
-41,2023,+,-,-,Shareholder Returns
-41,2024,+,-,-,Shareholder Returns
-41,2025,+,-,-,Shareholder Returns
-42,2014,+,-,-,Shareholder Returns
-42,2015,+,-,-,Shareholder Returns
-42,2016,+,-,-,Shareholder Returns
-42,2017,+,-,-,Shareholder Returns
-42,2018,+,-,-,Shareholder Returns
-42,2019,+,-,-,Shareholder Returns
-42,2020,+,-,-,Shareholder Returns
-42,2021,+,-,-,Shareholder Returns
-42,2022,+,-,-,Shareholder Returns
-42,2023,+,-,-,Shareholder Returns
-42,2024,+,-,-,Shareholder Returns
-42,2025,+,-,-,Shareholder Returns
-43,2014,+,-,-,Shareholder Returns
-43,2015,+,-,-,Shareholder Returns
-43,2016,+,-,-,Shareholder Returns
-43,2017,+,-,-,Shareholder Returns
-43,2018,+,-,-,Shareholder Returns
-43,2019,+,-,-,Shareholder Returns
-43,2020,+,-,-,Shareholder Returns
-43,2021,+,-,-,Shareholder Returns
-43,2022,+,-,-,Shareholder Returns
-43,2023,+,-,-,Shareholder Returns
-43,2024,+,-,-,Shareholder Returns
-43,2025,+,-,-,Shareholder Returns
-44,2014,+,-,-,Reinvestor
-44,2015,+,-,-,Reinvestor
-44,2016,+,-,-,Reinvestor
-44,2017,+,-,-,Reinvestor
-44,2018,+,-,-,Reinvestor
-44,2019,+,-,-,Reinvestor
-44,2020,+,-,-,Reinvestor
-44,2021,+,-,-,Reinvestor
-44,2022,+,-,-,Reinvestor
-44,2023,+,-,-,Reinvestor
-44,2024,+,-,-,Reinvestor
-44,2025,+,-,-,Reinvestor
-45,2014,+,-,+,Mixed
-45,2015,+,-,+,Mixed
-45,2016,+,-,+,Mixed
-45,2017,+,-,+,Mixed
-45,2018,+,-,+,Mixed
-45,2019,+,-,+,Mixed
-45,2020,+,-,+,Mixed
-45,2021,+,-,+,Mixed
-45,2022,+,-,+,Mixed
-45,2023,+,-,+,Mixed
-45,2024,+,-,+,Mixed
-45,2025,+,-,+,Mixed
-46,2014,+,-,-,Shareholder Returns
-46,2015,+,-,-,Shareholder Returns
-46,2016,+,-,-,Shareholder Returns
-46,2017,+,-,-,Shareholder Returns
-46,2018,+,-,-,Shareholder Returns
-46,2019,+,-,-,Shareholder Returns
-46,2020,+,-,-,Shareholder Returns
-46,2021,+,-,-,Shareholder Returns
-46,2022,+,-,-,Shareholder Returns
-46,2023,+,-,-,Shareholder Returns
-46,2024,+,-,-,Shareholder Returns
-46,2025,+,-,-,Shareholder Returns
-47,2014,+,-,-,Shareholder Returns
-47,2015,+,-,-,Shareholder Returns
-47,2016,+,-,-,Shareholder Returns
-47,2017,+,-,-,Shareholder Returns
-47,2018,+,-,-,Shareholder Returns
-47,2019,+,-,-,Shareholder Returns
-47,2020,+,-,-,Shareholder Returns
-47,2021,+,-,-,Shareholder Returns
-47,2022,+,-,-,Shareholder Returns
-47,2023,+,-,-,Shareholder Returns
-47,2024,+,-,-,Shareholder Returns
-47,2025,+,-,-,Shareholder Returns
-48,2014,+,-,-,Reinvestor
-48,2015,+,-,-,Reinvestor
-48,2016,+,-,-,Reinvestor
-48,2017,+,-,-,Reinvestor
-48,2018,+,-,-,Reinvestor
-48,2019,+,-,-,Reinvestor
-48,2020,+,-,-,Reinvestor
-48,2021,+,-,-,Reinvestor
-48,2022,+,-,-,Reinvestor
-48,2023,+,-,-,Reinvestor
-48,2024,+,-,-,Reinvestor
-48,2025,+,-,-,Reinvestor
-49,2014,+,-,-,Shareholder Returns
-49,2015,+,-,-,Shareholder Returns
-49,2016,+,-,-,Shareholder Returns
-49,2017,+,-,-,Shareholder Returns
-49,2018,+,-,-,Shareholder Returns
-49,2019,+,-,-,Shareholder Returns
-49,2020,+,-,-,Shareholder Returns
-49,2021,+,-,-,Shareholder Returns
-49,2022,+,-,-,Shareholder Returns
-49,2023,+,-,-,Shareholder Returns
-49,2024,+,-,-,Shareholder Returns
-49,2025,+,-,-,Shareholder Returns
-50,2014,+,-,-,Shareholder Returns
-50,2015,+,-,-,Shareholder Returns
-50,2016,+,-,-,Shareholder Returns
-50,2017,+,-,-,Shareholder Returns
-50,2018,+,-,-,Shareholder Returns
-50,2019,+,-,-,Shareholder Returns
-50,2020,+,-,-,Shareholder Returns
-50,2021,+,-,-,Shareholder Returns
-50,2022,+,-,-,Shareholder Returns
-50,2023,+,-,-,Shareholder Returns
-50,2024,+,-,-,Shareholder Returns
-50,2025,+,-,-,Shareholder Returns
-51,2014,+,-,-,Shareholder Returns
-51,2015,+,-,-,Shareholder Returns
-51,2016,+,-,-,Shareholder Returns
-51,2017,+,-,-,Shareholder Returns
-51,2018,+,-,-,Shareholder Returns
-51,2019,+,-,-,Shareholder Returns
-51,2020,+,-,-,Shareholder Returns
-51,2021,+,-,-,Shareholder Returns
-51,2022,+,-,-,Shareholder Returns
-51,2023,+,-,-,Shareholder Returns
-51,2024,+,-,-,Shareholder Returns
-51,2025,+,-,-,Shareholder Returns
-52,2014,+,-,-,Reinvestor
-52,2015,+,-,-,Reinvestor
-52,2016,+,-,-,Reinvestor
-52,2017,+,-,-,Reinvestor
-52,2018,+,-,-,Reinvestor
-52,2019,+,-,-,Reinvestor
-52,2020,+,-,-,Reinvestor
-52,2021,+,-,-,Reinvestor
-52,2022,+,-,-,Reinvestor
-52,2023,+,-,-,Reinvestor
-52,2024,+,-,-,Reinvestor
-52,2025,+,-,-,Reinvestor
-53,2014,+,-,-,Shareholder Returns
-53,2015,+,-,-,Shareholder Returns
-53,2016,+,-,-,Shareholder Returns
-53,2017,+,-,-,Shareholder Returns
-53,2018,+,-,-,Shareholder Returns
-53,2019,+,-,-,Shareholder Returns
-53,2020,+,-,-,Shareholder Returns
-53,2021,+,-,-,Shareholder Returns
-53,2022,+,-,-,Shareholder Returns
-53,2023,+,-,-,Shareholder Returns
-53,2024,+,-,-,Shareholder Returns
-53,2025,+,-,-,Shareholder Returns
-54,2014,+,-,+,Mixed
-54,2015,+,-,+,Mixed
-54,2016,+,-,+,Mixed
-54,2017,+,-,+,Mixed
-54,2018,+,-,+,Mixed
-54,2019,+,-,+,Mixed
-54,2020,+,-,+,Mixed
-54,2021,+,-,+,Mixed
-54,2022,+,-,+,Mixed
-54,2023,+,-,+,Mixed
-54,2024,+,-,+,Mixed
-54,2025,+,-,+,Mixed
-55,2014,+,-,-,Shareholder Returns
-55,2015,+,-,-,Shareholder Returns
-55,2016,+,-,-,Shareholder Returns
-55,2017,+,-,-,Shareholder Returns
-55,2018,+,-,-,Shareholder Returns
-55,2019,+,-,-,Shareholder Returns
-55,2020,+,-,-,Shareholder Returns
-55,2021,+,-,-,Shareholder Returns
-55,2022,+,-,-,Shareholder Returns
-55,2023,+,-,-,Shareholder Returns
-55,2024,+,-,-,Shareholder Returns
-55,2025,+,-,-,Shareholder Returns
-56,2014,+,-,-,Reinvestor
-56,2015,+,-,-,Reinvestor
-56,2016,+,-,-,Reinvestor
-56,2017,+,-,-,Reinvestor
-56,2018,+,-,-,Reinvestor
-56,2019,+,-,-,Reinvestor
-56,2020,+,-,-,Reinvestor
-56,2021,+,-,-,Reinvestor
-56,2022,+,-,-,Reinvestor
-56,2023,+,-,-,Reinvestor
-56,2024,+,-,-,Reinvestor
-56,2025,+,-,-,Reinvestor
-57,2014,+,-,-,Shareholder Returns
-57,2015,+,-,-,Shareholder Returns
-57,2016,+,-,-,Shareholder Returns
-57,2017,+,-,-,Shareholder Returns
-57,2018,+,-,-,Shareholder Returns
-57,2019,+,-,-,Shareholder Returns
-57,2020,+,-,-,Shareholder Returns
-57,2021,+,-,-,Shareholder Returns
-57,2022,+,-,-,Shareholder Returns
-57,2023,+,-,-,Shareholder Returns
-57,2024,+,-,-,Shareholder Returns
-57,2025,+,-,-,Shareholder Returns
-58,2014,+,-,-,Shareholder Returns
-58,2015,+,-,-,Shareholder Returns
-58,2016,+,-,-,Shareholder Returns
-58,2017,+,-,-,Shareholder Returns
-58,2018,+,-,-,Shareholder Returns
-58,2019,+,-,-,Shareholder Returns
-58,2020,+,-,-,Shareholder Returns
-58,2021,+,-,-,Shareholder Returns
-58,2022,+,-,-,Shareholder Returns
-58,2023,+,-,-,Shareholder Returns
-58,2024,+,-,-,Shareholder Returns
-58,2025,+,-,-,Shareholder Returns
-59,2014,+,-,-,Shareholder Returns
-59,2015,+,-,-,Shareholder Returns
-59,2016,+,-,-,Shareholder Returns
-59,2017,+,-,-,Shareholder Returns
-59,2018,+,-,-,Shareholder Returns
-59,2019,+,-,-,Shareholder Returns
-59,2020,+,-,-,Shareholder Returns
-59,2021,+,-,-,Shareholder Returns
-59,2022,+,-,-,Shareholder Returns
-59,2023,+,-,-,Shareholder Returns
-59,2024,+,-,-,Shareholder Returns
-59,2025,+,-,-,Shareholder Returns
-60,2014,+,-,-,Reinvestor
-60,2015,+,-,-,Reinvestor
-60,2016,+,-,-,Reinvestor
-60,2017,+,-,-,Reinvestor
-60,2018,+,-,-,Reinvestor
-60,2019,+,-,-,Reinvestor
-60,2020,+,-,-,Reinvestor
-60,2021,+,-,-,Reinvestor
-60,2022,+,-,-,Reinvestor
-60,2023,+,-,-,Reinvestor
-60,2024,+,-,-,Reinvestor
-60,2025,+,-,-,Reinvestor
-61,2014,+,-,-,Shareholder Returns
-61,2015,+,-,-,Shareholder Returns
-61,2016,+,-,-,Shareholder Returns
-61,2017,+,-,-,Shareholder Returns
-61,2018,+,-,-,Shareholder Returns
-61,2019,+,-,-,Shareholder Returns
-61,2020,+,-,-,Shareholder Returns
-61,2021,+,-,-,Shareholder Returns
-61,2022,+,-,-,Shareholder Returns
-61,2023,+,-,-,Shareholder Returns
-61,2024,+,-,-,Shareholder Returns
-61,2025,+,-,-,Shareholder Returns
-62,2014,+,-,-,Shareholder Returns
-62,2015,+,-,-,Shareholder Returns
-62,2016,+,-,-,Shareholder Returns
-62,2017,+,-,-,Shareholder Returns
-62,2018,+,-,-,Shareholder Returns
-62,2019,+,-,-,Shareholder Returns
-62,2020,+,-,-,Shareholder Returns
-62,2021,+,-,-,Shareholder Returns
-62,2022,+,-,-,Shareholder Returns
-62,2023,+,-,-,Shareholder Returns
-62,2024,+,-,-,Shareholder Returns
-62,2025,+,-,-,Shareholder Returns
-63,2014,+,-,+,Mixed
-63,2015,+,-,+,Mixed
-63,2016,+,-,+,Mixed
-63,2017,+,-,+,Mixed
-63,2018,+,-,+,Mixed
-63,2019,+,-,+,Mixed
-63,2020,+,-,+,Mixed
-63,2021,+,-,+,Mixed
-63,2022,+,-,+,Mixed
-63,2023,+,-,+,Mixed
-63,2024,+,-,+,Mixed
-63,2025,+,-,+,Mixed
-64,2014,+,-,-,Reinvestor
-64,2015,+,-,-,Reinvestor
-64,2016,+,-,-,Reinvestor
-64,2017,+,-,-,Reinvestor
-64,2018,+,-,-,Reinvestor
-64,2019,+,-,-,Reinvestor
-64,2020,+,-,-,Reinvestor
-64,2021,+,-,-,Reinvestor
-64,2022,+,-,-,Reinvestor
-64,2023,+,-,-,Reinvestor
-64,2024,+,-,-,Reinvestor
-64,2025,+,-,-,Reinvestor
-65,2014,+,-,-,Shareholder Returns
-65,2015,+,-,-,Shareholder Returns
-65,2016,+,-,-,Shareholder Returns
-65,2017,+,-,-,Shareholder Returns
-65,2018,+,-,-,Shareholder Returns
-65,2019,+,-,-,Shareholder Returns
-65,2020,+,-,-,Shareholder Returns
-65,2021,+,-,-,Shareholder Returns
-65,2022,+,-,-,Shareholder Returns
-65,2023,+,-,-,Shareholder Returns
-65,2024,+,-,-,Shareholder Returns
-65,2025,+,-,-,Shareholder Returns
-66,2014,+,-,-,Shareholder Returns
-66,2015,+,-,-,Shareholder Returns
-66,2016,+,-,-,Shareholder Returns
-66,2017,+,-,-,Shareholder Returns
-66,2018,+,-,-,Shareholder Returns
-66,2019,+,-,-,Shareholder Returns
-66,2020,+,-,-,Shareholder Returns
-66,2021,+,-,-,Shareholder Returns
-66,2022,+,-,-,Shareholder Returns
-66,2023,+,-,-,Shareholder Returns
-66,2024,+,-,-,Shareholder Returns
-66,2025,+,-,-,Shareholder Returns
-67,2014,+,-,-,Shareholder Returns
-67,2015,+,-,-,Shareholder Returns
-67,2016,+,-,-,Shareholder Returns
-67,2017,+,-,-,Shareholder Returns
-67,2018,+,-,-,Shareholder Returns
-67,2019,+,-,-,Shareholder Returns
-67,2020,+,-,-,Shareholder Returns
-67,2021,+,-,-,Shareholder Returns
-67,2022,+,-,-,Shareholder Returns
-67,2023,+,-,-,Shareholder Returns
-67,2024,+,-,-,Shareholder Returns
-67,2025,+,-,-,Shareholder Returns
-68,2014,+,-,-,Reinvestor
-68,2015,+,-,-,Reinvestor
-68,2016,+,-,-,Reinvestor
-68,2017,+,-,-,Reinvestor
-68,2018,+,-,-,Reinvestor
-68,2019,+,-,-,Reinvestor
-68,2020,+,-,-,Reinvestor
-68,2021,+,-,-,Reinvestor
-68,2022,+,-,-,Reinvestor
-68,2023,+,-,-,Reinvestor
-68,2024,+,-,-,Reinvestor
-68,2025,+,-,-,Reinvestor
-69,2014,+,-,-,Shareholder Returns
-69,2015,+,-,-,Shareholder Returns
-69,2016,+,-,-,Shareholder Returns
-69,2017,+,-,-,Shareholder Returns
-69,2018,+,-,-,Shareholder Returns
-69,2019,+,-,-,Shareholder Returns
-69,2020,+,-,-,Shareholder Returns
-69,2021,+,-,-,Shareholder Returns
-69,2022,+,-,-,Shareholder Returns
-69,2023,+,-,-,Shareholder Returns
-69,2024,+,-,-,Shareholder Returns
-69,2025,+,-,-,Shareholder Returns
-70,2014,+,-,-,Shareholder Returns
-70,2015,+,-,-,Shareholder Returns
-70,2016,+,-,-,Shareholder Returns
-70,2017,+,-,-,Shareholder Returns
-70,2018,+,-,-,Shareholder Returns
-70,2019,+,-,-,Shareholder Returns
-70,2020,+,-,-,Shareholder Returns
-70,2021,+,-,-,Shareholder Returns
-70,2022,+,-,-,Shareholder Returns
-70,2023,+,-,-,Shareholder Returns
-70,2024,+,-,-,Shareholder Returns
-70,2025,+,-,-,Shareholder Returns
-71,2014,+,-,-,Shareholder Returns
-71,2015,+,-,-,Shareholder Returns
-71,2016,+,-,-,Shareholder Returns
-71,2017,+,-,-,Shareholder Returns
-71,2018,+,-,-,Shareholder Returns
-71,2019,+,-,-,Shareholder Returns
-71,2020,+,-,-,Shareholder Returns
-71,2021,+,-,-,Shareholder Returns
-71,2022,+,-,-,Shareholder Returns
-71,2023,+,-,-,Shareholder Returns
-71,2024,+,-,-,Shareholder Returns
-71,2025,+,-,-,Shareholder Returns
-72,2014,+,-,-,Reinvestor
-72,2015,+,-,-,Reinvestor
-72,2016,+,-,-,Reinvestor
-72,2017,+,-,-,Reinvestor
-72,2018,+,-,-,Reinvestor
-72,2019,+,-,-,Reinvestor
-72,2020,+,-,-,Reinvestor
-72,2021,+,-,-,Reinvestor
-72,2022,+,-,-,Reinvestor
-72,2023,+,-,-,Reinvestor
-72,2024,+,-,-,Reinvestor
-72,2025,+,-,-,Reinvestor
-73,2014,+,-,-,Shareholder Returns
-73,2015,+,-,-,Shareholder Returns
-73,2016,+,-,-,Shareholder Returns
-73,2017,+,-,-,Shareholder Returns
-73,2018,+,-,-,Shareholder Returns
-73,2019,+,-,-,Shareholder Returns
-73,2020,+,-,-,Shareholder Returns
-73,2021,+,-,-,Shareholder Returns
-73,2022,+,-,-,Shareholder Returns
-73,2023,+,-,-,Shareholder Returns
-73,2024,+,-,-,Shareholder Returns
-73,2025,+,-,-,Shareholder Returns
-74,2014,+,-,-,Shareholder Returns
-74,2015,+,-,-,Shareholder Returns
-74,2016,+,-,-,Shareholder Returns
-74,2017,+,-,-,Shareholder Returns
-74,2018,+,-,-,Shareholder Returns
-74,2019,+,-,-,Shareholder Returns
-74,2020,+,-,-,Shareholder Returns
-74,2021,+,-,-,Shareholder Returns
-74,2022,+,-,-,Shareholder Returns
-74,2023,+,-,-,Shareholder Returns
-74,2024,+,-,-,Shareholder Returns
-74,2025,+,-,-,Shareholder Returns
-75,2014,+,-,-,Shareholder Returns
-75,2015,+,-,-,Shareholder Returns
-75,2016,+,-,-,Shareholder Returns
-75,2017,+,-,-,Shareholder Returns
-75,2018,+,-,-,Shareholder Returns
-75,2019,+,-,-,Shareholder Returns
-75,2020,+,-,-,Shareholder Returns
-75,2021,+,-,-,Shareholder Returns
-75,2022,+,-,-,Shareholder Returns
-75,2023,+,-,-,Shareholder Returns
-75,2024,+,-,-,Shareholder Returns
-75,2025,+,-,-,Shareholder Returns
-76,2014,+,-,-,Reinvestor
-76,2015,+,-,-,Reinvestor
-76,2016,+,-,-,Reinvestor
-76,2017,+,-,-,Reinvestor
-76,2018,+,-,-,Reinvestor
-76,2019,+,-,-,Reinvestor
-76,2020,+,-,-,Reinvestor
-76,2021,+,-,-,Reinvestor
-76,2022,+,-,-,Reinvestor
-76,2023,+,-,-,Reinvestor
-76,2024,+,-,-,Reinvestor
-76,2025,+,-,-,Reinvestor
-77,2014,+,-,-,Shareholder Returns
-77,2015,+,-,-,Shareholder Returns
-77,2016,+,-,-,Shareholder Returns
-77,2017,+,-,-,Shareholder Returns
-77,2018,+,-,-,Shareholder Returns
-77,2019,+,-,-,Shareholder Returns
-77,2020,+,-,-,Shareholder Returns
-77,2021,+,-,-,Shareholder Returns
-77,2022,+,-,-,Shareholder Returns
-77,2023,+,-,-,Shareholder Returns
-77,2024,+,-,-,Shareholder Returns
-77,2025,+,-,-,Shareholder Returns
-78,2014,+,-,-,Shareholder Returns
-78,2015,+,-,-,Shareholder Returns
-78,2016,+,-,-,Shareholder Returns
-78,2017,+,-,-,Shareholder Returns
-78,2018,+,-,-,Shareholder Returns
-78,2019,+,-,-,Shareholder Returns
-78,2020,+,-,-,Shareholder Returns
-78,2021,+,-,-,Shareholder Returns
-78,2022,+,-,-,Shareholder Returns
-78,2023,+,-,-,Shareholder Returns
-78,2024,+,-,-,Shareholder Returns
-78,2025,+,-,-,Shareholder Returns
-79,2014,+,-,-,Shareholder Returns
-79,2015,+,-,-,Shareholder Returns
-79,2016,+,-,-,Shareholder Returns
-79,2017,+,-,-,Shareholder Returns
-79,2018,+,-,-,Shareholder Returns
-79,2019,+,-,-,Shareholder Returns
-79,2020,+,-,-,Shareholder Returns
-79,2021,+,-,-,Shareholder Returns
-79,2022,+,-,-,Shareholder Returns
-79,2023,+,-,-,Shareholder Returns
-79,2024,+,-,-,Shareholder Returns
-79,2025,+,-,-,Shareholder Returns
-80,2014,+,-,-,Reinvestor
-80,2015,+,-,-,Reinvestor
-80,2016,+,-,-,Reinvestor
-80,2017,+,-,-,Reinvestor
-80,2018,+,-,-,Reinvestor
-80,2019,+,-,-,Reinvestor
-80,2020,+,-,-,Reinvestor
-80,2021,+,-,-,Reinvestor
-80,2022,+,-,-,Reinvestor
-80,2023,+,-,-,Reinvestor
-80,2024,+,-,-,Reinvestor
-80,2025,+,-,-,Reinvestor
-81,2014,+,-,+,Mixed
-81,2015,+,-,+,Mixed
-81,2016,+,-,+,Mixed
-81,2017,+,-,+,Mixed
-81,2018,+,-,+,Mixed
-81,2019,+,-,+,Mixed
-81,2020,+,-,+,Mixed
-81,2021,+,-,+,Mixed
-81,2022,+,-,+,Mixed
-81,2023,+,-,+,Mixed
-81,2024,+,-,+,Mixed
-81,2025,+,-,+,Mixed
-82,2014,+,-,-,Shareholder Returns
-82,2015,+,-,-,Shareholder Returns
-82,2016,+,-,-,Shareholder Returns
-82,2017,+,-,-,Shareholder Returns
-82,2018,+,-,-,Shareholder Returns
-82,2019,+,-,-,Shareholder Returns
-82,2020,+,-,-,Shareholder Returns
-82,2021,+,-,-,Shareholder Returns
-82,2022,+,-,-,Shareholder Returns
-82,2023,+,-,-,Shareholder Returns
-82,2024,+,-,-,Shareholder Returns
-82,2025,+,-,-,Shareholder Returns
-83,2014,+,-,-,Shareholder Returns
-83,2015,+,-,-,Shareholder Returns
-83,2016,+,-,-,Shareholder Returns
-83,2017,+,-,-,Shareholder Returns
-83,2018,+,-,-,Shareholder Returns
-83,2019,+,-,-,Shareholder Returns
-83,2020,+,-,-,Shareholder Returns
-83,2021,+,-,-,Shareholder Returns
-83,2022,+,-,-,Shareholder Returns
-83,2023,+,-,-,Shareholder Returns
-83,2024,+,-,-,Shareholder Returns
-83,2025,+,-,-,Shareholder Returns
-84,2014,+,-,-,Reinvestor
-84,2015,+,-,-,Reinvestor
-84,2016,+,-,-,Reinvestor
-84,2017,+,-,-,Reinvestor
-84,2018,+,-,-,Reinvestor
-84,2019,+,-,-,Reinvestor
-84,2020,+,-,-,Reinvestor
-84,2021,+,-,-,Reinvestor
-84,2022,+,-,-,Reinvestor
-84,2023,+,-,-,Reinvestor
-84,2024,+,-,-,Reinvestor
-84,2025,+,-,-,Reinvestor
-85,2014,+,-,-,Shareholder Returns
-85,2015,+,-,-,Shareholder Returns
-85,2016,+,-,-,Shareholder Returns
-85,2017,+,-,-,Shareholder Returns
-85,2018,+,-,-,Shareholder Returns
-85,2019,+,-,-,Shareholder Returns
-85,2020,+,-,-,Shareholder Returns
-85,2021,+,-,-,Shareholder Returns
-85,2022,+,-,-,Shareholder Returns
-85,2023,+,-,-,Shareholder Returns
-85,2024,+,-,-,Shareholder Returns
-85,2025,+,-,-,Shareholder Returns
-86,2014,+,-,-,Shareholder Returns
-86,2015,+,-,-,Shareholder Returns
-86,2016,+,-,-,Shareholder Returns
-86,2017,+,-,-,Shareholder Returns
-86,2018,+,-,-,Shareholder Returns
-86,2019,+,-,-,Shareholder Returns
-86,2020,+,-,-,Shareholder Returns
-86,2021,+,-,-,Shareholder Returns
-86,2022,+,-,-,Shareholder Returns
-86,2023,+,-,-,Shareholder Returns
-86,2024,+,-,-,Shareholder Returns
-86,2025,+,-,-,Shareholder Returns
-87,2014,+,-,-,Shareholder Returns
-87,2015,+,-,-,Shareholder Returns
-87,2016,+,-,-,Shareholder Returns
-87,2017,+,-,-,Shareholder Returns
-87,2018,+,-,-,Shareholder Returns
-87,2019,+,-,-,Shareholder Returns
-87,2020,+,-,-,Shareholder Returns
-87,2021,+,-,-,Shareholder Returns
-87,2022,+,-,-,Shareholder Returns
-87,2023,+,-,-,Shareholder Returns
-87,2024,+,-,-,Shareholder Returns
-87,2025,+,-,-,Shareholder Returns
-88,2014,+,-,-,Reinvestor
-88,2015,+,-,-,Reinvestor
-88,2016,+,-,-,Reinvestor
-88,2017,+,-,-,Reinvestor
-88,2018,+,-,-,Reinvestor
-88,2019,+,-,-,Reinvestor
-88,2020,+,-,-,Reinvestor
-88,2021,+,-,-,Reinvestor
-88,2022,+,-,-,Reinvestor
-88,2023,+,-,-,Reinvestor
-88,2024,+,-,-,Reinvestor
-88,2025,+,-,-,Reinvestor
-89,2014,+,-,-,Shareholder Returns
-89,2015,+,-,-,Shareholder Returns
-89,2016,+,-,-,Shareholder Returns
-89,2017,+,-,-,Shareholder Returns
-89,2018,+,-,-,Shareholder Returns
-89,2019,+,-,-,Shareholder Returns
-89,2020,+,-,-,Shareholder Returns
-89,2021,+,-,-,Shareholder Returns
-89,2022,+,-,-,Shareholder Returns
-89,2023,+,-,-,Shareholder Returns
-89,2024,+,-,-,Shareholder Returns
-89,2025,+,-,-,Shareholder Returns
-90,2014,+,-,+,Mixed
-90,2015,+,-,+,Mixed
-90,2016,+,-,+,Mixed
-90,2017,+,-,+,Mixed
-90,2018,+,-,+,Mixed
-90,2019,+,-,+,Mixed
-90,2020,+,-,+,Mixed
-90,2021,+,-,+,Mixed
-90,2022,+,-,+,Mixed
-90,2023,+,-,+,Mixed
-90,2024,+,-,+,Mixed
-90,2025,+,-,+,Mixed
-91,2014,+,-,-,Shareholder Returns
-91,2015,+,-,-,Shareholder Returns
-91,2016,+,-,-,Shareholder Returns
-91,2017,+,-,-,Shareholder Returns
-91,2018,+,-,-,Shareholder Returns
-91,2019,+,-,-,Shareholder Returns
-91,2020,+,-,-,Shareholder Returns
-91,2021,+,-,-,Shareholder Returns
-91,2022,+,-,-,Shareholder Returns
-91,2023,+,-,-,Shareholder Returns
-91,2024,+,-,-,Shareholder Returns
-91,2025,+,-,-,Shareholder Returns
-92,2014,+,-,-,Reinvestor
-92,2015,+,-,-,Reinvestor
-92,2016,+,-,-,Reinvestor
-92,2017,+,-,-,Reinvestor
-92,2018,+,-,-,Reinvestor
-92,2019,+,-,-,Reinvestor
-92,2020,+,-,-,Reinvestor
-92,2021,+,-,-,Reinvestor
-92,2022,+,-,-,Reinvestor
-92,2023,+,-,-,Reinvestor
-92,2024,+,-,-,Reinvestor
-92,2025,+,-,-,Reinvestor
+company_id,period,year,free_cash_flow_cr,capex_cr,capex_intensity_pct,fcf_conversion_rate_pct,capital_allocation_pattern
+ABB,Dec 2012,2012.0,42.0,59.0,3.569267997580157,28.965517241379313,FCF Positive
+ABB,Mar 2014,2014.0,0.0,0.0,0.0,0.0,FCF Negative
+ABB,Mar 2015,2015.0,-1899.0,1864.0,81.43294014853649,-829.2576419213974,FCF Negative
+ABB,Mar 2016,2016.0,728.0,816.0,31.216526396327467,285.4901960784314,FCF Positive
+ABB,Mar 2017,2017.0,459.0,1730.0,59.59352394075095,165.70397111913357,FCF Positive
+ABB,Mar 2018,2018.0,-994.0,3192.0,96.78593086719223,-247.88029925187033,FCF Negative
+ABB,Mar 2019,2019.0,-459.0,3050.0,82.90296276162,-102.0,FCF Negative
+ABB,Mar 2020,2020.0,-206.0,5643.0,137.86953334962132,-34.73861720067454,FCF Negative
+ABB,Mar 2021,2021.0,-225.0,4009.0,93.01624129930394,-32.56150506512301,FCF Negative
+ABB,Mar 2022,2022.0,161.0,3936.0,80.11398330958681,20.150187734668336,FCF Positive
+ABB,Mar 2023,2023.0,-922.0,4699.0,87.84819592447187,-97.15489989462593,FCF Negative
+ABB,Mar 2024,2024.0,1095.0,4943.0,84.51017267909045,91.17402164862615,FCF Positive
+ABB,Sep 2024,2024.0,,,,,FCF Negative
+ABB,TTM,,,,,,FCF Negative
+ADANIENSOL,Mar 2014,2014.0,0.0,0.0,,,FCF Negative
+ADANIENSOL,Mar 2015,2015.0,-1899.0,1864.0,1422.9007633587787,27128.571428571428,FCF Negative
+ADANIENSOL,Mar 2016,2016.0,728.0,816.0,37.192342752962624,197.82608695652172,FCF Positive
+ADANIENSOL,Mar 2017,2017.0,459.0,1730.0,60.15299026425591,110.33653846153845,FCF Positive
+ADANIENSOL,Mar 2018,2018.0,-994.0,3192.0,80.93306288032454,-86.96412948381452,FCF Negative
+ADANIENSOL,Mar 2019,2019.0,-459.0,3050.0,41.752224503764545,-82.11091234347049,FCF Negative
+ADANIENSOL,Mar 2020,2020.0,-206.0,5643.0,49.43062368605466,-29.178470254957507,FCF Negative
+ADANIENSOL,Mar 2021,2021.0,-225.0,4009.0,40.38887769494258,-17.441860465116278,FCF Negative
+ADANIENSOL,Mar 2022,2022.0,161.0,3936.0,34.96180493871025,13.025889967637541,FCF Positive
+ADANIENSOL,Mar 2023,2023.0,-922.0,4699.0,35.34943203189649,-71.97501951600313,FCF Negative
+ADANIENSOL,Mar 2024,2024.0,1095.0,4943.0,29.764557114469802,91.5551839464883,FCF Positive
+ADANIENSOL,Sep 2024,2024.0,,,,,FCF Negative
+ADANIENSOL,TTM,,,,,,FCF Negative
+ADANIENT,Mar 2013,2013.0,-7124.0,14790.0,31.892183288409704,-584.8932676518883,FCF Negative
+ADANIENT,Mar 2014,2014.0,221.0,8007.0,14.572224143265327,8.35222978080121,FCF Positive
+ADANIENT,Mar 2015,2015.0,-2933.0,11465.0,17.784844489257736,-127.63272410791993,FCF Negative
+ADANIENT,Mar 2016,2016.0,3287.0,1825.0,5.366384380145848,328.7,FCF Positive
+ADANIENT,Mar 2017,2017.0,-686.0,1460.0,3.996386828346974,-74.16216216216216,FCF Negative
+ADANIENT,Mar 2018,2018.0,-4707.0,7649.0,21.2921723638793,-792.4242424242424,FCF Negative
+ADANIENT,Mar 2019,2019.0,749.0,2487.0,6.159142128334035,148.02371541501975,FCF Positive
+ADANIENT,Mar 2020,2020.0,1372.0,1082.0,2.4929152362739906,131.92307692307693,FCF Positive
+ADANIENT,Mar 2021,2021.0,-4568.0,8611.0,21.77959885676708,-436.7112810707457,FCF Negative
+ADANIENT,Mar 2022,2022.0,-15656.0,17041.0,24.54768078363584,-1986.802030456853,FCF Negative
+ADANIENT,Mar 2023,2023.0,2167.0,15459.0,12.120903246040458,89.47151114781173,FCF Positive
+ADANIENT,Mar 2024,2024.0,-8455.0,18767.0,19.463602327293845,-253.5232383808096,FCF Negative
+ADANIENT,Sep 2024,2024.0,,,,,FCF Negative
+ADANIENT,TTM,,,,,,FCF Negative
+ADANIGREEN,Mar 2017,2017.0,-1483.0,1511.0,300.996015936255,3155.31914893617,FCF Negative
+ADANIGREEN,Mar 2018,2018.0,-3779.0,4428.0,299.18918918918916,2738.405797101449,FCF Negative
+ADANIGREEN,Mar 2019,2019.0,-1041.0,2666.0,129.54324586977648,219.15789473684208,FCF Negative
+ADANIGREEN,Mar 2020,2020.0,-1778.0,3743.0,146.8418987838368,2614.7058823529414,FCF Negative
+ADANIGREEN,Mar 2021,2021.0,-7536.0,9137.0,292.4775928297055,-4140.659340659341,FCF Negative
+ADANIGREEN,Mar 2022,2022.0,-15603.0,18730.0,364.89382427430354,-3190.79754601227,FCF Negative
+ADANIGREEN,Mar 2023,2023.0,3408.0,3857.0,49.60133744855967,350.256937307297,FCF Positive
+ADANIGREEN,Mar 2024,2024.0,-13347.0,21060.0,228.4164859002169,-1059.2857142857144,FCF Negative
+ADANIGREEN,Sep 2024,2024.0,,,,,FCF Negative
+ADANIGREEN,TTM,,,,,,FCF Negative
+ADANIPORTS,Mar 2013,2013.0,-3757.0,5136.0,143.58400894604418,-229.22513727882853,FCF Negative
+ADANIPORTS,Mar 2014,2014.0,-1378.0,2510.0,51.96687370600414,-79.14991384261918,FCF Negative
+ADANIPORTS,Mar 2015,2015.0,572.0,2485.0,40.39336801040312,24.612736660929432,FCF Positive
+ADANIPORTS,Mar 2016,2016.0,-1772.0,4153.0,58.418905612603744,-62.04481792717087,FCF Negative
+ADANIPORTS,Mar 2017,2017.0,1434.0,2629.0,31.152980210925463,36.75038441824705,FCF Positive
+ADANIPORTS,Mar 2018,2018.0,1762.0,3846.0,33.966263357767374,47.75067750677507,FCF Positive
+ADANIPORTS,Mar 2019,2019.0,1661.0,4368.0,39.98169336384439,41.06304079110012,FCF Positive
+ADANIPORTS,Mar 2020,2020.0,6653.0,749.0,6.308430893624189,175.77278731836194,FCF Positive
+ADANIPORTS,Mar 2021,2021.0,-6508.0,14064.0,112.06374501992032,-128.89681124975243,FCF Negative
+ADANIPORTS,Mar 2022,2022.0,4927.0,5493.0,32.087154623517726,99.47506561679789,FCF Positive
+ADANIPORTS,Mar 2023,2023.0,-4816.0,16716.0,80.1649721849223,-89.33407531070301,FCF Negative
+ADANIPORTS,Mar 2024,2024.0,8250.0,6768.0,25.337875781513237,101.80157946692991,FCF Positive
+ADANIPORTS,Sep 2024,2024.0,,,,,FCF Negative
+ADANIPORTS,TTM,,,,,,FCF Negative
+ADANIPOWER,Mar 2013,2013.0,-1063.0,4064.0,60.72922893006575,46.31808278867102,FCF Negative
+ADANIPOWER,Mar 2014,2014.0,-1462.0,4700.0,30.66283924843424,502.40549828178695,FCF Negative
+ADANIPOWER,Mar 2015,2015.0,1087.0,4737.0,25.354600438901677,-133.21078431372547,FCF Positive
+ADANIPOWER,Mar 2016,2016.0,2565.0,2692.0,10.60803089411672,465.51724137931035,FCF Positive
+ADANIPOWER,Mar 2017,2017.0,3513.0,1212.0,5.359037849310223,-56.899902818270164,FCF Positive
+ADANIPOWER,Mar 2018,2018.0,4581.0,520.0,2.56107171000788,-217.83166904422254,FCF Positive
+ADANIPOWER,Mar 2019,2019.0,4626.0,984.0,4.119912912409982,-470.1219512195122,FCF Positive
+ADANIPOWER,Mar 2020,2020.0,3294.0,2304.0,8.704851141000454,-144.7912087912088,FCF Positive
+ADANIPOWER,Mar 2021,2021.0,4826.0,2188.0,8.344456733152816,380.0,FCF Positive
+ADANIPOWER,Mar 2022,2022.0,9459.0,774.0,2.793114647612861,192.56921824104234,FCF Positive
+ADANIPOWER,Mar 2023,2023.0,6886.0,1545.0,3.984731643153741,64.19315745315559,FCF Positive
+ADANIPOWER,Mar 2024,2024.0,10689.0,3481.0,6.9134674584417395,51.31787411781651,FCF Positive
+ADANIPOWER,Sep 2024,2024.0,,,,,FCF Negative
+ADANIPOWER,TTM,,,,,,FCF Negative
+AMBUJACEM,Dec 2012,2012.0,1472.0,388.0,3.979895373884501,113.93188854489165,FCF Positive
+AMBUJACEM,Dec 2013,2013.0,771.0,496.0,5.414256085580177,60.328638497652584,FCF Positive
+AMBUJACEM,Dec 2014,2014.0,1219.0,456.0,4.580612757408337,81.97713517148621,FCF Positive
+AMBUJACEM,Dec 2015,2015.0,1474.0,83.0,0.8795167955918195,182.42574257425744,FCF Positive
+AMBUJACEM,Dec 2016,2016.0,-1355.0,4165.0,20.727580372250422,-94.49093444909344,FCF Negative
+AMBUJACEM,Dec 2017,2017.0,2678.0,738.0,3.125926553433013,137.68637532133675,FCF Positive
+AMBUJACEM,Dec 2018,2018.0,938.0,765.0,2.9376752044852346,31.5506222670703,FCF Positive
+AMBUJACEM,Dec 2019,2019.0,3548.0,1191.0,4.394185360094451,127.48832195472512,FCF Positive
+AMBUJACEM,Dec 2020,2020.0,3515.0,1317.0,5.3720019579050415,113.13163823624075,FCF Positive
+AMBUJACEM,Dec 2021,2021.0,3302.0,2007.0,6.929052304505437,88.97871193748315,FCF Positive
+AMBUJACEM,Mar 2023,2023.0,-13746.0,14481.0,,,FCF Negative
+AMBUJACEM,Mar 2023 15,2023.0,,,,,FCF Negative
+AMBUJACEM,Mar 2024,2024.0,-3295.0,8941.0,26.963208685162847,-69.54411143942592,FCF Negative
+AMBUJACEM,Sep 2024,2024.0,,,,,FCF Negative
+AMBUJACEM,TTM,,,,,,FCF Negative
+APOLLOHOSP,Mar 2013,2013.0,-290.0,733.0,19.44812947731494,-95.7095709570957,FCF Negative
+APOLLOHOSP,Mar 2014,2014.0,17.0,356.0,8.170759697039246,5.396825396825397,FCF Positive
+APOLLOHOSP,Mar 2015,2015.0,-289.0,759.0,14.798206278026907,-86.26865671641791,FCF Negative
+APOLLOHOSP,Mar 2016,2016.0,-291.0,888.0,14.439024390243901,-123.82978723404254,FCF Negative
+APOLLOHOSP,Mar 2017,2017.0,-529.0,1152.0,15.87651598676957,-403.8167938931298,FCF Negative
+APOLLOHOSP,Mar 2018,2018.0,132.0,405.0,4.91325973553318,220.00000000000003,FCF Positive
+APOLLOHOSP,Mar 2019,2019.0,194.0,711.0,7.393157949464491,97.0,FCF Positive
+APOLLOHOSP,Mar 2020,2020.0,1004.0,289.0,2.569574108651196,232.4074074074074,FCF Positive
+APOLLOHOSP,Mar 2021,2021.0,385.0,880.0,8.333333333333332,281.021897810219,FCF Positive
+APOLLOHOSP,Mar 2022,2022.0,949.0,747.0,5.094455432039828,85.64981949458483,FCF Positive
+APOLLOHOSP,Mar 2023,2023.0,520.0,857.0,5.158921261738502,61.61137440758294,FCF Positive
+APOLLOHOSP,Mar 2024,2024.0,383.0,1537.0,8.064431502177449,40.962566844919785,FCF Positive
+APOLLOHOSP,Sep 2024,2024.0,,,,,FCF Negative
+APOLLOHOSP,TTM,,,,,,FCF Negative
+ASIANPAINT,Mar 2013,2013.0,724.0,463.0,4.407844630616908,62.41379310344828,FCF Positive
+ASIANPAINT,Mar 2014,2014.0,816.0,586.0,4.795417348608838,64.60807600950119,FCF Positive
+ASIANPAINT,Mar 2015,2015.0,723.0,465.0,3.4153507161219245,50.665732305536096,FCF Positive
+ASIANPAINT,Mar 2016,2016.0,1377.0,866.0,6.068250297806741,76.37271214642263,FCF Positive
+ASIANPAINT,Mar 2017,2017.0,846.0,681.0,4.521311910768822,41.964285714285715,FCF Positive
+ASIANPAINT,Mar 2018,2018.0,557.0,1556.0,9.248142644873699,26.549094375595807,FCF Positive
+ASIANPAINT,Mar 2019,2019.0,1552.0,918.0,4.771309771309771,70.28985507246377,FCF Positive
+ASIANPAINT,Mar 2020,2020.0,2520.0,518.0,2.5629607639404286,90.84354722422493,FCF Positive
+ASIANPAINT,Mar 2021,2021.0,3142.0,541.0,2.491594897066274,97.97318366074212,FCF Positive
+ASIANPAINT,Mar 2022,2022.0,669.0,317.0,1.089309645716642,21.68557536466775,FCF Positive
+ASIANPAINT,Mar 2023,2023.0,2911.0,1282.0,3.7171271999768045,69.39213349225268,FCF Positive
+ASIANPAINT,Mar 2024,2024.0,3556.0,2548.0,7.17847584166784,63.97984886649874,FCF Positive
+ASIANPAINT,Sep 2024,2024.0,,,,,FCF Negative
+ASIANPAINT,TTM,,,,,,FCF Negative
+ATGL,Mar 2018,2018.0,,,,,FCF Negative
+ATGL,Mar 2019,2019.0,,,,,FCF Negative
+ATGL,Mar 2020,2020.0,,,,,FCF Negative
+ATGL,Mar 2021,2021.0,,,,,FCF Negative
+ATGL,Mar 2022,2022.0,,,,,FCF Negative
+ATGL,Mar 2023,2023.0,,,,,FCF Negative
+ATGL,Mar 2024,2024.0,,,,,FCF Negative
+ATGL,Sep 2024,2024.0,,,,,FCF Negative
+ATGL,TTM,,,,,,FCF Negative
+AXISBANK,Mar 2013,2013.0,-8366.0,10939.0,40.2420630541147,-161.53697625024134,FCF Negative
+AXISBANK,Mar 2014,2014.0,298.0,14166.0,46.23217257922392,4.792537793502734,FCF Positive
+AXISBANK,Mar 2015,2015.0,-23134.0,7972.0,22.469629921925645,-314.4060886110356,FCF Negative
+AXISBANK,Mar 2016,2016.0,-43706.0,9211.0,22.47243095540158,-531.4445525291828,FCF Negative
+AXISBANK,Mar 2017,2017.0,19751.0,12458.0,27.96910780836065,536.8578418048382,FCF Positive
+AXISBANK,Mar 2018,2018.0,-48397.0,10007.0,21.858890345128877,-17535.144927536232,FCF Negative
+AXISBANK,Mar 2019,2019.0,18451.0,18674.0,33.96137198559634,394.50502458841135,FCF Positive
+AXISBANK,Mar 2020,2020.0,20931.0,9485.0,15.14329049253612,1286.4781807006761,FCF Positive
+AXISBANK,Mar 2021,2021.0,-41655.0,54288.0,85.70075458592493,-632.2859744990892,FCF Negative
+AXISBANK,Mar 2022,2022.0,1025.0,27112.0,40.239250782908115,7.869481765834934,FCF Positive
+AXISBANK,Mar 2023,2023.0,-10276.0,32351.0,37.986707998684885,-107.2651356993737,FCF Negative
+AXISBANK,Mar 2024,2024.0,-14556.0,9001.0,8.229937185125584,-58.54953541691806,FCF Negative
+AXISBANK,TTM,,,,,,FCF Negative
+BAJAJ-AUTO,Mar 2013,2013.0,824.0,1394.0,6.961298377028714,26.300670284072776,FCF Positive
+BAJAJ-AUTO,Mar 2014,2014.0,1430.0,2072.0,10.28951680985251,42.30769230769231,FCF Positive
+BAJAJ-AUTO,Mar 2015,2015.0,1734.0,380.0,1.7596665894883075,57.30337078651685,FCF Positive
+BAJAJ-AUTO,Mar 2016,2016.0,3622.0,68.0,0.30123150527155135,89.18985471558729,FCF Positive
+BAJAJ-AUTO,Mar 2017,2017.0,-343.0,3610.0,16.593886462882097,-8.408923755822507,FCF Negative
+BAJAJ-AUTO,Mar 2018,2018.0,2374.0,1954.0,7.7508925029750095,56.26925811803745,FCF Positive
+BAJAJ-AUTO,Mar 2019,2019.0,2214.0,273.0,0.8992687265300744,44.92694805194805,FCF Positive
+BAJAJ-AUTO,Mar 2020,2020.0,2084.0,1766.0,5.902603696647615,39.98465080583269,FCF Positive
+BAJAJ-AUTO,Mar 2021,2021.0,251.0,2869.0,10.342092931040698,5.167799052913321,FCF Positive
+BAJAJ-AUTO,Mar 2022,2022.0,3921.0,276.0,0.8327047820184039,63.59065844956211,FCF Positive
+BAJAJ-AUTO,Mar 2023,2023.0,4066.0,1211.0,3.3219037169112604,67.0957095709571,FCF Positive
+BAJAJ-AUTO,Mar 2024,2024.0,6486.0,72.0,0.16046356139959886,84.14634146341463,FCF Positive
+BAJAJ-AUTO,Sep 2024,2024.0,,,,,FCF Negative
+BAJAJ-AUTO,TTM,,,,,,FCF Negative
+BAJAJFINSV,Mar 2013,2013.0,-9875.0,2953.0,36.660459342023586,-446.0252935862692,FCF Negative
+BAJAJFINSV,Mar 2014,2014.0,-13571.0,3764.0,62.49377386684376,-619.3975353719762,FCF Negative
+BAJAJFINSV,Mar 2015,2015.0,-14440.0,3709.0,32.721658579620645,-599.4188459941885,FCF Negative
+BAJAJFINSV,Mar 2016,2016.0,-10681.0,886.0,4.315005113719379,-384.9009009009009,FCF Negative
+BAJAJFINSV,Mar 2017,2017.0,-11073.0,151.0,0.6161504876157833,-320.95652173913044,FCF Negative
+BAJAJFINSV,Mar 2018,2018.0,-20502.0,922.0,2.805672204978394,-490.94827586206895,FCF Negative
+BAJAJFINSV,Mar 2019,2019.0,-33979.0,6903.0,16.20232367093064,-632.2850762932638,FCF Negative
+BAJAJFINSV,Mar 2020,2020.0,-33317.0,9948.0,18.303251090136335,-555.8391725058391,FCF Negative
+BAJAJFINSV,Mar 2021,2021.0,863.0,3684.0,6.0800105624504885,11.714402063255056,FCF Positive
+BAJAJFINSV,Mar 2022,2022.0,-35115.0,1445.0,2.1123878022395695,-422.35987490979073,FCF Negative
+BAJAJFINSV,Mar 2023,2023.0,-53425.0,13945.0,16.99117847743445,-437.5511875511876,FCF Negative
+BAJAJFINSV,Mar 2024,2024.0,-79634.0,10960.0,9.929155115870342,-510.63802500801535,FCF Negative
+BAJAJFINSV,Sep 2024,2024.0,,,,,FCF Negative
+BAJAJFINSV,TTM,,,,,,FCF Negative
+BAJAJHLDNG,Mar 2013,2013.0,104.0,369.0,109.49554896142433,5.603448275862069,FCF Positive
+BAJAJHLDNG,Mar 2014,2014.0,353.0,519.0,122.69503546099291,17.756539235412475,FCF Positive
+BAJAJHLDNG,Mar 2015,2015.0,332.0,464.0,88.54961832061069,16.362740266140957,FCF Positive
+BAJAJHLDNG,Mar 2016,2016.0,128.0,1019.0,216.8085106382979,5.6512141280353205,FCF Positive
+BAJAJHLDNG,Mar 2017,2017.0,-1295.0,372.0,44.180522565320665,-52.365547917509105,FCF Negative
+BAJAJHLDNG,Mar 2018,2018.0,508.0,1123.0,267.38095238095235,19.133709981167605,FCF Positive
+BAJAJHLDNG,Mar 2019,2019.0,465.0,163.0,37.81902552204176,15.255905511811024,FCF Positive
+BAJAJHLDNG,Mar 2020,2020.0,1120.0,800.0,183.90804597701148,36.36363636363637,FCF Positive
+BAJAJHLDNG,Mar 2021,2021.0,-36.0,308.0,67.39606126914661,-0.9852216748768473,FCF Negative
+BAJAJHLDNG,Mar 2022,2022.0,1459.0,151.0,31.198347107438018,35.361124575860394,FCF Positive
+BAJAJHLDNG,Mar 2023,2023.0,1591.0,137.0,26.245210727969347,32.16740800646987,FCF Positive
+BAJAJHLDNG,Mar 2024,2024.0,1469.0,472.0,27.73207990599295,19.945689069925322,FCF Positive
+BAJAJHLDNG,Sep 2024,2024.0,,,,,FCF Negative
+BAJAJHLDNG,TTM,,,,,,FCF Negative
+BAJFINANCE,Mar 2015,2015.0,-7424.0,360.0,6.6765578635014835,-826.7260579064589,FCF Negative
+BAJFINANCE,Mar 2016,2016.0,-10557.0,687.0,9.412248253185368,-825.4104769351055,FCF Negative
+BAJFINANCE,Mar 2017,2017.0,-13486.0,3047.0,30.561685055165494,-734.5315904139434,FCF Negative
+BAJFINANCE,Mar 2018,2018.0,-21641.0,1075.0,8.434018515612742,-867.0272435897436,FCF Negative
+BAJFINANCE,Mar 2019,2019.0,-34441.0,5379.0,29.09612159896143,-862.1026282853567,FCF Negative
+BAJFINANCE,Mar 2020,2020.0,-33170.0,8758.0,33.20694623492834,-630.129179331307,FCF Negative
+BAJFINANCE,Mar 2021,2021.0,-1236.0,429.0,1.6083680125970081,-27.963800904977376,FCF Negative
+BAJFINANCE,Mar 2022,2022.0,-43437.0,6347.0,20.059416579754117,-618.0563460443939,FCF Negative
+BAJFINANCE,Mar 2023,2023.0,-52506.0,10394.0,25.09961121441163,-456.25651720542237,FCF Negative
+BAJFINANCE,Mar 2024,2024.0,-79931.0,7171.0,13.044822818889617,-553.1174313196319,FCF Negative
+BAJFINANCE,Sep 2024,2024.0,,,,,FCF Negative
+BAJFINANCE,TTM,,,,,,FCF Negative
+BANKBARODA,Mar 2013,2013.0,22682.0,514.0,1.410460457713627,469.70387243735763,FCF Positive
+BANKBARODA,Mar 2014,2014.0,41503.0,730.0,1.8041173417690237,824.1262907069104,FCF Positive
+BANKBARODA,Mar 2015,2015.0,17282.0,556.0,1.2378937993988643,437.5189873417722,FCF Positive
+BANKBARODA,Mar 2016,2016.0,-14016.0,4005.0,8.744732417738378,278.48201867673356,FCF Negative
+BANKBARODA,Mar 2017,2017.0,17314.0,551.0,1.238953972072943,933.3692722371968,FCF Positive
+BANKBARODA,Mar 2018,2018.0,-60106.0,414.0,0.8989056800416885,3273.747276688453,FCF Negative
+BANKBARODA,Mar 2019,2019.0,-3986.0,2537.0,4.795297319774694,-341.852487135506,FCF Negative
+BANKBARODA,Mar 2020,2020.0,18392.0,139.0,0.1761835350782686,1874.8216106014272,FCF Positive
+BANKBARODA,Mar 2021,2021.0,-1358.0,471.0,0.6337971310923918,-83.82716049382715,FCF Negative
+BANKBARODA,Mar 2022,2022.0,2565.0,3645.0,4.9669550998160386,32.33329131476113,FCF Positive
+BANKBARODA,Mar 2023,2023.0,-22450.0,1096.0,1.159751542279081,-149.61679440186603,FCF Negative
+BANKBARODA,Mar 2024,2024.0,-7559.0,1285.0,1.0854965830088108,-40.06041655625629,FCF Negative
+BANKBARODA,TTM,,,,,,FCF Negative
+BEL,Mar 2013,2013.0,-3292.0,1753.0,27.94516180455922,-361.36114160263446,FCF Negative
+BEL,Mar 2014,2014.0,-1328.0,759.0,11.644676281067811,-139.49579831932772,FCF Negative
+BEL,Mar 2015,2015.0,595.0,839.0,11.828563372338925,49.707602339181285,FCF Positive
+BEL,Mar 2016,2016.0,790.0,1470.0,19.989121566494426,59.087509349289455,FCF Positive
+BEL,Mar 2017,2017.0,-3176.0,3115.0,35.9865988909427,-208.53578463558767,FCF Negative
+BEL,Mar 2018,2018.0,-693.0,6.0,0.05768676088837611,-48.42767295597484,FCF Negative
+BEL,Mar 2019,2019.0,618.0,896.0,7.365998026964814,32.75039745627981,FCF Positive
+BEL,Mar 2020,2020.0,1921.0,649.0,5.004626773596545,105.26027397260273,FCF Positive
+BEL,Mar 2021,2021.0,2498.0,2595.0,18.392515415692113,118.95238095238095,FCF Positive
+BEL,Mar 2022,2022.0,-665.0,4872.0,31.70223841749089,-27.708333333333336,FCF Negative
+BEL,Mar 2023,2023.0,-1509.0,2708.0,15.270102627720764,-50.535833891493645,FCF Negative
+BEL,Mar 2024,2024.0,-1265.0,5924.0,29.228340240773633,-31.74404015056462,FCF Negative
+BEL,Sep 2024,2024.0,,,,,FCF Negative
+BEL,TTM,,,,,,FCF Negative
+BHARTIARTL,Mar 2013,2013.0,3932.0,18676.0,24.27125164073973,173.44508160564624,FCF Positive
+BHARTIARTL,Mar 2014,2014.0,1052.0,25181.0,29.326609522034847,34.84597548857237,FCF Positive
+BHARTIARTL,Mar 2015,2015.0,5758.0,22301.0,23.20579390432982,114.06497622820919,FCF Positive
+BHARTIARTL,Mar 2016,2016.0,13851.0,14091.0,14.597232005966934,200.94298563760336,FCF Positive
+BHARTIARTL,Mar 2017,2017.0,-2400.0,30680.0,32.13642267566095,-56.59042678613535,FCF Negative
+BHARTIARTL,Mar 2018,2018.0,1914.0,27940.0,33.80970244073622,87.63736263736264,FCF Positive
+BHARTIARTL,Mar 2019,2019.0,-8216.0,28286.0,35.01609309234959,-486.7298578199052,FCF Negative
+BHARTIARTL,Mar 2020,2020.0,-11469.0,29598.0,33.81121557248769,37.40216540568745,FCF Negative
+BHARTIARTL,Mar 2021,2021.0,20919.0,27286.0,27.118947284726087,-169.1928178582983,FCF Positive
+BHARTIARTL,Mar 2022,2022.0,13539.0,41478.0,35.58907565188293,163.02227573750753,FCF Positive
+BHARTIARTL,Mar 2023,2023.0,26093.0,39232.0,28.19504833087786,212.36265972165702,FCF Positive
+BHARTIARTL,Mar 2024,2024.0,27809.0,51089.0,34.063420943846594,324.94741762093946,FCF Positive
+BHARTIARTL,Sep 2024,2024.0,,,,,FCF Negative
+BHARTIARTL,TTM,,,,,,FCF Negative
+BHEL,Mar 2013,2013.0,646.0,1113.0,2.2759339917796453,9.651875093381145,FCF Positive
+BHEL,Mar 2014,2014.0,3644.0,868.0,2.19408002831071,104.05482581382068,FCF Positive
+BHEL,Mar 2015,2015.0,171.0,650.0,2.0751524438910702,11.793103448275861,FCF Positive
+BHEL,Mar 2016,2016.0,351.0,23.0,0.09017839639286414,-49.71671388101983,FCF Positive
+BHEL,Mar 2017,2017.0,-5.0,565.0,1.9848937291410504,-1.098901098901099,FCF Negative
+BHEL,Mar 2018,2018.0,28.0,961.0,3.333680230339612,6.392694063926941,FCF Positive
+BHEL,Mar 2019,2019.0,-5779.0,1919.0,6.303997897572352,-576.746506986028,FCF Negative
+BHEL,Mar 2020,2020.0,-4769.0,1877.0,8.745282579322556,324.86376021798367,FCF Negative
+BHEL,Mar 2021,2021.0,518.0,42.0,0.2426483332370443,-19.185185185185187,FCF Positive
+BHEL,Mar 2022,2022.0,-458.0,1118.0,5.270850030644477,-102.92134831460673,FCF Negative
+BHEL,Mar 2023,2023.0,-2221.0,1480.0,6.334260646265783,-339.6024464831804,FCF Negative
+BHEL,Mar 2024,2024.0,-5044.0,1331.0,5.570669233666764,-1788.6524822695037,FCF Negative
+BHEL,Sep 2024,2024.0,,,,,FCF Negative
+BHEL,TTM,,,,,,FCF Negative
+BOSCHLTD,Dec 2012,2012.0,47.0,824.0,9.516110405358587,4.906054279749479,FCF Positive
+BOSCHLTD,Dec 2013,2013.0,211.0,846.0,9.660842754367934,23.84180790960452,FCF Positive
+BOSCHLTD,Mar 2015,2015.0,213.0,1183.0,9.78818467648519,15.919282511210762,FCF Positive
+BOSCHLTD,Mar 2016,2016.0,323.0,995.0,10.256674569631997,21.097322011757022,FCF Positive
+BOSCHLTD,Mar 2017,2017.0,211.0,1246.0,11.940584571154767,12.11947156806433,FCF Positive
+BOSCHLTD,Mar 2018,2018.0,559.0,1170.0,10.008554319931566,40.77315827862874,FCF Positive
+BOSCHLTD,Mar 2019,2019.0,-1173.0,1766.0,14.6131568059578,-73.40425531914893,FCF Negative
+BOSCHLTD,Mar 2020,2020.0,463.0,873.0,8.870148343832554,71.23076923076923,FCF Positive
+BOSCHLTD,Mar 2021,2021.0,372.0,463.0,4.764354805515538,77.17842323651453,FCF Positive
+BOSCHLTD,Mar 2022,2022.0,238.0,33.0,0.28008827024274313,19.556285949055052,FCF Positive
+BOSCHLTD,Mar 2023,2023.0,952.0,262.0,1.7549735414294325,66.85393258426966,FCF Positive
+BOSCHLTD,Mar 2024,2024.0,970.0,283.0,1.6918754110121361,38.95582329317269,FCF Positive
+BOSCHLTD,Sep 2024,2024.0,,,,,FCF Negative
+BOSCHLTD,TTM,,,,,,FCF Negative
+BPCL,Mar 2013,2013.0,2322.0,3604.0,1.4881431656488329,119.93801652892562,FCF Positive
+BPCL,Mar 2014,2014.0,2707.0,6881.0,2.602289530710496,66.79003207500617,FCF Positive
+BPCL,Mar 2015,2015.0,10206.0,10536.0,4.342987163950238,200.82644628099175,FCF Positive
+BPCL,Mar 2016,2016.0,1886.0,9233.0,4.916007773607007,23.315613796513784,FCF Positive
+BPCL,Mar 2017,2017.0,-6233.0,15274.0,7.589527505453389,-65.56221731355843,FCF Negative
+BPCL,Mar 2018,2018.0,4002.0,7066.0,2.9954004959833824,40.870098039215684,FCF Positive
+BPCL,Mar 2019,2019.0,-294.0,10451.0,3.5043892886602777,-3.4474671669793624,FCF Negative
+BPCL,Mar 2020,2020.0,-3254.0,11135.0,3.912893749209339,-88.76159301691217,FCF Negative
+BPCL,Mar 2021,2021.0,20981.0,2474.0,1.0748530440411694,121.13741339491916,FCF Positive
+BPCL,Mar 2022,2022.0,12198.0,8138.0,2.3466583619528762,104.417051874679,FCF Positive
+BPCL,Mar 2023,2023.0,4660.0,7806.0,1.6496649316232272,218.67667761614265,FCF Positive
+BPCL,Mar 2024,2024.0,25415.0,10521.0,2.3480024906099985,94.62377601548829,FCF Positive
+BPCL,Sep 2024,2024.0,,,,,FCF Negative
+BPCL,TTM,,,,,,FCF Negative
+BRITANNIA,Mar 2013,2013.0,292.0,28.0,0.45270816491511723,112.3076923076923,FCF Positive
+BRITANNIA,Mar 2014,2014.0,425.0,246.0,3.558512946622306,107.59493670886076,FCF Positive
+BRITANNIA,Mar 2015,2015.0,134.0,450.0,5.726648002036142,19.448476052249635,FCF Positive
+BRITANNIA,Mar 2016,2016.0,254.0,705.0,8.395855662736691,30.787878787878785,FCF Positive
+BRITANNIA,Mar 2017,2017.0,291.0,150.0,1.656726308813784,32.88135593220339,FCF Positive
+BRITANNIA,Mar 2018,2018.0,292.0,957.0,9.653015937058704,29.08366533864542,FCF Positive
+BRITANNIA,Mar 2019,2019.0,304.0,852.0,7.706919945725915,26.32034632034632,FCF Positive
+BRITANNIA,Mar 2020,2020.0,-41.0,1526.0,13.155172413793103,-2.941176470588235,FCF Negative
+BRITANNIA,Mar 2021,2021.0,1443.0,433.0,3.296285018270402,77.9578606158833,FCF Positive
+BRITANNIA,Mar 2022,2022.0,386.0,914.0,6.46576117713639,25.46174142480211,FCF Positive
+BRITANNIA,Mar 2023,2023.0,1019.0,1507.0,9.24483160542298,43.998272884283246,FCF Positive
+BRITANNIA,Mar 2024,2024.0,2096.0,477.0,2.844534557815016,98.21930646672915,FCF Positive
+BRITANNIA,Sep 2024,2024.0,,,,,FCF Negative
+BRITANNIA,TTM,,,,,,FCF Negative
+CANBK,Mar 2013,2013.0,7575.0,435.0,1.2767830936307603,252.92153589315527,FCF Positive
+CANBK,Mar 2014,2014.0,13864.0,380.0,0.960323477381855,518.8622754491017,FCF Positive
+CANBK,Mar 2015,2015.0,5240.0,1104.0,2.5198000593431176,178.77857386557488,FCF Positive
+CANBK,Mar 2016,2016.0,8903.0,443.0,1.0059265650900338,-351.20315581854044,FCF Positive
+CANBK,Mar 2017,2017.0,2099.0,476.0,1.1481776298333213,148.75974486180016,FCF Positive
+CANBK,Mar 2018,2018.0,-11607.0,487.0,1.1778933365582296,299.6901626646011,FCF Negative
+CANBK,Mar 2019,2019.0,17492.0,745.0,1.5536693708160414,2513.2183908045977,FCF Positive
+CANBK,Mar 2020,2020.0,-5734.0,445.0,0.8943105769810487,298.4903695991671,FCF Negative
+CANBK,Mar 2021,2021.0,58002.0,1116.0,1.5885442614550267,1961.5150490361852,FCF Positive
+CANBK,Mar 2022,2022.0,-510.0,1429.0,2.0236780241878383,-8.281909710945111,FCF Negative
+CANBK,Mar 2023,2023.0,-41134.0,1156.0,1.3459859113931418,-362.57382106654916,FCF Negative
+CANBK,Mar 2024,2024.0,13296.0,1750.0,1.583438141857961,86.33205635997663,FCF Positive
+CANBK,TTM,,,,,,FCF Negative
+CHOLAFIN,Mar 2013,2013.0,-3759.0,5.0,0.19455252918287938,-1220.4545454545455,FCF Negative
+CHOLAFIN,Mar 2014,2014.0,-2530.0,83.0,2.531259530344617,-687.5,FCF Negative
+CHOLAFIN,Mar 2015,2015.0,-2304.0,40.0,1.0767160161507403,-518.918918918919,FCF Negative
+CHOLAFIN,Mar 2016,2016.0,-2946.0,137.0,3.251067869008068,-512.3478260869565,FCF Negative
+CHOLAFIN,Mar 2017,2017.0,-1690.0,222.0,4.729441840647635,-235.37604456824513,FCF Negative
+CHOLAFIN,Mar 2018,2018.0,-7986.0,60.0,1.0793308148947653,-869.9346405228757,FCF Negative
+CHOLAFIN,Mar 2019,2019.0,-9328.0,11.0,0.15475520540236354,-779.281537176274,FCF Negative
+CHOLAFIN,Mar 2020,2020.0,-2129.0,54.0,0.6198347107438017,-201.99240986717268,FCF Negative
+CHOLAFIN,Mar 2021,2021.0,-10594.0,1746.0,18.21976416571011,-696.5154503616043,FCF Negative
+CHOLAFIN,Mar 2022,2022.0,-7211.0,1640.0,16.160819865983445,-334.77251624883934,FCF Negative
+CHOLAFIN,Mar 2023,2023.0,-29253.0,2148.0,16.671841043154302,-1097.6735459662289,FCF Negative
+CHOLAFIN,Mar 2024,2024.0,-38538.0,2855.0,14.898502322183374,-1126.842105263158,FCF Negative
+CHOLAFIN,Sep 2024,2024.0,,,,,FCF Negative
+CHOLAFIN,TTM,,,,,,FCF Negative
+CIPLA,Mar 2013,2013.0,-665.0,2063.0,24.918468414059667,-43.042071197411005,FCF Negative
+CIPLA,Mar 2014,2014.0,298.0,1265.0,12.434876634227859,21.225071225071225,FCF Positive
+CIPLA,Mar 2015,2015.0,223.0,950.0,8.373732921992067,18.144833197721724,FCF Positive
+CIPLA,Mar 2016,2016.0,-2792.0,4533.0,32.871646120377086,-201.87997107736803,FCF Negative
+CIPLA,Mar 2017,2017.0,1078.0,1304.0,9.059330276504099,104.15458937198068,FCF Positive
+CIPLA,Mar 2018,2018.0,629.0,834.0,5.5027711797308,44.38955539872971,FCF Positive
+CIPLA,Mar 2019,2019.0,3.0,1688.0,10.316587214276982,0.20107238605898123,FCF Positive
+CIPLA,Mar 2020,2020.0,2954.0,114.0,0.6654214335745973,196.93333333333334,FCF Positive
+CIPLA,Mar 2021,2021.0,1381.0,2374.0,12.390396659707724,57.806613645876936,FCF Positive
+CIPLA,Mar 2022,2022.0,1468.0,1858.0,8.537425906354823,57.63643502159403,FCF Positive
+CIPLA,Mar 2023,2023.0,862.0,2376.0,10.442579000571353,30.42710907165549,FCF Positive
+CIPLA,Mar 2024,2024.0,1152.0,2982.0,11.569799022270505,27.73230621088108,FCF Positive
+CIPLA,Sep 2024,2024.0,,,,,FCF Negative
+CIPLA,TTM,,,,,,FCF Negative
+COALINDIA,Mar 2013,2013.0,7276.0,1833.0,2.683630294423378,41.92210186678958,FCF Positive
+COALINDIA,Mar 2014,2014.0,5945.0,8580.0,12.151597552685248,39.339597670725254,FCF Positive
+COALINDIA,Mar 2015,2015.0,13488.0,894.0,1.2061521856449002,98.25890580607562,FCF Positive
+COALINDIA,Mar 2016,2016.0,5000.0,8154.0,10.472508701403784,35.045910142286395,FCF Positive
+COALINDIA,Mar 2017,2017.0,16006.0,455.0,0.5821094109820377,172.47844827586206,FCF Positive
+COALINDIA,Mar 2018,2018.0,13368.0,7747.0,9.088029656046173,189.94032395566921,FCF Positive
+COALINDIA,Mar 2019,2019.0,8460.0,7896.0,7.928825336894745,48.442510306917086,FCF Positive
+COALINDIA,Mar 2020,2020.0,3944.0,1033.0,1.0751457119067445,23.61676646706587,FCF Positive
+COALINDIA,Mar 2021,2021.0,10410.0,182.0,0.20216381934107922,81.9555975436939,FCF Positive
+COALINDIA,Mar 2022,2022.0,15392.0,25715.0,23.43799845053092,88.57175739440673,FCF Positive
+COALINDIA,Mar 2023,2023.0,12269.0,23465.0,16.972629690709716,38.6754090092362,FCF Positive
+COALINDIA,Mar 2024,2024.0,13617.0,4486.0,3.151963126387679,36.439294602477986,FCF Positive
+COALINDIA,Sep 2024,2024.0,,,,,FCF Negative
+COALINDIA,TTM,,,,,,FCF Negative
+DABUR,Mar 2013,2013.0,248.0,622.0,10.13029315960912,32.375979112271544,FCF Positive
+DABUR,Mar 2014,2014.0,994.0,104.0,1.4735052422782657,108.51528384279476,FCF Positive
+DABUR,Mar 2015,2015.0,171.0,876.0,11.237973059653624,16.01123595505618,FCF Positive
+DABUR,Mar 2016,2016.0,457.0,730.0,9.383033419023135,36.443381180223284,FCF Positive
+DABUR,Mar 2017,2017.0,420.0,807.0,10.598896769109535,32.8125,FCF Positive
+DABUR,Mar 2018,2018.0,551.0,541.0,7.005957005957006,40.57437407952872,FCF Positive
+DABUR,Mar 2019,2019.0,1161.0,338.0,3.969465648854962,80.29045643153528,FCF Positive
+DABUR,Mar 2020,2020.0,1097.0,517.0,5.952792170408751,75.75966850828729,FCF Positive
+DABUR,Mar 2021,2021.0,711.0,1404.0,14.683120686048944,41.94690265486726,FCF Positive
+DABUR,Mar 2022,2022.0,529.0,1273.0,11.690697033703739,30.36739380022962,FCF Positive
+DABUR,Mar 2023,2023.0,905.0,583.0,5.056374674761492,53.20399764844209,FCF Positive
+DABUR,Mar 2024,2024.0,1042.0,971.0,7.828119961302805,57.53727222528989,FCF Positive
+DABUR,Sep 2024,2024.0,,,,,FCF Negative
+DABUR,TTM,,,,,,FCF Negative
+DIVISLAB,Mar 2013,2013.0,225.0,255.0,11.888111888111888,37.37541528239203,FCF Positive
+DIVISLAB,Mar 2014,2014.0,252.0,305.0,12.045813586097946,32.60025873221216,FCF Positive
+DIVISLAB,Mar 2015,2015.0,305.0,521.0,16.725521669341894,35.798122065727696,FCF Positive
+DIVISLAB,Mar 2016,2016.0,632.0,406.0,10.752118644067798,56.12788632326821,FCF Positive
+DIVISLAB,Mar 2017,2017.0,10.0,1140.0,28.051181102362204,0.9433962264150944,FCF Positive
+DIVISLAB,Mar 2018,2018.0,298.0,478.0,12.284759701876125,33.97947548460662,FCF Positive
+DIVISLAB,Mar 2019,2019.0,269.0,685.0,13.849575414476345,19.881744271988175,FCF Positive
+DIVISLAB,Mar 2020,2020.0,1133.0,83.0,1.538746755654431,82.2803195352215,FCF Positive
+DIVISLAB,Mar 2021,2021.0,1872.0,75.0,1.076194575979337,94.35483870967742,FCF Positive
+DIVISLAB,Mar 2022,2022.0,-283.0,2195.0,24.497767857142858,-9.56081081081081,FCF Negative
+DIVISLAB,Mar 2023,2023.0,-248.0,2707.0,34.852581434273205,-13.596491228070176,FCF Negative
+DIVISLAB,Mar 2024,2024.0,992.0,269.0,3.4289356277884,62.0,FCF Positive
+DIVISLAB,Sep 2024,2024.0,,,,,FCF Negative
+DIVISLAB,TTM,,,,,,FCF Negative
+DLF,Mar 2013,2013.0,14.0,1995.0,25.6657661134697,2.0989505247376314,FCF Positive
+DLF,Mar 2014,2014.0,-2456.0,3924.0,47.288503253796094,-416.271186440678,FCF Negative
+DLF,Mar 2015,2015.0,1939.0,98.0,1.2812132304876453,382.4457593688363,FCF Positive
+DLF,Mar 2016,2016.0,2139.0,818.0,8.240983276244208,701.311475409836,FCF Positive
+DLF,Mar 2017,2017.0,-1770.0,872.0,10.60698211896363,-250.0,FCF Negative
+DLF,Mar 2018,2018.0,-1832.0,2102.0,31.34039063664828,-40.92025910207728,FCF Negative
+DLF,Mar 2019,2019.0,2040.0,3.0,0.03585943103036098,155.2511415525114,FCF Positive
+DLF,Mar 2020,2020.0,-6152.0,6508.0,106.98668420187407,1042.7118644067796,FCF Negative
+DLF,Mar 2021,2021.0,1310.0,150.0,2.7705947543405984,120.96029547553093,FCF Positive
+DLF,Mar 2022,2022.0,2565.0,267.0,4.67028161623229,171.0,FCF Positive
+DLF,Mar 2023,2023.0,1914.0,461.0,8.094820017559263,94.10029498525073,FCF Positive
+DLF,Mar 2024,2024.0,1010.0,1529.0,23.79025984129454,37.07782672540382,FCF Positive
+DLF,Sep 2024,2024.0,,,,,FCF Negative
+DLF,TTM,,,,,,FCF Negative
+DMART,Mar 2013,2013.0,-104.0,231.0,6.914097575576175,-110.63829787234043,FCF Negative
+DMART,Mar 2014,2014.0,-72.0,270.0,5.761843790012804,-44.72049689440994,FCF Negative
+DMART,Mar 2015,2015.0,-252.0,474.0,7.361391520422426,-118.86792452830188,FCF Negative
+DMART,Mar 2016,2016.0,-200.0,633.0,7.374184529356944,-62.5,FCF Negative
+DMART,Mar 2017,2017.0,-2027.0,2482.0,20.860648848545974,-423.1732776617954,FCF Negative
+DMART,Mar 2018,2018.0,266.0,464.0,3.086542938867824,33.002481389578165,FCF Positive
+DMART,Mar 2019,2019.0,-151.0,958.0,4.788802799300175,-16.74057649667406,FCF Negative
+DMART,Mar 2020,2020.0,-3377.0,4657.0,18.725371934057097,-259.5695618754804,FCF Negative
+DMART,Mar 2021,2021.0,265.0,1110.0,4.59760593132585,24.11282984531392,FCF Positive
+DMART,Mar 2022,2022.0,83.0,1289.0,4.161286157024794,5.563002680965147,FCF Positive
+DMART,Mar 2023,2023.0,317.0,2313.0,5.399159663865547,13.330529857022707,FCF Positive
+DMART,Mar 2024,2024.0,278.0,2468.0,4.8593199314812265,10.962145110410095,FCF Positive
+DMART,Sep 2024,2024.0,,,,,FCF Negative
+DMART,TTM,,,,,,FCF Negative
+DRREDDY,Mar 2013,2013.0,-59.0,1437.0,12.144004056452294,-3.8637851997380483,FCF Negative
+DRREDDY,Mar 2014,2014.0,366.0,1604.0,11.956764815505032,18.644931227712686,FCF Positive
+DRREDDY,Mar 2015,2015.0,154.0,2370.0,15.775810424016509,6.592465753424658,FCF Positive
+DRREDDY,Mar 2016,2016.0,1653.0,1610.0,10.341726618705035,77.56921633036133,FCF Positive
+DRREDDY,Mar 2017,2017.0,254.0,1890.0,13.313609467455622,19.659442724458202,FCF Positive
+DRREDDY,Mar 2018,2018.0,320.0,1483.0,10.384426860864085,33.7909186906019,FCF Positive
+DRREDDY,Mar 2019,2019.0,2101.0,769.0,4.9779906784049714,107.74358974358975,FCF Positive
+DRREDDY,Mar 2020,2020.0,2489.0,495.0,2.825826340126734,122.85291214215202,FCF Positive
+DRREDDY,Mar 2021,2021.0,1315.0,2255.0,11.838513229735405,67.36680327868852,FCF Positive
+DRREDDY,Mar 2022,2022.0,246.0,2565.0,11.90531445811093,11.274060494958754,FCF Positive
+DRREDDY,Mar 2023,2023.0,1779.0,4109.0,16.65585731657884,39.47193254936765,FCF Positive
+DRREDDY,Mar 2024,2024.0,509.0,4034.0,14.401485130841454,9.12513445679455,FCF Positive
+DRREDDY,Sep 2024,2024.0,,,,,FCF Negative
+DRREDDY,TTM,,,,,,FCF Negative
+EICHERMOT,Dec 2012,2012.0,-277.0,773.0,12.097026604068857,-58.31578947368421,FCF Negative
+EICHERMOT,Dec 2013,2013.0,-74.0,790.0,11.600587371512482,-14.095238095238095,FCF Negative
+EICHERMOT,Dec 2014,2014.0,-167.0,1214.0,13.893339436942092,-23.78917378917379,FCF Negative
+EICHERMOT,Mar 2016,2016.0,462.0,1001.0,16.215778389761866,34.52914798206278,FCF Positive
+EICHERMOT,Mar 2017,2017.0,-36.0,1744.0,24.797383762263614,-2.1595680863827234,FCF Negative
+EICHERMOT,Mar 2018,2018.0,337.0,2145.0,23.92638036809816,17.19387755102041,FCF Positive
+EICHERMOT,Mar 2019,2019.0,915.0,660.0,6.7367561498417885,41.534271448025414,FCF Positive
+EICHERMOT,Mar 2020,2020.0,186.0,1508.0,16.473672711383003,10.180623973727423,FCF Positive
+EICHERMOT,Mar 2021,2021.0,66.0,1625.0,18.63532110091743,4.8997772828507795,FCF Positive
+EICHERMOT,Mar 2022,2022.0,544.0,983.0,9.545542823849292,32.438878950506854,FCF Positive
+EICHERMOT,Mar 2023,2023.0,426.0,2397.0,16.597424179476526,14.619080301990392,FCF Positive
+EICHERMOT,Mar 2024,2024.0,890.0,2834.0,17.138364779874212,22.24443889027743,FCF Positive
+EICHERMOT,Sep 2024,2024.0,,,,,FCF Negative
+EICHERMOT,TTM,,,,,,FCF Negative
+GAIL,Mar 2013,2013.0,-2023.0,8626.0,16.9223525718994,-46.32470803755439,FCF Negative
+GAIL,Mar 2014,2014.0,149.0,4466.0,7.230632235084594,3.1132469703301293,FCF Positive
+GAIL,Mar 2015,2015.0,1405.0,2809.0,4.638604950707598,44.462025316455694,FCF Positive
+GAIL,Mar 2016,2016.0,3056.0,904.0,1.7366914490999559,163.07363927427963,FCF Positive
+GAIL,Mar 2017,2017.0,5690.0,334.0,0.6879222277146152,168.64256075874334,FCF Positive
+GAIL,Mar 2018,2018.0,6109.0,2660.0,4.881092190252496,127.13839750260145,FCF Positive
+GAIL,Mar 2019,2019.0,2283.0,5701.0,7.4826092663079145,34.83900503586143,FCF Positive
+GAIL,Mar 2020,2020.0,46.0,8299.0,11.444055269036653,0.48344718864950076,FCF Positive
+GAIL,Mar 2021,2021.0,4353.0,4640.0,8.087568848915847,70.86114276412177,FCF Positive
+GAIL,Mar 2022,2022.0,3930.0,5490.0,5.917861377600517,31.940832249674898,FCF Positive
+GAIL,Mar 2023,2023.0,-4248.0,7453.0,5.116429140236703,-75.91136526090064,FCF Negative
+GAIL,Mar 2024,2024.0,4360.0,8226.0,6.174377758429158,44.02706250631122,FCF Positive
+GAIL,Sep 2024,2024.0,,,,,FCF Negative
+GAIL,TTM,,,,,,FCF Negative
+GODREJCP,Mar 2013,2013.0,-45.0,865.0,13.490330630068623,-5.325443786982249,FCF Negative
+GODREJCP,Mar 2014,2014.0,622.0,494.0,6.500855375707331,75.94627594627595,FCF Positive
+GODREJCP,Mar 2015,2015.0,-209.0,1236.0,14.940166807687657,-21.41393442622951,FCF Negative
+GODREJCP,Mar 2016,2016.0,225.0,622.0,7.383665716999051,27.075812274368232,FCF Positive
+GODREJCP,Mar 2017,2017.0,-383.0,2243.0,24.201553733275787,-29.281345565749234,FCF Negative
+GODREJCP,Mar 2018,2018.0,1387.0,336.0,3.4122067634812634,84.88372093023256,FCF Positive
+GODREJCP,Mar 2019,2019.0,1455.0,274.0,2.6565832848555364,62.12638770281811,FCF Positive
+GODREJCP,Mar 2020,2020.0,1036.0,552.0,5.569569165573605,69.20507682030728,FCF Positive
+GODREJCP,Mar 2021,2021.0,1738.0,292.0,2.64756550911234,100.98779779198142,FCF Positive
+GODREJCP,Mar 2022,2022.0,607.0,844.0,6.875203649397197,34.0437464946719,FCF Positive
+GODREJCP,Mar 2023,2023.0,397.0,1754.0,13.172123760889157,23.325499412455933,FCF Positive
+GODREJCP,Mar 2024,2024.0,-1365.0,3435.0,24.36861520998865,243.31550802139037,FCF Negative
+GODREJCP,Sep 2024,2024.0,,,,,FCF Negative
+GODREJCP,TTM,,,,,,FCF Negative
+GRASIM,Mar 2013,2013.0,-1445.0,5687.0,20.376939338564622,-38.24775013234515,FCF Negative
+GRASIM,Mar 2014,2014.0,1213.0,2336.0,8.245384914051746,41.062965470548406,FCF Positive
+GRASIM,Mar 2015,2015.0,2235.0,2359.0,7.433667359929413,86.56080557707205,FCF Positive
+GRASIM,Mar 2016,2016.0,1353.0,4515.0,13.091889697567199,39.160636758321274,FCF Positive
+GRASIM,Mar 2017,2017.0,3779.0,3509.0,9.728845514029057,89.00141309467735,FCF Positive
+GRASIM,Mar 2018,2018.0,-5686.0,1546.0,2.7659498336136257,-154.175704989154,FCF Negative
+GRASIM,Mar 2019,2019.0,-3871.0,2212.0,2.865284974093264,-141.02003642987248,FCF Negative
+GRASIM,Mar 2020,2020.0,5256.0,11364.0,16.650061536658267,79.16854948034342,FCF Positive
+GRASIM,Mar 2021,2021.0,7929.0,7146.0,9.35291346002827,113.48218119364535,FCF Positive
+GRASIM,Mar 2022,2022.0,5985.0,1053.0,1.1003019822154418,53.408888095663045,FCF Positive
+GRASIM,Mar 2023,2023.0,-26397.0,13712.0,11.657187550477357,-238.2830835890955,FCF Negative
+GRASIM,Mar 2024,2024.0,-33833.0,23114.0,17.647238467528897,-340.8523070723353,FCF Negative
+GRASIM,Sep 2024,2024.0,,,,,FCF Negative
+GRASIM,TTM,,,,,,FCF Negative
+HAL,Mar 2013,2013.0,,,,,FCF Negative
+HAL,Mar 2014,2014.0,,,,,FCF Negative
+HAL,Mar 2015,2015.0,,,,,FCF Negative
+HAL,Mar 2016,2016.0,,,,,FCF Negative
+HAL,Mar 2017,2017.0,-3444.0,3021.0,16.83008356545961,-131.65137614678898,FCF Negative
+HAL,Mar 2018,2018.0,-1328.0,594.0,3.2075166045682812,-66.83442375440363,FCF Negative
+HAL,Mar 2019,2019.0,-12986.0,5292.0,26.44942023190724,-553.537936913896,FCF Negative
+HAL,Mar 2020,2020.0,203.0,1334.0,6.2205642340872,7.142857142857142,FCF Positive
+HAL,Mar 2021,2021.0,13934.0,1190.0,5.200594353640416,430.1945044766903,FCF Positive
+HAL,Mar 2022,2022.0,-2609.0,12789.0,51.94557270511779,-51.29767990562328,FCF Negative
+HAL,Mar 2023,2023.0,3102.0,5734.0,21.29382055852644,53.381517811048006,FCF Positive
+HAL,Mar 2024,2024.0,1814.0,6412.0,21.105296073203647,23.884134298880845,FCF Positive
+HAL,Sep 2024,2024.0,,,,,FCF Negative
+HAL,TTM,,,,,,FCF Negative
+HAVELLS,Mar 2013,2013.0,494.0,144.0,2.018220042046251,85.02581755593803,FCF Positive
+HAVELLS,Mar 2014,2014.0,492.0,376.0,4.6702273009564035,110.31390134529148,FCF Positive
+HAVELLS,Mar 2015,2015.0,478.0,485.0,5.727444496929617,124.15584415584415,FCF Positive
+HAVELLS,Mar 2016,2016.0,392.0,121.0,1.5933631814590465,30.153846153846153,FCF Positive
+HAVELLS,Mar 2017,2017.0,547.0,220.0,3.588907014681892,110.72874493927125,FCF Positive
+HAVELLS,Mar 2018,2018.0,154.0,946.0,11.65598817151306,23.29803328290469,FCF Positive
+HAVELLS,Mar 2019,2019.0,316.0,185.0,1.8365928720341504,40.10152284263959,FCF Positive
+HAVELLS,Mar 2020,2020.0,279.0,548.0,5.805084745762712,37.95918367346939,FCF Positive
+HAVELLS,Mar 2021,2021.0,-103.0,763.0,7.296547767045998,-9.865900383141762,FCF Negative
+HAVELLS,Mar 2022,2022.0,969.0,759.0,5.445544554455446,81.0200668896321,FCF Positive
+HAVELLS,Mar 2023,2023.0,534.0,31.0,0.1833126367453137,49.8134328358209,FCF Positive
+HAVELLS,Mar 2024,2024.0,335.0,1618.0,8.703604088219473,26.357199055861525,FCF Positive
+HAVELLS,Sep 2024,2024.0,,,,,FCF Negative
+HAVELLS,TTM,,,,,,FCF Negative
+HCLTECH,Jun 2013,2013.0,2131.0,2361.0,9.229506274187873,52.74752475247525,FCF Positive
+HCLTECH,Jun 2014,2014.0,1615.0,4842.0,15.063464410154307,24.739583333333336,FCF Positive
+HCLTECH,Jun 2015,2015.0,3451.0,2088.0,5.689218277431133,47.003541269408885,FCF Positive
+HCLTECH,Mar 2016,2016.0,1615.0,2208.0,,,FCF Positive
+HCLTECH,Mar 2016 9m,2016.0,,,,,FCF Negative
+HCLTECH,Mar 2017,2017.0,5105.0,3890.0,8.177766565758493,59.31907971182896,FCF Positive
+HCLTECH,Mar 2018,2018.0,6092.0,2236.0,4.421681267179498,69.84636551249713,FCF Positive
+HCLTECH,Mar 2019,2019.0,5715.0,3256.0,5.388319790821983,56.47233201581028,FCF Positive
+HCLTECH,Mar 2020,2020.0,1027.0,12332.0,17.44863885901862,9.288233698109796,FCF Positive
+HCLTECH,Mar 2021,2021.0,13953.0,5665.0,7.515355735682353,124.92613483749663,FCF Positive
+HCLTECH,Mar 2022,2022.0,15303.0,1597.0,1.8645433211521172,113.16275974266065,FCF Positive
+HCLTECH,Mar 2023,2023.0,14436.0,3573.0,3.5217237028859802,97.24486359043449,FCF Positive
+HCLTECH,Mar 2024,2024.0,15840.0,6608.0,6.012027694631208,100.82749840865691,FCF Positive
+HCLTECH,Sep 2024,2024.0,,,,,FCF Negative
+HCLTECH,TTM,,,,,,FCF Negative
+HDFCBANK,Mar 2013,2013.0,-6749.0,902.0,2.5152672820055213,-97.76908590467912,FCF Negative
+HDFCBANK,Mar 2014,2014.0,3112.0,1099.0,2.5825402420397134,35.49270072992701,FCF Positive
+HDFCBANK,Mar 2015,2015.0,-22081.0,800.0,1.5789681443176884,-206.30664299729048,FCF Negative
+HDFCBANK,Mar 2016,2016.0,-35272.0,837.0,1.3251638643488173,-275.1111457764605,FCF Negative
+HDFCBANK,Mar 2017,2017.0,16136.0,1146.0,1.5640567209400718,105.34700006528695,FCF Positive
+HDFCBANK,Mar 2018,2018.0,16372.0,842.0,0.9872432229621987,88.20645439362103,FCF Positive
+HDFCBANK,Mar 2019,2019.0,-64375.0,1503.0,1.4292370745808807,-286.7994297424931,FCF Negative
+HDFCBANK,Mar 2020,2020.0,-18272.0,1403.0,1.1482211983075399,-66.94021101992966,FCF Negative
+HDFCBANK,Mar 2021,2021.0,40653.0,1823.0,1.4181031800360944,127.61088614747152,FCF Positive
+HDFCBANK,Mar 2022,2022.0,-14011.0,2051.0,1.5087982580037664,-36.725118607638066,FCF Negative
+HDFCBANK,Mar 2023,2023.0,17822.0,2992.0,1.7522283518980521,38.618388264101064,FCF Positive
+HDFCBANK,Mar 2024,2024.0,2469.0,16600.0,5.852303374945795,3.7725758640711424,FCF Positive
+HDFCBANK,TTM,,,,,,FCF Negative
+HDFCLIFE,Mar 2013,2013.0,,,,,FCF Negative
+HDFCLIFE,Mar 2014,2014.0,,,,,FCF Negative
+HDFCLIFE,Mar 2015,2015.0,945.0,3514.0,12.911997060444607,120.2290076335878,FCF Positive
+HDFCLIFE,Mar 2016,2016.0,1725.0,3962.0,21.840030869301582,211.13831089351285,FCF Positive
+HDFCLIFE,Mar 2017,2017.0,1053.0,5177.0,16.892354879759846,118.71476888387824,FCF Positive
+HDFCLIFE,Mar 2018,2018.0,2318.0,4421.0,13.7042777433354,209.3947606142728,FCF Positive
+HDFCLIFE,Mar 2019,2019.0,-314.0,10182.0,26.205121605970916,-24.56964006259781,FCF Negative
+HDFCLIFE,Mar 2020,2020.0,-401.0,7789.0,26.511232130701156,-30.91750192752506,FCF Negative
+HDFCLIFE,Mar 2021,2021.0,751.0,8952.0,12.515378592998546,55.18001469507715,FCF Positive
+HDFCLIFE,Mar 2022,2022.0,5142.0,801.0,1.1932783124273754,387.490580256217,FCF Positive
+HDFCLIFE,Mar 2023,2023.0,-3188.0,10071.0,14.344723460623584,-233.04093567251462,FCF Negative
+HDFCLIFE,Mar 2024,2024.0,-2893.0,13614.0,13.41518692970182,-183.7992376111817,FCF Negative
+HDFCLIFE,Sep 2024,2024.0,,,,,FCF Negative
+HDFCLIFE,TTM,,,,,,FCF Negative
+HEROMOTOCO,Mar 2014,2014.0,1347.0,1616.0,6.393669634025717,64.08182683158896,FCF Positive
+HEROMOTOCO,Mar 2015,2015.0,2155.0,31.0,0.11257171907909072,91.15905245346869,FCF Positive
+HEROMOTOCO,Mar 2016,2016.0,1422.0,2300.0,8.082369891415118,45.69408740359897,FCF Positive
+HEROMOTOCO,Mar 2017,2017.0,2035.0,1972.0,6.892694861936385,57.38860688099267,FCF Positive
+HEROMOTOCO,Mar 2018,2018.0,2159.0,1858.0,5.724320660545936,58.006448146157986,FCF Positive
+HEROMOTOCO,Mar 2019,2019.0,-266.0,1298.0,3.820906066939448,-7.674552798615118,FCF Negative
+HEROMOTOCO,Mar 2020,2020.0,2699.0,2819.0,9.636289054488275,73.76332331238044,FCF Positive
+HEROMOTOCO,Mar 2021,2021.0,1821.0,2289.0,7.393649665686876,62.02316076294277,FCF Positive
+HEROMOTOCO,Mar 2022,2022.0,1882.0,222.0,0.7512436127373016,80.80721339630743,FCF Positive
+HEROMOTOCO,Mar 2023,2023.0,2193.0,421.0,1.2325077580654604,78.32142857142857,FCF Positive
+HEROMOTOCO,Mar 2024,2024.0,3095.0,1828.0,4.8373865410569215,82.70978086584714,FCF Positive
+HEROMOTOCO,Sep 2024,2024.0,,,,,FCF Negative
+HEROMOTOCO,TTM,,,,,,FCF Negative
+HINDALCO,Mar 2013,2013.0,-10824.0,13801.0,17.20973152270148,-359.9600931160625,FCF Negative
+HINDALCO,Mar 2014,2014.0,-139.0,8095.0,9.230856947374424,-6.33257403189066,FCF Negative
+HINDALCO,Mar 2015,2015.0,3270.0,3873.0,3.714003509747701,1262.5482625482625,FCF Positive
+HINDALCO,Mar 2016,2016.0,8468.0,3220.0,3.2604623376097366,-1206.2678062678062,FCF Positive
+HINDALCO,Mar 2017,2017.0,9811.0,2876.0,2.8707178791024517,521.307120085016,FCF Positive
+HINDALCO,Mar 2018,2018.0,5565.0,5333.0,4.630023527777537,91.48446490218643,FCF Positive
+HINDALCO,Mar 2019,2019.0,6521.0,5456.0,4.1794977861531155,118.67151956323931,FCF Positive
+HINDALCO,Mar 2020,2020.0,5518.0,7227.0,6.117111321776815,146.48261215821609,FCF Positive
+HINDALCO,Mar 2021,2021.0,-8048.0,25280.0,19.150354523968243,-231.0651737008326,FCF Negative
+HINDALCO,Mar 2022,2022.0,10065.0,6773.0,3.472282745220677,73.30662782228697,FCF Positive
+HINDALCO,Mar 2023,2023.0,11649.0,7559.0,3.3866183994767076,115.37090224819254,FCF Positive
+HINDALCO,Mar 2024,2024.0,9789.0,14267.0,6.6062548040859035,96.39586410635155,FCF Positive
+HINDALCO,Sep 2024,2024.0,,,,,FCF Negative
+HINDALCO,TTM,,,,,,FCF Negative
+HINDUNILVR,Mar 2013,2013.0,3542.0,63.0,0.23329877055251075,92.26361031518626,FCF Positive
+HINDUNILVR,Mar 2014,2014.0,3343.0,475.0,1.6248204145857565,84.50455005055612,FCF Positive
+HINDUNILVR,Mar 2015,2015.0,3154.0,138.0,0.4316276742149381,72.07495429616088,FCF Positive
+HINDUNILVR,Mar 2016,2016.0,3889.0,282.0,0.8761573354874791,93.68826788725609,FCF Positive
+HINDUNILVR,Mar 2017,2017.0,4012.0,1173.0,3.537181110910078,89.35412026726058,FCF Positive
+HINDUNILVR,Mar 2018,2018.0,4996.0,1063.0,2.990575327050218,95.58063898986035,FCF Positive
+HINDUNILVR,Mar 2019,2019.0,5362.0,438.0,1.1142203001780717,88.48184818481847,FCF Positive
+HINDUNILVR,Mar 2020,2020.0,5832.0,1791.0,4.501922931905588,86.32326820603907,FCF Positive
+HINDUNILVR,Mar 2021,2021.0,7935.0,1228.0,2.6112103427745175,99.19989998749844,FCF Positive
+HINDUNILVR,Mar 2022,2022.0,7320.0,1728.0,3.2948175265987873,82.32118758434548,FCF Positive
+HINDUNILVR,Mar 2023,2023.0,8507.0,1484.0,2.449653350940905,83.87064970915903,FCF Positive
+HINDUNILVR,Mar 2024,2024.0,10145.0,5324.0,8.601525138942742,98.66757440186734,FCF Positive
+HINDUNILVR,Sep 2024,2024.0,,,,,FCF Negative
+HINDUNILVR,TTM,,,,,,FCF Negative
+ICICIBANK,Mar 2013,2013.0,-1069.0,18563.0,41.35680071293305,-10.552813425468905,FCF Negative
+ICICIBANK,Mar 2014,2014.0,-8985.0,15750.0,31.831686169890254,-76.946133424681,FCF Negative
+ICICIBANK,Mar 2015,2015.0,-25448.0,13175.0,23.970235062950294,-196.63112347396074,FCF Negative
+ICICIBANK,Mar 2016,2016.0,11585.0,12060.0,20.33932607009141,106.0217809096733,FCF Positive
+ICICIBANK,Mar 2017,2017.0,50925.0,1711.0,2.807679684936003,449.074074074074,FCF Positive
+ICICIBANK,Mar 2018,2018.0,-31168.0,50551.0,81.32138605578972,-342.50549450549454,FCF Negative
+ICICIBANK,Mar 2019,2019.0,18389.0,30282.0,42.06885054596982,323.2378273861839,FCF Positive
+ICICIBANK,Mar 2020,2020.0,37470.0,42095.0,49.61926540619548,333.8084632516704,FCF Positive
+ICICIBANK,Mar 2021,2021.0,74384.0,63631.0,71.36480378632393,365.2720487134158,FCF Positive
+ICICIBANK,Mar 2022,2022.0,18663.0,39448.0,41.347070969635354,70.32557087949355,FCF Positive
+ICICIBANK,Mar 2023,2023.0,-71460.0,67689.0,55.910363682919375,-201.51715969656806,FCF Negative
+ICICIBANK,Mar 2024,2024.0,12547.0,144737.0,90.7350986734873,27.22814175039604,FCF Positive
+ICICIBANK,TTM,,,,,,FCF Negative
+ICICIGI,Mar 2013,2013.0,22.0,962.0,23.978065802592223,6.232294617563739,FCF Positive
+ICICIGI,Mar 2014,2014.0,-111.0,706.0,16.222426470588236,-21.346153846153847,FCF Negative
+ICICIGI,Mar 2015,2015.0,-269.0,171.0,4.03873405762872,-45.98290598290598,FCF Negative
+ICICIGI,Mar 2016,2016.0,201.0,310.0,5.1384054367644625,39.64497041420118,FCF Positive
+ICICIGI,Mar 2017,2017.0,-362.0,1990.0,26.46276595744681,-51.566951566951566,FCF Negative
+ICICIGI,Mar 2018,2018.0,494.0,1896.0,27.430555555555557,57.30858468677494,FCF Positive
+ICICIGI,Mar 2019,2019.0,120.0,2856.0,25.584520290244555,11.43946615824595,FCF Positive
+ICICIGI,Mar 2020,2020.0,51.0,3382.0,29.365286098810454,4.271356783919598,FCF Positive
+ICICIGI,Mar 2021,2021.0,407.0,1367.0,11.240851903626346,27.630685675492195,FCF Positive
+ICICIGI,Mar 2022,2022.0,674.0,135.0,0.8423811306626731,53.029110936270655,FCF Positive
+ICICIGI,Mar 2023,2023.0,605.0,1685.0,9.426046095323338,34.991324465008674,FCF Positive
+ICICIGI,Mar 2024,2024.0,486.0,1921.0,9.37667789329819,25.325690463783218,FCF Positive
+ICICIGI,Sep 2024,2024.0,,,,,FCF Negative
+ICICIGI,TTM,,,,,,FCF Negative
+ICICIPRULI,Mar 2013,2013.0,-4205.0,1564.0,7.810237203495631,-277.55775577557756,FCF Negative
+ICICIPRULI,Mar 2014,2014.0,-8394.0,6012.0,27.467105263157894,-537.7322229340167,FCF Negative
+ICICIPRULI,Mar 2015,2015.0,-1299.0,1822.0,5.288363858009462,-79.20731707317074,FCF Negative
+ICICIPRULI,Mar 2016,2016.0,3607.0,27.0,0.12950261403424623,218.6060606060606,FCF Positive
+ICICIPRULI,Mar 2017,2017.0,3434.0,696.0,1.8404907975460123,204.16171224732463,FCF Positive
+ICICIPRULI,Mar 2018,2018.0,301.0,5389.0,13.877729707457767,18.591723285979,FCF Positive
+ICICIPRULI,Mar 2019,2019.0,3818.0,7559.0,18.230711718881896,335.20632133450397,FCF Positive
+ICICIPRULI,Mar 2020,2020.0,-2201.0,10797.0,51.353151010701545,-206.2792877225867,FCF Negative
+ICICIPRULI,Mar 2021,2021.0,2230.0,5084.0,6.111899208963478,233.26359832635984,FCF Positive
+ICICIPRULI,Mar 2022,2022.0,1015.0,816.0,1.283745516329998,133.72859025032938,FCF Positive
+ICICIPRULI,Mar 2023,2023.0,-1056.0,1145.0,2.2683149094655097,-129.88929889298893,FCF Negative
+ICICIPRULI,Mar 2024,2024.0,-14735.0,7420.0,8.216417331989769,-1731.4923619271447,FCF Negative
+ICICIPRULI,Sep 2024,2024.0,,,,,FCF Negative
+ICICIPRULI,TTM,,,,,,FCF Negative
+INDIGO,Mar 2013,2013.0,-149.0,1890.0,20.5367814842986,-18.932655654383733,FCF Negative
+INDIGO,Mar 2014,2014.0,-1319.0,2914.0,26.21210758298102,-278.2700421940928,FCF Negative
+INDIGO,Mar 2015,2015.0,1444.0,940.0,6.7504488330341115,110.7361963190184,FCF Positive
+INDIGO,Mar 2016,2016.0,1779.0,1337.0,8.28376703841388,89.57703927492447,FCF Positive
+INDIGO,Mar 2017,2017.0,749.0,3033.0,16.32400430570506,45.14767932489451,FCF Positive
+INDIGO,Mar 2018,2018.0,-249.0,4152.0,18.03570652882151,-11.10615521855486,FCF Negative
+INDIGO,Mar 2019,2019.0,634.0,2526.0,8.864090956942835,406.4102564102564,FCF Positive
+INDIGO,Mar 2020,2020.0,2370.0,4573.0,12.789461908490882,-955.6451612903226,FCF Positive
+INDIGO,Mar 2021,2021.0,-4848.0,3228.0,22.047674339184482,78.56101118133203,FCF Negative
+INDIGO,Mar 2022,2022.0,537.0,1527.0,5.888704639234892,-169.40063091482648,FCF Positive
+INDIGO,Mar 2023,2023.0,8664.0,4039.0,7.418359475443559,-2733.1230283911673,FCF Positive
+INDIGO,Mar 2024,2024.0,9424.0,11759.0,17.065772669220944,115.39120852210114,FCF Positive
+INDIGO,Sep 2024,2024.0,,,,,FCF Negative
+INDIGO,TTM,,,,,,FCF Negative
+INDUSINDBK,Mar 2013,2013.0,-660.0,174.0,2.491765716740656,-62.205466540999055,FCF Negative
+INDUSINDBK,Mar 2014,2014.0,-4280.0,174.0,2.1080688151199416,-303.9772727272727,FCF Negative
+INDUSINDBK,Mar 2015,2015.0,-1697.0,276.0,2.8477094510936856,-94.59308807134894,FCF Negative
+INDUSINDBK,Mar 2016,2016.0,-3185.0,258.0,2.1731805929919137,-139.32633420822398,FCF Negative
+INDUSINDBK,Mar 2017,2017.0,11284.0,285.0,1.9783423573511039,393.44490934449095,FCF Positive
+INDUSINDBK,Mar 2018,2018.0,-20917.0,217.0,1.2557143683814593,-580.0610094287299,FCF Negative
+INDUSINDBK,Mar 2019,2019.0,-7022.0,633.0,2.843538026144378,-212.7234171463193,FCF Negative
+INDUSINDBK,Mar 2020,2020.0,-12565.0,526.0,1.827467602404197,-284.4047080126754,FCF Negative
+INDUSINDBK,Mar 2021,2021.0,44420.0,226.0,0.7793103448275862,1566.2905500705217,FCF Positive
+INDUSINDBK,Mar 2022,2022.0,16249.0,351.0,1.138796963208098,352.3964432877901,FCF Positive
+INDUSINDBK,Mar 2023,2023.0,-12879.0,441.0,1.2126044874615045,-174.276048714479,FCF Negative
+INDUSINDBK,Mar 2024,2024.0,-17468.0,625.0,1.3661799422925593,-195.17318435754188,FCF Negative
+INDUSINDBK,TTM,,,,,,FCF Negative
+INFY,Mar 2013,2013.0,4451.0,2922.0,7.241276764472642,47.20543005620957,FCF Positive
+INFY,Mar 2014,2014.0,7262.0,2563.0,5.11240101330461,68.1493993993994,FCF Positive
+INFY,Mar 2015,2015.0,7354.0,999.0,1.8736285376694986,59.440672486259295,FCF Positive
+INFY,Mar 2016,2016.0,9143.0,885.0,1.4173379670408865,67.78115501519757,FCF Positive
+INFY,Mar 2017,2017.0,-3133.0,14664.0,21.4123006833713,-21.82818922873267,FCF Negative
+INFY,Mar 2018,2018.0,8685.0,4533.0,6.427781401548454,54.183043234138125,FCF Positive
+INFY,Mar 2019,2019.0,14209.0,632.0,0.764439068642274,92.20635950681377,FCF Positive
+INFY,Mar 2020,2020.0,16672.0,331.0,0.3645735810818253,100.19832922651601,FCF Positive
+INFY,Mar 2021,2021.0,15851.0,7373.0,7.338362926984633,81.60943211656284,FCF Positive
+INFY,Mar 2022,2022.0,17400.0,6485.0,5.331261663419406,78.56949336223245,FCF Positive
+INFY,Mar 2023,2023.0,21396.0,1071.0,0.7297280723868445,88.75062220009954,FCF Positive
+INFY,Mar 2024,2024.0,20117.0,5093.0,3.314244810307802,76.6420298689424,FCF Positive
+INFY,Sep 2024,2024.0,,,,,FCF Negative
+INFY,TTM,,,,,,FCF Negative
+IOC,Mar 2013,2013.0,46.0,9294.0,2.0126467148858764,1.2682657843948166,FCF Positive
+IOC,Mar 2014,2014.0,5601.0,18594.0,3.807554085738566,80.39328261805655,FCF Positive
+IOC,Mar 2015,2015.0,35877.0,10215.0,2.272489638648564,736.3916256157635,FCF Positive
+IOC,Mar 2016,2016.0,12014.0,13610.0,3.9330144923348116,96.7856279706759,FCF Positive
+IOC,Mar 2017,2017.0,10532.0,17684.0,4.9760959426415186,51.66544027471179,FCF Positive
+IOC,Mar 2018,2018.0,11996.0,17119.0,4.061524299393582,53.01865110934323,FCF Positive
+IOC,Mar 2019,2019.0,-9822.0,22569.0,4.273153109486176,-56.860020840569646,FCF Negative
+IOC,Mar 2020,2020.0,-21955.0,29101.0,6.01554893615262,1170.309168443497,FCF Negative
+IOC,Mar 2021,2021.0,26715.0,22935.0,6.301689792553922,122.75985663082439,FCF Positive
+IOC,Mar 2022,2022.0,4453.0,21294.0,3.61331091204963,17.30866404944222,FCF Positive
+IOC,Mar 2023,2023.0,1614.0,28030.0,3.3299435941056554,13.790157211209845,FCF Positive
+IOC,Mar 2024,2024.0,39635.0,31464.0,4.052800791393595,91.83058779917054,FCF Positive
+IOC,Sep 2024,2024.0,,,,,FCF Negative
+IOC,TTM,,,,,,FCF Negative
+IRCTC,Mar 2015,2015.0,23.0,46.0,4.343720491029273,17.557251908396946,FCF Positive
+IRCTC,Mar 2016,2016.0,281.0,7.0,0.5120702267739575,148.67724867724868,FCF Positive
+IRCTC,Mar 2017,2017.0,244.0,94.0,6.184210526315789,106.55021834061135,FCF Positive
+IRCTC,Mar 2018,2018.0,-16.0,40.0,2.728512960436562,-7.239819004524888,FCF Negative
+IRCTC,Mar 2019,2019.0,146.0,353.0,18.877005347593585,47.249190938511326,FCF Positive
+IRCTC,Mar 2020,2020.0,401.0,8.0,0.35335689045936397,78.16764132553607,FCF Positive
+IRCTC,Mar 2021,2021.0,-205.0,453.0,58.301158301158296,-109.62566844919786,FCF Negative
+IRCTC,Mar 2022,2022.0,282.0,242.0,12.879191059073975,42.72727272727273,FCF Positive
+IRCTC,Mar 2023,2023.0,495.0,317.0,8.952273369104773,49.20477137176938,FCF Positive
+IRCTC,Mar 2024,2024.0,667.0,215.0,5.035128805620609,60.03600360036003,FCF Positive
+IRCTC,Sep 2024,2024.0,,,,,FCF Negative
+IRCTC,TTM,,,,,,FCF Negative
+IRFC,Mar 2013,2013.0,,,,,FCF Negative
+IRFC,Mar 2014,2014.0,,,,,FCF Negative
+IRFC,Mar 2015,2015.0,,,,,FCF Negative
+IRFC,Mar 2016,2016.0,-16380.0,2.0,0.026641800985746637,-1929.3286219081272,FCF Negative
+IRFC,Mar 2017,2017.0,-19457.0,2.0,0.02210677572676025,-2083.1905781584583,FCF Negative
+IRFC,Mar 2018,2018.0,-28078.0,2.0,0.021581957483543756,-1366.3260340632605,FCF Negative
+IRFC,Mar 2019,2019.0,-41749.0,1.0,0.008981498113885397,-1851.3968957871398,FCF Negative
+IRFC,Mar 2020,2020.0,-62702.0,1.0,0.0074510096118024,-1964.3483709273185,FCF Negative
+IRFC,Mar 2021,2021.0,-89907.0,0.0,0.0,-2035.9375,FCF Negative
+IRFC,Mar 2022,2022.0,-64417.0,5.0,0.02463175525887975,-1057.7504105090313,FCF Negative
+IRFC,Mar 2023,2023.0,-28588.0,0.0,0.0,-463.5641316685585,FCF Negative
+IRFC,Mar 2024,2024.0,7906.0,8.0,0.030024394820791892,123.30006238303181,FCF Positive
+IRFC,Sep 2024,2024.0,,,,,FCF Negative
+IRFC,TTM,,,,,,FCF Negative
+ITC,Mar 2013,2013.0,3221.0,3881.0,12.27465367828452,41.80944963655244,FCF Positive
+ITC,Mar 2014,2014.0,4090.0,3254.0,9.21656375686852,45.43939562270859,FCF Positive
+ITC,Mar 2015,2015.0,4568.0,5275.0,13.589406703248578,46.7123427753349,FCF Positive
+ITC,Mar 2016,2016.0,5878.0,3921.0,10.004592774035517,61.86717187664457,FCF Positive
+ITC,Mar 2017,2017.0,7376.0,3251.0,7.6014777403666285,70.40183258566384,FCF Positive
+ITC,Mar 2018,2018.0,6055.0,7114.0,16.37321917650579,52.684242582441485,FCF Positive
+ITC,Mar 2019,2019.0,7037.0,5546.0,11.472900289615225,54.82237457151761,FCF Positive
+ITC,Mar 2020,2020.0,8516.0,6174.0,12.50101239167409,54.61424998396717,FCF Positive
+ITC,Mar 2021,2021.0,6787.0,5740.0,11.653166047465335,50.713591870283196,FCF Positive
+ITC,Mar 2022,2022.0,13538.0,2238.0,3.6903289636408605,87.32503386441334,FCF Positive
+ITC,Mar 2023,2023.0,13146.0,5732.0,8.082460271577434,67.49499409559994,FCF Positive
+ITC,Mar 2024,2024.0,15616.0,1563.0,2.205571077808822,75.25420461664498,FCF Positive
+ITC,Sep 2024,2024.0,,,,,FCF Negative
+ITC,TTM,,,,,,FCF Negative
+JINDALSTEL,Mar 2013,2013.0,-6069.0,9591.0,48.422274953299336,-205.58943089430892,FCF Negative
+JINDALSTEL,Mar 2014,2014.0,-8114.0,12694.0,65.81976563310174,-427.9535864978903,FCF Negative
+JINDALSTEL,Mar 2015,2015.0,-5535.0,6717.0,34.62192670480903,381.198347107438,FCF Negative
+JINDALSTEL,Mar 2016,2016.0,2071.0,2262.0,11.618470388823257,-67.08778749595076,FCF Positive
+JINDALSTEL,Mar 2017,2017.0,4852.0,1998.0,9.248715456186641,-191.17415287628054,FCF Positive
+JINDALSTEL,Mar 2018,2018.0,6293.0,1431.0,4.299104728714775,-389.41831683168317,FCF Positive
+JINDALSTEL,Mar 2019,2019.0,8195.0,832.0,1.7714942724524123,-339.7595356550581,FCF Positive
+JINDALSTEL,Mar 2020,2020.0,7338.0,1476.0,3.892097144213275,-1834.5,FCF Positive
+JINDALSTEL,Mar 2021,2021.0,10077.0,1884.0,5.4483935336475895,236.16123740332787,FCF Positive
+JINDALSTEL,Mar 2022,2022.0,13717.0,2331.0,4.555759684165266,202.7342595329589,FCF Positive
+JINDALSTEL,Mar 2023,2023.0,3257.0,4090.0,7.686236187326168,81.95772521389028,FCF Positive
+JINDALSTEL,Mar 2024,2024.0,-2336.0,8344.0,16.570679588513325,-39.30674743395591,FCF Negative
+JINDALSTEL,Sep 2024,2024.0,,,,,FCF Negative
+JINDALSTEL,TTM,,,,,,FCF Negative
+JIOFIN,Mar 2023,2023.0,945.0,1110.0,2466.666666666667,3048.3870967741937,FCF Positive
+JIOFIN,Mar 2024,2024.0,-2119.0,1441.0,77.68194070080862,-132.02492211838006,FCF Negative
+JIOFIN,Sep 2024,2024.0,,,,,FCF Negative
+JIOFIN,TTM,,,,,,FCF Negative
+JSWENERGY,Mar 2013,2013.0,781.0,944.0,10.642615558060879,86.68146503884573,FCF Positive
+JSWENERGY,Mar 2014,2014.0,1906.0,363.0,4.197502312673451,250.78947368421055,FCF Positive
+JSWENERGY,Mar 2015,2015.0,2972.0,422.0,4.51481758853108,218.85125184094258,FCF Positive
+JSWENERGY,Mar 2016,2016.0,266.0,3272.0,33.30618892508143,18.21917808219178,FCF Positive
+JSWENERGY,Mar 2017,2017.0,3091.0,762.0,9.221832264310784,496.14767255216697,FCF Positive
+JSWENERGY,Mar 2018,2018.0,3719.0,215.0,2.67113927195925,4375.294117647059,FCF Positive
+JSWENERGY,Mar 2019,2019.0,2436.0,55.0,0.6018822499452834,356.140350877193,FCF Positive
+JSWENERGY,Mar 2020,2020.0,1781.0,301.0,3.6383415931342924,164.75485661424608,FCF Positive
+JSWENERGY,Mar 2021,2021.0,2670.0,1030.0,14.88009245882693,324.4228432563791,FCF Positive
+JSWENERGY,Mar 2022,2022.0,1565.0,1387.0,16.982980286518917,89.78772231784279,FCF Positive
+JSWENERGY,Mar 2023,2023.0,-4694.0,6778.0,65.60201316298877,-317.1621621621622,FCF Negative
+JSWENERGY,Mar 2024,2024.0,-1963.0,8197.0,71.36514017064252,-113.79710144927537,FCF Negative
+JSWENERGY,Sep 2024,2024.0,,,,,FCF Negative
+JSWENERGY,TTM,,,,,,FCF Negative
+JSWSTEEL,Mar 2013,2013.0,411.0,5433.0,14.218790892436534,44.241119483315394,FCF Positive
+JSWSTEEL,Mar 2014,2014.0,-3024.0,5618.0,10.96837172979305,-752.2388059701493,FCF Negative
+JSWSTEEL,Mar 2015,2015.0,504.0,7372.0,13.916786226685796,29.268292682926827,FCF Positive
+JSWSTEEL,Mar 2016,2016.0,3040.0,3857.0,9.283685553362538,-632.016632016632,FCF Positive
+JSWSTEEL,Mar 2017,2017.0,2794.0,5094.0,9.161211423638587,80.58840496106143,FCF Positive
+JSWSTEEL,Mar 2018,2018.0,7850.0,4529.0,6.296136682746445,128.41485359070833,FCF Positive
+JSWSTEEL,Mar 2019,2019.0,3246.0,11387.0,13.434878535106245,43.14194577352472,FCF Positive
+JSWSTEEL,Mar 2020,2020.0,-6804.0,19589.0,26.714944221694896,-173.61571829548353,FCF Negative
+JSWSTEEL,Mar 2021,2021.0,11087.0,7702.0,9.646914415260714,140.82306617553664,FCF Positive
+JSWSTEEL,Mar 2022,2022.0,11522.0,14748.0,10.07576637448675,55.029133632629666,FCF Positive
+JSWSTEEL,Mar 2023,2023.0,12593.0,10730.0,6.465413352615087,304.2522348393332,FCF Positive
+JSWSTEEL,Mar 2024,2024.0,-2389.0,14467.0,8.266573717472543,-26.624317396634346,FCF Negative
+JSWSTEEL,Sep 2024,2024.0,,,,,FCF Negative
+JSWSTEEL,TTM,,,,,,FCF Negative
+KOTAKBANK,Mar 2013,2013.0,-6157.0,9035.0,83.36408931537184,-275.11170688114385,FCF Negative
+KOTAKBANK,Mar 2014,2014.0,7938.0,1130.0,9.427665609878192,314.1274238227147,FCF Positive
+KOTAKBANK,Mar 2015,2015.0,-2165.0,4467.0,33.5385539454914,-69.72624798711755,FCF Negative
+KOTAKBANK,Mar 2016,2016.0,2672.0,2353.0,11.533183021272423,75.82292849035187,FCF Positive
+KOTAKBANK,Mar 2017,2017.0,7933.0,5289.0,23.691990682673357,158.05937437736603,FCF Positive
+KOTAKBANK,Mar 2018,2018.0,-15867.0,5475.0,21.78584218694043,-253.54745925215724,FCF Negative
+KOTAKBANK,Mar 2019,2019.0,-1501.0,3323.0,11.139418725486909,-20.83564686285397,FCF Negative
+KOTAKBANK,Mar 2020,2020.0,33551.0,13068.0,39.03925434665711,390.44571162574186,FCF Positive
+KOTAKBANK,Mar 2021,2021.0,-6291.0,11172.0,34.040219378427786,-62.972972972972975,FCF Negative
+KOTAKBANK,Mar 2022,2022.0,-2595.0,10903.0,32.31380219910495,-21.46579535114567,FCF Negative
+KOTAKBANK,Mar 2023,2023.0,-11623.0,10381.0,24.62812270171526,-77.87604690117253,FCF Negative
+KOTAKBANK,Mar 2024,2024.0,6766.0,8919.0,15.859665344879707,37.14928896941745,FCF Positive
+KOTAKBANK,TTM,,,,,,FCF Negative
+LICI,Mar 2019,2019.0,3638.0,9636.0,1.6860656368764744,138.48496383707652,FCF Positive
+LICI,Mar 2020,2020.0,13952.0,40415.0,6.435068936362638,514.8339483394834,FCF Positive
+LICI,Mar 2021,2021.0,-67845.0,148447.0,21.485597339176802,-2281.271015467384,FCF Negative
+LICI,Mar 2022,2022.0,-16314.0,12531.0,1.731743517881278,-395.4909090909091,FCF Negative
+LICI,Mar 2023,2023.0,1671.0,52848.0,6.735421116758515,4.642053504458705,FCF Positive
+LICI,Mar 2024,2024.0,853.0,25269.0,2.986999477520373,2.084759018476879,FCF Positive
+LICI,Sep 2024,2024.0,,,,,FCF Negative
+LICI,TTM,,,,,,FCF Negative
+LODHA,Mar 2011,2011.0,,,,,FCF Negative
+LODHA,Mar 2012,2012.0,,,,,FCF Negative
+LODHA,Mar 2015,2015.0,,,,,FCF Negative
+LODHA,Mar 2016,2016.0,-467.0,854.0,10.35277003273124,-66.42958748221906,FCF Negative
+LODHA,Mar 2017,2017.0,295.0,1174.0,14.812011102699973,50.513698630136986,FCF Positive
+LODHA,Mar 2018,2018.0,45.0,651.0,6.727291515965692,5.6675062972292185,FCF Positive
+LODHA,Mar 2019,2019.0,-638.0,175.0,1.4697236919459142,-38.80778588807786,FCF Negative
+LODHA,Mar 2020,2020.0,3590.0,182.0,1.4626697741702162,483.8274932614556,FCF Positive
+LODHA,Mar 2021,2021.0,2104.0,420.0,7.707836300238576,4383.333333333334,FCF Positive
+LODHA,Mar 2022,2022.0,859.0,1139.0,12.336185421856385,71.1092715231788,FCF Positive
+LODHA,Mar 2023,2023.0,961.0,1789.0,18.891235480464623,196.12244897959184,FCF Positive
+LODHA,Mar 2024,2024.0,-435.0,2947.0,28.567274137262505,-27.99227799227799,FCF Negative
+LODHA,Sep 2024,2024.0,,,,,FCF Negative
+LODHA,TTM,,,,,,FCF Negative
+LT,Mar 2013,2013.0,-11277.0,6922.0,9.30051326149464,-213.13551313551312,FCF Negative
+LT,Mar 2014,2014.0,-12653.0,5510.0,6.478237355092059,-259.0174002047083,FCF Negative
+LT,Mar 2015,2015.0,-6143.0,4778.0,5.197489366793938,-123.70116794200563,FCF Negative
+LT,Mar 2016,2016.0,-7867.0,4627.0,4.575661082652637,-171.31968641114983,FCF Negative
+LT,Mar 2017,2017.0,-3141.0,9796.0,8.96150468384075,-48.42738205365402,FCF Negative
+LT,Mar 2018,2018.0,-13945.0,3914.0,3.2703057242883284,-174.22538730634682,FCF Negative
+LT,Mar 2019,2019.0,-15779.0,11023.0,8.151900606419169,-154.438680630322,FCF Negative
+LT,Mar 2020,2020.0,-1714.0,8408.0,5.780601160520309,-15.733431246557739,FCF Negative
+LT,Mar 2021,2021.0,17324.0,5750.0,4.22859412115106,134.076309883136,FCF Positive
+LT,Mar 2022,2022.0,15579.0,3585.0,2.2904274825742235,149.5249064209617,FCF Positive
+LT,Mar 2023,2023.0,14729.0,8048.0,4.389634615279725,117.5404995610885,FCF Positive
+LT,Mar 2024,2024.0,16087.0,2179.0,0.9854689683555468,103.47333890782788,FCF Positive
+LT,Sep 2024,2024.0,,,,,FCF Negative
+LT,TTM,,,,,,FCF Negative
+LTIM,Mar 2013,2013.0,384.0,224.0,5.816670994546871,68.32740213523132,FCF Positive
+LTIM,Mar 2014,2014.0,448.0,180.0,3.6585365853658534,44.97991967871486,FCF Positive
+LTIM,Mar 2015,2015.0,539.0,103.0,2.06910405785456,70.09102730819245,FCF Positive
+LTIM,Mar 2016,2016.0,818.0,40.0,0.6842285323297981,97.84688995215312,FCF Positive
+LTIM,Mar 2017,2017.0,209.0,961.0,14.782341178280264,21.524201853759013,FCF Positive
+LTIM,Mar 2018,2018.0,392.0,452.0,6.186695866411169,35.25179856115108,FCF Positive
+LTIM,Mar 2019,2019.0,646.0,749.0,7.929282235867034,42.61213720316623,FCF Positive
+LTIM,Mar 2020,2020.0,1001.0,643.0,5.910469712289732,65.85526315789474,FCF Positive
+LTIM,Mar 2021,2021.0,743.0,1657.0,13.39531123686338,38.33849329205366,FCF Positive
+LTIM,Mar 2022,2022.0,1608.0,1643.0,6.29284920908499,40.70886075949367,FCF Positive
+LTIM,Mar 2023,2023.0,2824.0,271.0,0.8166832414187988,64.03628117913833,FCF Positive
+LTIM,Mar 2024,2024.0,1752.0,3918.0,11.031337106174508,38.21155943293348,FCF Positive
+LTIM,Sep 2024,2024.0,,,,,FCF Negative
+LTIM,TTM,,,,,,FCF Negative
+M&M,Mar 2013,2013.0,-3825.0,2903.0,4.226049233546359,-92.63744248001937,FCF Negative
+M&M,Mar 2014,2014.0,-4768.0,4524.0,6.113430899582438,-92.51067132324408,FCF Negative
+M&M,Mar 2015,2015.0,-3302.0,4357.0,6.098141305564886,-97.6634131913635,FCF Negative
+M&M,Mar 2016,2016.0,-3121.0,5506.0,7.259925370182355,-87.81654473832302,FCF Negative
+M&M,Mar 2017,2017.0,-5692.0,5875.0,7.012999415086006,-140.50851641569983,FCF Negative
+M&M,Mar 2018,2018.0,-4785.0,5467.0,5.936325927856321,-60.12817290776577,FCF Negative
+M&M,Mar 2019,2019.0,-11521.0,7174.0,6.850583932544571,-191.47415655642345,FCF Negative
+M&M,Mar 2020,2020.0,-8327.0,6870.0,9.113581491602769,2594.080996884735,FCF Negative
+M&M,Mar 2021,2021.0,-1777.0,19686.0,26.503136864212824,-117.52645502645503,FCF Negative
+M&M,Mar 2022,2022.0,5996.0,3252.0,3.60648101939648,82.66924031435268,FCF Positive
+M&M,Mar 2023,2023.0,-15940.0,8866.0,7.311019304191508,-140.14418850008792,FCF Negative
+M&M,Mar 2024,2024.0,-11245.0,5615.0,4.0373028084959515,-91.64629176854116,FCF Negative
+M&M,Sep 2024,2024.0,,,,,FCF Negative
+M&M,TTM,,,,,,FCF Negative
+MARUTI,Mar 2013,2013.0,940.0,3119.0,7.039996388587938,38.05668016194332,FCF Positive
+MARUTI,Mar 2014,2014.0,-2.0,4997.0,11.218625117866283,-0.0700770847932726,FCF Negative
+MARUTI,Mar 2015,2015.0,1958.0,4491.0,8.84037715792996,51.40456812811761,FCF Positive
+MARUTI,Mar 2016,2016.0,1252.0,7230.0,12.554480890447827,22.776059668910314,FCF Positive
+MARUTI,Mar 2017,2017.0,1109.0,9173.0,13.472864801351253,14.765011316735455,FCF Positive
+MARUTI,Mar 2018,2018.0,3486.0,8302.0,10.402335576188149,44.232965359725924,FCF Positive
+MARUTI,Mar 2019,2019.0,3061.0,3540.0,4.113026908955709,40.00784211214221,FCF Positive
+MARUTI,Mar 2020,2020.0,2939.0,557.0,0.7361882104150145,51.761183515322294,FCF Positive
+MARUTI,Mar 2021,2021.0,1565.0,7291.0,10.360654805888705,35.657325131009344,FCF Positive
+MARUTI,Mar 2022,2022.0,1601.0,239.0,0.27057624816030795,41.26288659793814,FCF Positive
+MARUTI,Mar 2023,2023.0,1995.0,8820.0,7.448695211553079,24.14085188770571,FCF Positive
+MARUTI,Mar 2024,2024.0,4936.0,11865.0,8.363997800617518,36.59549228944247,FCF Positive
+MARUTI,Sep 2024,2024.0,,,,,FCF Negative
+MARUTI,TTM,,,,,,FCF Negative
+MOTHERSON,Mar 2013,2013.0,397.0,1089.0,4.304688117637758,87.83185840707965,FCF Positive
+MOTHERSON,Mar 2014,2014.0,1323.0,1372.0,4.511080423489182,120.60164083865087,FCF Positive
+MOTHERSON,Mar 2015,2015.0,546.0,2844.0,8.2051873863997,42.26006191950464,FCF Positive
+MOTHERSON,Mar 2016,2016.0,282.0,1906.0,5.121453138435082,15.89627959413754,FCF Positive
+MOTHERSON,Mar 2017,2017.0,-2345.0,6145.0,14.501132716632057,-107.96500920810313,FCF Negative
+MOTHERSON,Mar 2018,2018.0,70.0,3194.0,5.672877111343978,3.0973451327433628,FCF Positive
+MOTHERSON,Mar 2019,2019.0,994.0,3318.0,5.223304944665712,47.37845567206864,FCF Positive
+MOTHERSON,Mar 2020,2020.0,4132.0,2220.0,3.6555846465444843,319.31993817619787,FCF Positive
+MOTHERSON,Mar 2021,2021.0,3165.0,1886.0,3.28743245598745,201.72084130019118,FCF Positive
+MOTHERSON,Mar 2022,2022.0,159.0,2304.0,3.6127575500987863,13.451776649746192,FCF Positive
+MOTHERSON,Mar 2023,2023.0,2395.0,2248.0,2.8532263796517237,143.4131736526946,FCF Positive
+MOTHERSON,Mar 2024,2024.0,925.0,6644.0,6.732055283102987,30.629139072847682,FCF Positive
+MOTHERSON,Sep 2024,2024.0,,,,,FCF Negative
+MOTHERSON,TTM,,,,,,FCF Negative
+NAUKRI,Mar 2013,2013.0,29.0,46.0,9.745762711864407,38.15789473684211,FCF Positive
+NAUKRI,Mar 2014,2014.0,-123.0,204.0,35.978835978835974,-204.99999999999997,FCF Negative
+NAUKRI,Mar 2015,2015.0,-1000.0,1051.0,143.5792349726776,7142.857142857143,FCF Negative
+NAUKRI,Mar 2016,2016.0,76.0,2.0,0.267379679144385,64.40677966101694,FCF Positive
+NAUKRI,Mar 2017,2017.0,48.0,165.0,18.58108108108108,-111.62790697674419,FCF Positive
+NAUKRI,Mar 2018,2018.0,104.0,149.0,15.08097165991903,20.758483033932134,FCF Positive
+NAUKRI,Mar 2019,2019.0,217.0,59.0,5.125977410947002,36.6554054054054,FCF Positive
+NAUKRI,Mar 2020,2020.0,253.0,97.0,7.393292682926829,-102.84552845528457,FCF Positive
+NAUKRI,Mar 2021,2021.0,-1767.0,2043.0,181.11702127659575,-124.61212976022567,FCF Negative
+NAUKRI,Mar 2022,2022.0,-470.0,1177.0,74.07174323473883,-3.648501785437044,FCF Negative
+NAUKRI,Mar 2023,2023.0,154.0,358.0,15.26001705029838,-220.00000000000003,FCF Positive
+NAUKRI,Mar 2024,2024.0,-150.0,852.0,33.59621451104101,-25.210084033613445,FCF Negative
+NAUKRI,Sep 2024,2024.0,,,,,FCF Negative
+NAUKRI,TTM,,,,,,FCF Negative
+NESTLEIND,Dec 2013,2013.0,1355.0,441.0,4.845621360290078,121.30707251566697,FCF Positive
+NESTLEIND,Dec 2014,2014.0,1212.0,432.0,4.383561643835616,102.27848101265822,FCF Positive
+NESTLEIND,Dec 2015,2015.0,1028.0,70.0,0.8562691131498471,182.59325044404972,FCF Positive
+NESTLEIND,Dec 2016,2016.0,1340.0,126.0,1.3784049885132919,133.86613386613385,FCF Positive
+NESTLEIND,Dec 2017,2017.0,1687.0,131.0,1.3086913086913086,137.71428571428572,FCF Positive
+NESTLEIND,Dec 2018,2018.0,2000.0,52.0,0.4605030109812256,124.45550715619167,FCF Positive
+NESTLEIND,Dec 2019,2019.0,2212.0,83.0,0.6710324197590751,112.39837398373984,FCF Positive
+NESTLEIND,Dec 2020,2020.0,2133.0,321.0,2.404494382022472,102.44956772334295,FCF Positive
+NESTLEIND,Dec 2021,2021.0,316.0,1920.0,13.024896547045655,14.919735599622285,FCF Positive
+NESTLEIND,Dec 2022,2022.0,2345.0,392.0,2.3199384506125345,98.07611877875367,FCF Positive
+NESTLEIND,Dec 2023,2023.0,2465.0,927.0,4.846805395796299,82.1940646882294,FCF Positive
+NESTLEIND,Mar 2024,2024.0,2938.0,1237.0,5.070919078461917,74.70124586829392,FCF Positive
+NESTLEIND,Sep 2024,2024.0,,,,,FCF Negative
+NESTLEIND,TTM,,,,,,FCF Negative
+NHPC,Mar 2013,2013.0,1516.0,1330.0,20.84312803635794,52.76714235990254,FCF Positive
+NHPC,Mar 2014,2014.0,2702.0,1122.0,15.18473406414941,165.46233925290878,FCF Positive
+NHPC,Mar 2015,2015.0,3293.0,768.0,9.341929205692738,117.69120800571838,FCF Positive
+NHPC,Mar 2016,2016.0,5225.0,746.0,8.929853962173809,220.93023255813952,FCF Positive
+NHPC,Mar 2017,2017.0,6465.0,1864.0,21.616606749391163,185.77586206896552,FCF Positive
+NHPC,Mar 2018,2018.0,3810.0,886.0,11.42488716956802,136.80430879712745,FCF Positive
+NHPC,Mar 2019,2019.0,2642.0,1182.0,13.158187687854836,93.15937940761636,FCF Positive
+NHPC,Mar 2020,2020.0,6.0,2987.0,29.846123101518785,0.17937219730941703,FCF Positive
+NHPC,Mar 2021,2021.0,3463.0,1607.0,16.65630182421227,96.19444444444444,FCF Positive
+NHPC,Mar 2022,2022.0,1506.0,3084.0,33.727034120734906,39.90461049284579,FCF Positive
+NHPC,Mar 2023,2023.0,514.0,4191.0,39.511643254454604,12.062896033794884,FCF Positive
+NHPC,Mar 2024,2024.0,970.0,5968.0,61.96013289036545,24.081429990069513,FCF Positive
+NHPC,Sep 2024,2024.0,,,,,FCF Negative
+NHPC,TTM,,,,,,FCF Negative
+NTPC,Mar 2013,2013.0,-337.0,16845.0,23.553511004222713,-2.677578261560464,FCF Negative
+NTPC,Mar 2014,2014.0,1022.0,15509.0,19.799565938976126,8.962553713934929,FCF Positive
+NTPC,Mar 2015,2015.0,-1088.0,15977.0,19.981990319796893,-10.88871096877502,FCF Negative
+NTPC,Mar 2016,2016.0,4963.0,19162.0,26.107689792359256,46.034690659493556,FCF Positive
+NTPC,Mar 2017,2017.0,-4313.0,24480.0,29.838375466224615,-40.25574015307075,FCF Negative
+NTPC,Mar 2018,2018.0,-1008.0,20678.0,23.475585527286764,-9.598171776804417,FCF Negative
+NTPC,Mar 2019,2019.0,-5377.0,24063.0,23.99413682730563,-38.31409434231153,FCF Negative
+NTPC,Mar 2020,2020.0,-5738.0,29628.0,27.066432799824604,-48.21038480927575,FCF Negative
+NTPC,Mar 2021,2021.0,11410.0,21034.0,18.859330589701518,76.22419667312445,FCF Positive
+NTPC,Mar 2022,2022.0,18897.0,22891.0,17.254219146899427,111.42099056603773,FCF Positive
+NTPC,Mar 2023,2023.0,21007.0,26145.0,14.837662521920242,122.69727235558672,FCF Positive
+NTPC,Mar 2024,2024.0,8644.0,32141.0,18.00606159069137,40.52128258016126,FCF Positive
+NTPC,Sep 2024,2024.0,,,,,FCF Negative
+NTPC,TTM,,,,,,FCF Negative
+ONGC,Mar 2013,2013.0,-1346.0,41220.0,25.446957724219676,-5.609735767275152,FCF Negative
+ONGC,Mar 2014,2014.0,-10363.0,63633.0,36.54527598623945,-38.863678979936246,FCF Negative
+ONGC,Mar 2015,2015.0,3892.0,30058.0,18.678498412284135,21.98497429814156,FCF Positive
+ONGC,Mar 2016,2016.0,8036.0,38256.0,30.842658582992033,61.3341474584033,FCF Positive
+ONGC,Mar 2017,2017.0,1965.0,43815.0,15.509405109979966,6.736603928828551,FCF Positive
+ONGC,Mar 2018,2018.0,-10006.0,66798.0,20.69933623793794,-38.38422587079945,FCF Negative
+ONGC,Mar 2019,2019.0,24326.0,37132.0,8.806899038005426,71.67776533679063,FCF Positive
+ONGC,Mar 2020,2020.0,17434.0,53159.0,13.399356738117804,152.1822625698324,FCF Positive
+ONGC,Mar 2021,2021.0,8044.0,39141.0,12.8817274369835,37.65917602996255,FCF Positive
+ONGC,Mar 2022,2022.0,37051.0,41197.0,8.386226045606477,75.16330587901165,FCF Positive
+ONGC,Mar 2023,2023.0,11372.0,74690.0,11.812598945738593,34.694002074562206,FCF Positive
+ONGC,Mar 2024,2024.0,42060.0,57203.0,9.672537521390066,73.65895518467276,FCF Positive
+ONGC,Sep 2024,2024.0,,,,,FCF Negative
+ONGC,TTM,,,,,,FCF Negative
+PFC,Mar 2013,2013.0,-25124.0,22.0,0.12706480304955528,-566.1108607480847,FCF Negative
+PFC,Mar 2014,2014.0,-22482.0,9.0,0.042042322604755454,-411.6074697912852,FCF Negative
+PFC,Mar 2015,2015.0,-21946.0,491.0,1.964943172722907,-365.52298467688206,FCF Negative
+PFC,Mar 2016,2016.0,-15271.0,1973.0,7.081583575607479,-246.9437257438551,FCF Negative
+PFC,Mar 2017,2017.0,1128.0,667.0,2.418331460063087,50.44722719141323,FCF Positive
+PFC,Mar 2018,2018.0,-58557.0,1409.0,2.897745969068773,-665.6473797885643,FCF Negative
+PFC,Mar 2019,2019.0,-93715.0,13463.0,24.88263778508853,-741.4161392405063,FCF Negative
+PFC,Mar 2020,2020.0,-42221.0,73.0,0.1173841032980109,-445.51018254721953,FCF Negative
+PFC,Mar 2021,2021.0,-60884.0,1741.0,2.4296639499832535,-387.40137439552046,FCF Negative
+PFC,Mar 2022,2022.0,4357.0,547.0,0.717264168262044,23.215046888320543,FCF Positive
+PFC,Mar 2023,2023.0,-76411.0,1694.0,2.1806292157973326,-360.78662826384624,FCF Negative
+PFC,Mar 2024,2024.0,-101229.0,3409.0,3.7253573458058313,-382.5592381240316,FCF Negative
+PFC,Sep 2024,2024.0,,,,,FCF Negative
+PFC,TTM,,,,,,FCF Negative
+PIDILITIND,Mar 2013,2013.0,328.0,144.0,3.915171288743882,77.35849056603774,FCF Positive
+PIDILITIND,Mar 2014,2014.0,295.0,99.0,2.311463927153864,65.55555555555556,FCF Positive
+PIDILITIND,Mar 2015,2015.0,116.0,436.0,9.000825763831543,22.56809338521401,FCF Positive
+PIDILITIND,Mar 2016,2016.0,416.0,491.0,9.158739041223653,51.548946716232955,FCF Positive
+PIDILITIND,Mar 2017,2017.0,-85.0,879.0,15.64892291258679,-9.84936268829664,FCF Negative
+PIDILITIND,Mar 2018,2018.0,757.0,39.0,0.6416584402764067,78.36438923395445,FCF Positive
+PIDILITIND,Mar 2019,2019.0,332.0,513.0,7.2478101158519355,35.775862068965516,FCF Positive
+PIDILITIND,Mar 2020,2020.0,1177.0,103.0,1.4121195503153277,104.90196078431373,FCF Positive
+PIDILITIND,Mar 2021,2021.0,-296.0,1688.0,23.14548196901138,-26.287744227353464,FCF Negative
+PIDILITIND,Mar 2022,2022.0,397.0,558.0,5.624433020864832,32.89146644573322,FCF Positive
+PIDILITIND,Mar 2023,2023.0,659.0,899.0,7.6192897703195195,51.12490302560124,FCF Positive
+PIDILITIND,Mar 2024,2024.0,955.0,1769.0,14.285714285714285,54.665140240412136,FCF Positive
+PIDILITIND,Sep 2024,2024.0,,,,,FCF Negative
+PIDILITIND,TTM,,,,,,FCF Negative
+PNB,Mar 2013,2013.0,-1292.0,600.0,1.3930486870516126,-25.737051792828687,FCF Negative
+PNB,Mar 2014,2014.0,16604.0,302.0,0.671738066639975,451.93249863908545,FCF Positive
+PNB,Mar 2015,2015.0,3942.0,872.0,1.7901868199548348,111.82978723404256,FCF Positive
+PNB,Mar 2016,2016.0,12815.0,1352.0,2.6612077789150463,-365.0997150997151,FCF Positive
+PNB,Mar 2017,2017.0,21779.0,159.0,0.33085022264763414,1757.7885391444713,FCF Positive
+PNB,Mar 2018,2018.0,-2134.0,392.0,0.8045151359671626,17.620345140781108,FCF Negative
+PNB,Mar 2019,2019.0,-34161.0,629.0,1.2062055343548046,357.70680628272254,FCF Negative
+PNB,Mar 2020,2020.0,-13131.0,338.0,0.6154630540077934,-2707.422680412371,FCF Negative
+PNB,Mar 2021,2021.0,30163.0,787.0,0.9605174833709648,1119.2207792207791,FCF Positive
+PNB,Mar 2022,2022.0,18828.0,1204.0,1.5791820781196717,481.78096212896617,FCF Positive
+PNB,Mar 2023,2023.0,21860.0,732.0,0.8428809948759284,650.7889252753796,FCF Positive
+PNB,Mar 2024,2024.0,-29445.0,1506.0,1.3808279466373263,-321.5572785846893,FCF Negative
+PNB,TTM,,,,,,FCF Negative
+POWERGRID,Mar 2013,2013.0,-10394.0,22084.0,168.8250133781821,-240.99234871319268,FCF Negative
+POWERGRID,Mar 2014,2014.0,-11416.0,26639.0,171.2568306010929,-251.01143359718557,FCF Negative
+POWERGRID,Mar 2015,2015.0,-8385.0,24185.0,137.884834663626,-166.17122473246135,FCF Negative
+POWERGRID,Mar 2016,2016.0,-6568.0,21576.0,104.47414294015107,-110.21983554287633,FCF Negative
+POWERGRID,Mar 2017,2017.0,-2261.0,23836.0,92.75790948359732,-30.344920144946986,FCF Negative
+POWERGRID,Mar 2018,2018.0,-2991.0,25701.0,85.80156239567337,-36.457825450999515,FCF Negative
+POWERGRID,Mar 2019,2019.0,4544.0,18727.0,53.41567072648963,45.28602750647798,FCF Positive
+POWERGRID,Mar 2020,2020.0,20006.0,10733.0,28.436307757524375,180.90243240799347,FCF Positive
+POWERGRID,Mar 2021,2021.0,20159.0,9244.0,23.319878910191726,167.4891990694583,FCF Positive
+POWERGRID,Mar 2022,2022.0,25371.0,753.0,1.8091393974340495,150.80242510699003,FCF Positive
+POWERGRID,Mar 2023,2023.0,33065.0,7138.0,15.652479003574326,214.42931258106356,FCF Positive
+POWERGRID,Mar 2024,2024.0,24176.0,13114.0,28.606330301245553,155.24304886662813,FCF Positive
+POWERGRID,Sep 2024,2024.0,,,,,FCF Negative
+POWERGRID,TTM,,,,,,FCF Negative
+RECLTD,Mar 2013,2013.0,-20211.0,152.0,1.1148599090509022,-527.2893295069136,FCF Negative
+RECLTD,Mar 2014,2014.0,-17380.0,136.0,0.7896417581141497,-366.5893271461717,FCF Negative
+RECLTD,Mar 2015,2015.0,-24049.0,151.0,0.7350077881619937,-450.01871257485027,FCF Negative
+RECLTD,Mar 2016,2016.0,-14034.0,756.0,3.133678756476684,-246.5998945703743,FCF Negative
+RECLTD,Mar 2017,2017.0,6704.0,101.0,0.41498890623715995,106.19356882623158,FCF Positive
+RECLTD,Mar 2018,2018.0,-32556.0,46.0,0.20301880130638186,-731.431139069872,FCF Negative
+RECLTD,Mar 2019,2019.0,-36323.0,457.0,1.7986460957178843,-632.6946524995645,FCF Negative
+RECLTD,Mar 2020,2020.0,-32833.0,121.0,0.4041146216017634,-660.3580048270314,FCF Negative
+RECLTD,Mar 2021,2021.0,-44373.0,861.0,2.421464128019799,-529.6371449033182,FCF Negative
+RECLTD,Mar 2022,2022.0,-1106.0,287.0,0.7307261431917711,-11.020326823435632,FCF Negative
+RECLTD,Mar 2023,2023.0,-38303.0,943.0,2.3881882186091277,-343.00170144174797,FCF Negative
+RECLTD,Mar 2024,2024.0,-59554.0,1831.0,3.8533577456489256,-421.0250972074938,FCF Negative
+RECLTD,Sep 2024,2024.0,,,,,FCF Negative
+RECLTD,TTM,,,,,,FCF Negative
+RELIANCE,Mar 2013,2013.0,9317.0,27601.0,6.970706415090527,44.60882888058987,FCF Positive
+RELIANCE,Mar 2014,2014.0,-29809.0,73070.0,16.855008177227862,-132.20241263083201,FCF Negative
+RELIANCE,Mar 2015,2015.0,-30332.0,64706.0,17.283878067804213,-128.30795262267344,FCF Negative
+RELIANCE,Mar 2016,2016.0,1948.0,36186.0,13.275222592751565,6.523559157429423,FCF Positive
+RELIANCE,Mar 2017,2017.0,-16651.0,66201.0,21.77994038571626,-55.814031441692094,FCF Negative
+RELIANCE,Mar 2018,2018.0,3267.0,68192.0,17.448307801741453,9.054878048780488,FCF Positive
+RELIANCE,Mar 2019,2019.0,-52161.0,94507.0,16.628690372085575,-130.93606446268544,FCF Negative
+RELIANCE,Mar 2020,2020.0,22380.0,72497.0,12.150084048542013,56.118355065195594,FCF Positive
+RELIANCE,Mar 2021,2021.0,-115427.0,142385.0,30.53460488476476,-214.79186438154784,FCF Negative
+RELIANCE,Mar 2022,2022.0,1492.0,109162.0,15.714156156925633,2.1991303706979144,FCF Positive
+RELIANCE,Mar 2023,2023.0,22031.0,93001.0,10.611755416501216,29.73625958319836,FCF Positive
+RELIANCE,Mar 2024,2024.0,45207.0,113581.0,12.633572884885117,57.20956719817768,FCF Positive
+RELIANCE,Sep 2024,2024.0,,,,,FCF Negative
+RELIANCE,TTM,,,,,,FCF Negative
+SBILIFE,Mar 2013,2013.0,903.0,227.0,1.5265635507733692,143.33333333333334,FCF Positive
+SBILIFE,Mar 2014,2014.0,-542.0,708.0,4.102445242785954,-74.45054945054946,FCF Negative
+SBILIFE,Mar 2015,2015.0,2533.0,178.0,0.7607162699260652,310.79754601226995,FCF Positive
+SBILIFE,Mar 2016,2016.0,-1426.0,7204.0,37.280066238873935,-168.95734597156397,FCF Negative
+SBILIFE,Mar 2017,2017.0,-507.0,9032.0,29.56658373706953,-53.089005235602095,FCF Negative
+SBILIFE,Mar 2018,2018.0,1485.0,8910.0,26.153575202536107,129.13043478260872,FCF Positive
+SBILIFE,Mar 2019,2019.0,-79.0,13552.0,30.382925298179536,-5.953278070836474,FCF Negative
+SBILIFE,Mar 2020,2020.0,2313.0,16986.0,38.78259281245719,162.65822784810126,FCF Positive
+SBILIFE,Mar 2021,2021.0,4675.0,19203.0,23.443165309535726,321.08516483516485,FCF Positive
+SBILIFE,Mar 2022,2022.0,241.0,21611.0,26.04268344118675,16.002656042496678,FCF Positive
+SBILIFE,Mar 2023,2023.0,-1547.0,30203.0,37.455974998759864,-89.88959907030795,FCF Negative
+SBILIFE,Mar 2024,2024.0,-2099.0,31221.0,23.6544231293754,-110.82365364308342,FCF Negative
+SBILIFE,Sep 2024,2024.0,,,,,FCF Negative
+SBILIFE,TTM,,,,,,FCF Negative
+SBIN,Mar 2013,2013.0,22061.0,2271.0,1.3519788541220175,118.8951765022905,FCF Positive
+SBIN,Mar 2014,2014.0,18351.0,791.0,0.41838127175212364,123.93462551495915,FCF Positive
+SBIN,Mar 2015,2015.0,22873.0,3424.0,1.6463596411089847,128.26940331987439,FCF Positive
+SBIN,Mar 2016,2016.0,11730.0,2747.0,1.2450540037075142,90.09908595130194,FCF Positive
+SBIN,Mar 2017,2017.0,72834.0,4572.0,1.9839702838396682,-75086.59793814433,FCF Positive
+SBIN,Mar 2018,2018.0,-109561.0,13053.0,5.700746822727868,2922.405974926647,FCF Negative
+SBIN,Mar 2019,2019.0,29336.0,220.0,0.08684599047852141,875.4401671142941,FCF Positive
+SBIN,Mar 2020,2020.0,23374.0,555.0,0.2056682922490847,110.56764427625355,FCF Positive
+SBIN,Mar 2021,2021.0,86249.0,3670.0,1.3195980080182659,361.0557602143336,FCF Positive
+SBIN,Mar 2022,2022.0,55043.0,2652.0,0.9145679080466111,148.03270311701584,FCF Positive
+SBIN,Mar 2023,2023.0,-86980.0,966.0,0.27533526201028946,-150.6147186147186,FCF Negative
+SBIN,Mar 2024,2024.0,18156.0,3476.0,0.791458802474561,26.107588110952936,FCF Positive
+SBIN,TTM,,,,,,FCF Negative
+SHREECEM,Jun 2013,2013.0,990.0,270.0,4.983388704318937,98.60557768924303,FCF Positive
+SHREECEM,Jun 2014,2014.0,167.0,1234.0,21.592300962379703,21.21982210927573,FCF Positive
+SHREECEM,Jun 2015,2015.0,249.0,990.0,15.817223198594025,58.45070422535211,FCF Positive
+SHREECEM,Mar 2016,2016.0,301.0,1265.0,,,FCF Positive
+SHREECEM,Mar 2016 9m,2016.0,,,,,FCF Negative
+SHREECEM,Mar 2017,2017.0,154.0,2048.0,23.830579474051664,11.501120238984317,FCF Positive
+SHREECEM,Mar 2018,2018.0,-1716.0,3595.0,36.560561374961864,-123.98843930635839,FCF Negative
+SHREECEM,Mar 2019,2019.0,1360.0,720.0,5.734767025089606,133.99014778325122,FCF Positive
+SHREECEM,Mar 2020,2020.0,-1617.0,5590.0,43.44109418713087,-104.7279792746114,FCF Negative
+SHREECEM,Mar 2021,2021.0,1603.0,2651.0,19.55014749262537,68.59221223791185,FCF Positive
+SHREECEM,Mar 2022,2022.0,525.0,2143.0,14.277148567621586,41.371158392434985,FCF Positive
+SHREECEM,Mar 2023,2023.0,164.0,2405.0,13.471879901411606,6.922752216124947,FCF Positive
+SHREECEM,Mar 2024,2024.0,1929.0,1418.0,6.9099946396374445,111.30986728216965,FCF Positive
+SHREECEM,Sep 2024,2024.0,,,,,FCF Negative
+SHREECEM,TTM,,,,,,FCF Negative
+SHRIRAMFIN,Mar 2013,2013.0,-8400.0,41.0,0.5849621914681125,-574.1626794258373,FCF Negative
+SHRIRAMFIN,Mar 2014,2014.0,-4167.0,112.0,1.321378008494573,-306.8483063328424,FCF Negative
+SHRIRAMFIN,Mar 2015,2015.0,-9656.0,45.0,0.49035632559660014,-939.2996108949417,FCF Negative
+SHRIRAMFIN,Mar 2016,2016.0,-5543.0,36.0,0.3475238922675934,-468.15878378378375,FCF Negative
+SHRIRAMFIN,Mar 2017,2017.0,-2679.0,2.0,0.01834357516279923,-211.61137440758293,FCF Negative
+SHRIRAMFIN,Mar 2018,2018.0,-13228.0,86.0,0.6369426751592357,-518.9486072969793,FCF Negative
+SHRIRAMFIN,Mar 2019,2019.0,-5611.0,76.0,0.48918640576725025,-217.81832298136646,FCF Negative
+SHRIRAMFIN,Mar 2020,2020.0,-2519.0,55.0,0.3321055491818127,-100.27866242038218,FCF Negative
+SHRIRAMFIN,Mar 2021,2021.0,-4264.0,25.0,0.14349672827459534,-170.62825130052022,FCF Negative
+SHRIRAMFIN,Mar 2022,2022.0,-8893.0,34.0,0.1765775123344586,-326.82837192208746,FCF Negative
+SHRIRAMFIN,Mar 2023,2023.0,-22701.0,5076.0,16.646989374262102,-377.093023255814,FCF Negative
+SHRIRAMFIN,Mar 2024,2024.0,-31359.0,258.0,0.7090249532813014,-423.8275442627382,FCF Negative
+SHRIRAMFIN,Sep 2024,2024.0,,,,,FCF Negative
+SHRIRAMFIN,TTM,,,,,,FCF Negative
+SIEMENS,Sep 2011,2011.0,-261.0,264.0,2.208281053952321,-30.069124423963135,FCF Negative
+SIEMENS,Sep 2014,2014.0,478.0,130.0,1.2174564525191984,79.27031509121062,FCF Positive
+SIEMENS,Sep 2015,2015.0,-72.0,646.0,6.115686831392597,-6.132879045996593,FCF Negative
+SIEMENS,Sep 2016,2016.0,276.0,237.0,2.1869521085171173,9.471516815374056,FCF Positive
+SIEMENS,Sep 2017,2017.0,-748.0,1321.0,11.938544961590601,-65.78715919085312,FCF Negative
+SIEMENS,Sep 2018,2018.0,-74.0,174.0,1.3599062133645956,-8.213096559378469,FCF Negative
+SIEMENS,Sep 2019,2019.0,138.0,1135.0,8.674717211861815,12.556869881710647,FCF Positive
+SIEMENS,Sep 2020,2020.0,-151.0,871.0,8.757289362557811,-19.63589076723017,FCF Negative
+SIEMENS,Sep 2021,2021.0,-967.0,2389.0,18.101227458705864,-88.79706152433425,FCF Negative
+SIEMENS,Sep 2022,2022.0,944.0,34.0,0.21068286032965672,61.17952041477641,FCF Positive
+SIEMENS,Sep 2023,2023.0,641.0,759.0,3.8815587603559374,32.67074413863404,FCF Positive
+SIEMENS,Sep 2024,2024.0,1168.0,502.0,2.2571942446043165,42.97277409860191,FCF Positive
+SUNPHARMA,Mar 2013,2013.0,982.0,2375.0,21.336807115263678,28.307869703084464,FCF Positive
+SUNPHARMA,Mar 2014,2014.0,1783.0,2176.0,13.532338308457712,45.965455014178914,FCF Positive
+SUNPHARMA,Mar 2015,2015.0,4114.0,1502.0,5.483352803738318,75.12783053323594,FCF Positive
+SUNPHARMA,Mar 2016,2016.0,2737.0,3949.0,13.862463579878542,48.3739837398374,FCF Positive
+SUNPHARMA,Mar 2017,2017.0,2896.0,4186.0,13.256064348597125,36.91052765740505,FCF Positive
+SUNPHARMA,Mar 2018,2018.0,803.0,3104.0,11.718071652384008,31.589299763965386,FCF Positive
+SUNPHARMA,Mar 2019,2019.0,1886.0,310.0,1.0665382233537466,58.790523690773064,FCF Positive
+SUNPHARMA,Mar 2020,2020.0,4330.0,2225.0,6.775686704427796,103.78715244487056,FCF Positive
+SUNPHARMA,Mar 2021,2021.0,5763.0,407.0,1.2149979103230044,253.6531690140845,FCF Positive
+SUNPHARMA,Mar 2022,2022.0,3429.0,5556.0,14.37367413463031,101.18028917084685,FCF Positive
+SUNPHARMA,Mar 2023,2023.0,-2261.0,7220.0,16.451715809141866,-26.55937977211324,FCF Negative
+SUNPHARMA,Mar 2024,2024.0,11372.0,763.0,1.5732931933934058,118.3350676378772,FCF Positive
+SUNPHARMA,Sep 2024,2024.0,,,,,FCF Negative
+SUNPHARMA,TTM,,,,,,FCF Negative
+TATACONSUM,Mar 2013,2013.0,149.0,24.0,0.32648619235478166,33.48314606741573,FCF Positive
+TATACONSUM,Mar 2014,2014.0,421.0,1.0,0.012923235978288964,82.54901960784314,FCF Positive
+TATACONSUM,Mar 2015,2015.0,211.0,207.0,2.5897660452896285,77.2893772893773,FCF Positive
+TATACONSUM,Mar 2016,2016.0,-29.0,145.0,2.184722012957662,78.37837837837837,FCF Negative
+TATACONSUM,Mar 2017,2017.0,596.0,145.0,2.1386430678466075,130.98901098901098,FCF Positive
+TATACONSUM,Mar 2018,2018.0,325.0,31.0,0.4548789435069699,58.45323741007194,FCF Positive
+TATACONSUM,Mar 2019,2019.0,157.0,53.0,0.7308328736900165,34.35448577680525,FCF Positive
+TATACONSUM,Mar 2020,2020.0,460.0,622.0,6.454290754384144,100.0,FCF Positive
+TATACONSUM,Mar 2021,2021.0,1310.0,346.0,2.9822444406136874,140.86021505376345,FCF Positive
+TATACONSUM,Mar 2022,2022.0,199.0,1317.0,10.599597585513077,19.60591133004926,FCF Positive
+TATACONSUM,Mar 2023,2023.0,627.0,834.0,6.050932307915549,47.5,FCF Positive
+TATACONSUM,Mar 2024,2024.0,26.0,1911.0,12.567407602262264,2.139917695473251,FCF Positive
+TATACONSUM,Sep 2024,2024.0,,,,,FCF Negative
+TATACONSUM,TTM,,,,,,FCF Negative
+TATAMOTORS,Mar 2013,2013.0,-806.0,22969.0,12.166234976932408,-8.079390537289495,FCF Negative
+TATAMOTORS,Mar 2014,2014.0,8160.0,27991.0,12.02186965821143,58.07829181494662,FCF Positive
+TATAMOTORS,Mar 2015,2015.0,-701.0,36232.0,13.76810217397087,-4.981169615575926,FCF Negative
+TATAMOTORS,Mar 2016,2016.0,1206.0,36694.0,13.438761234370766,10.327110806644974,FCF Positive
+TATAMOTORS,Mar 2017,2017.0,-9372.0,39571.0,14.67260922604591,-124.0174672489083,FCF Negative
+TATAMOTORS,Mar 2018,2018.0,-1282.0,25139.0,8.622534728176985,-14.101858981410187,FCF Negative
+TATAMOTORS,Mar 2019,2019.0,-1987.0,20878.0,6.914664600017222,6.917560228380449,FCF Negative
+TATAMOTORS,Mar 2020,2020.0,-6482.0,33115.0,12.684434706666462,54.12943632567849,FCF Negative
+TATAMOTORS,Mar 2021,2021.0,3329.0,25672.0,10.277227326407655,-24.852556924225457,FCF Positive
+TATAMOTORS,Mar 2022,2022.0,9839.0,4444.0,1.5959548076163388,-87.0015032275179,FCF Positive
+TATAMOTORS,Mar 2023,2023.0,19971.0,15417.0,4.45620536062688,742.4163568773234,FCF Positive
+TATAMOTORS,Mar 2024,2024.0,45133.0,22782.0,5.2022250232915,141.89643789103027,FCF Positive
+TATAMOTORS,Sep 2024,2024.0,,,,,FCF Negative
+TATAMOTORS,TTM,,,,,,FCF Negative
+TATAPOWER,Mar 2013,2013.0,-740.0,4026.0,12.134912740754137,-601.6260162601626,FCF Negative
+TATAPOWER,Mar 2014,2014.0,2874.0,3609.0,10.101886581201367,23950.0,FCF Positive
+TATAPOWER,Mar 2015,2015.0,2116.0,3865.0,11.50537314321436,463.019693654267,FCF Positive
+TATAPOWER,Mar 2016,2016.0,5610.0,1805.0,6.11988879094053,713.7404580152672,FCF Positive
+TATAPOWER,Mar 2017,2017.0,-359.0,7373.0,26.72538784978976,-32.63636363636363,FCF Negative
+TATAPOWER,Mar 2018,2018.0,4852.0,1512.0,5.6333830104321905,185.82918422060513,FCF Positive
+TATAPOWER,Mar 2019,2019.0,4302.0,272.0,0.9102774338208226,165.08058326937837,FCF Positive
+TATAPOWER,Mar 2020,2020.0,6882.0,493.0,1.692064799560681,522.9483282674772,FCF Positive
+TATAPOWER,Mar 2021,2021.0,7352.0,993.0,3.0364186771855795,510.91035441278666,FCF Positive
+TATAPOWER,Mar 2022,2022.0,443.0,6250.0,14.59734678624813,20.54730983302412,FCF Positive
+TATAPOWER,Mar 2023,2023.0,-97.0,7263.0,13.179335498738862,-2.5459317585301835,FCF Negative
+TATAPOWER,Mar 2024,2024.0,3569.0,9027.0,14.69023092320461,83.38785046728971,FCF Positive
+TATAPOWER,Sep 2024,2024.0,,,,,FCF Negative
+TATAPOWER,TTM,,,,,,FCF Negative
+TATASTEEL,Mar 2013,2013.0,936.0,13099.0,9.723706870954333,-12.871287128712872,FCF Positive
+TATASTEEL,Mar 2014,2014.0,-2232.0,15378.0,10.34761193427268,-60.90040927694407,FCF Negative
+TATASTEEL,Mar 2015,2015.0,2859.0,9021.0,6.466481247849525,-72.58187357197258,FCF Positive
+TATASTEEL,Mar 2016,2016.0,2661.0,8794.0,8.624528024322071,-535.4124748490946,FCF Positive
+TATASTEEL,Mar 2017,2017.0,1334.0,9490.0,8.45065405747157,-31.998081074598222,FCF Positive
+TATASTEEL,Mar 2018,2018.0,-3707.0,11730.0,9.517318598933866,-20.892746435213887,FCF Negative
+TATASTEEL,Mar 2019,2019.0,-3840.0,29176.0,18.504588727016724,-42.096031572023676,FCF Negative
+TATASTEEL,Mar 2020,2020.0,6157.0,14012.0,10.021671184476851,524.4463373083474,FCF Positive
+TATASTEEL,Mar 2021,2021.0,34890.0,9437.0,6.037979704915096,426.007326007326,FCF Positive
+TATASTEEL,Mar 2022,2022.0,33476.0,10905.0,4.470013403891637,80.18395650195215,FCF Positive
+TATASTEEL,Mar 2023,2023.0,3504.0,18179.0,7.470218160450045,43.39318885448916,FCF Positive
+TATASTEEL,Mar 2024,2024.0,6048.0,14253.0,6.219373306395661,-123.17718940936864,FCF Positive
+TATASTEEL,Sep 2024,2024.0,,,,,FCF Negative
+TATASTEEL,TTM,,,,,,FCF Negative
+TCS,Mar 2013,2013.0,5577.0,6038.0,9.585800695359508,39.62063086104007,FCF Positive
+TCS,Mar 2014,2014.0,5299.0,9452.0,11.553741030937918,27.410511069728948,FCF Positive
+TCS,Mar 2015,2015.0,17562.0,1807.0,1.9091792747865777,87.54735792622134,FCF Positive
+TCS,Mar 2016,2016.0,14099.0,5010.0,4.6113064447839776,57.92998603007642,FCF Positive
+TCS,Mar 2017,2017.0,8328.0,16895.0,14.321923266025804,31.596919224494442,FCF Positive
+TCS,Mar 2018,2018.0,21963.0,3104.0,2.5214452820379516,84.86476043276662,FCF Positive
+TCS,Mar 2019,2019.0,26948.0,1645.0,1.1231505567959144,85.38115455294341,FCF Positive
+TCS,Mar 2020,2020.0,23401.0,8968.0,5.713958037324226,72.1206891238019,FCF Positive
+TCS,Mar 2021,2021.0,30846.0,7956.0,4.845989389500356,94.7300534365211,FCF Positive
+TCS,Mar 2022,2022.0,39211.0,738.0,0.38486811226884443,101.98184608182268,FCF Positive
+TCS,Mar 2023,2023.0,41417.0,548.0,0.24306079181044804,97.9055858922535,FCF Positive
+TCS,Mar 2024,2024.0,38247.0,6091.0,2.528508507926756,82.96709256166078,FCF Positive
+TCS,Sep 2024,2024.0,,,,,FCF Negative
+TCS,Mar-13,,5577.0,6038.0,,,FCF Positive
+TCS,Mar-14,,5299.0,9452.0,,,FCF Positive
+TCS,Mar-15,,17562.0,1807.0,,,FCF Positive
+TCS,Mar-16,,14099.0,5010.0,,,FCF Positive
+TCS,Mar-17,,8328.0,16895.0,,,FCF Positive
+TCS,Mar-18,,21963.0,3104.0,,,FCF Positive
+TCS,Mar-19,,26948.0,1645.0,,,FCF Positive
+TCS,Mar-20,,23401.0,8968.0,,,FCF Positive
+TCS,Mar-21,,30846.0,7956.0,,,FCF Positive
+TCS,Mar-22,,39211.0,738.0,,,FCF Positive
+TCS,Mar-23,,41417.0,548.0,,,FCF Positive
+TCS,Mar-24,,38247.0,6091.0,,,FCF Positive
+TCS,TTM,,,,,,FCF Negative
+TECHM,Mar 2013,2013.0,233.0,622.0,9.049905427033318,17.82708492731446,FCF Positive
+TECHM,Mar 2014,2014.0,1305.0,291.0,1.5477076906712053,42.619203135205744,FCF Positive
+TECHM,Mar 2015,2015.0,583.0,1865.0,8.24455152292118,21.925535915757806,FCF Positive
+TECHM,Mar 2016,2016.0,1684.0,1453.0,5.484260587302785,55.63263957713909,FCF Positive
+TECHM,Mar 2017,2017.0,1178.0,2893.0,9.927593425071207,41.31883549631708,FCF Positive
+TECHM,Mar 2018,2018.0,235.0,3319.0,10.785428784973842,6.207078711040676,FCF Positive
+TECHM,Mar 2019,2019.0,2328.0,2104.0,6.056070462264694,54.278386570296114,FCF Positive
+TECHM,Mar 2020,2020.0,3277.0,1081.0,2.9320820223500053,84.09032589171157,FCF Positive
+TECHM,Mar 2021,2021.0,2661.0,5433.0,14.352133139611675,61.1302549965541,FCF Positive
+TECHM,Mar 2022,2022.0,4805.0,480.0,1.075124311248488,85.34635879218473,FCF Positive
+TECHM,Mar 2023,2023.0,5346.0,226.0,0.4240945768436855,110.06794317479927,FCF Positive
+TECHM,Mar 2024,2024.0,5058.0,1318.0,2.5348103700284637,211.0137672090113,FCF Positive
+TECHM,Sep 2024,2024.0,,,,,FCF Negative
+TECHM,TTM,,,,,,FCF Negative
+TITAN,Mar 2013,2013.0,411.0,142.0,1.402746221475847,56.68965517241379,FCF Positive
+TITAN,Mar 2014,2014.0,-826.0,271.0,2.4800951770842867,-112.38095238095238,FCF Negative
+TITAN,Mar 2015,2015.0,385.0,118.0,0.9905145639217662,47.181372549019606,FCF Positive
+TITAN,Mar 2016,2016.0,417.0,159.0,1.4100744945015964,61.77777777777778,FCF Positive
+TITAN,Mar 2017,2017.0,759.0,953.0,7.186486690294849,108.89526542324246,FCF Positive
+TITAN,Mar 2018,2018.0,-149.0,98.0,0.607940446650124,-13.520871143375683,FCF Negative
+TITAN,Mar 2019,2019.0,446.0,797.0,4.029526265230801,32.10943124550036,FCF Positive
+TITAN,Mar 2020,2020.0,-583.0,235.0,1.116283488504655,-39.0488948425988,FCF Negative
+TITAN,Mar 2021,2021.0,1340.0,2799.0,12.931990389946405,137.5770020533881,FCF Positive
+TITAN,Mar 2022,2022.0,-1889.0,1165.0,4.04527934997743,-85.9417652411283,FCF Negative
+TITAN,Mar 2023,2023.0,-444.0,1814.0,4.470733210104744,-13.56139279169212,FCF Negative
+TITAN,Mar 2024,2024.0,1506.0,189.0,0.36997885835095135,43.077803203661325,FCF Positive
+TITAN,Sep 2024,2024.0,,,,,FCF Negative
+TITAN,TTM,,,,,,FCF Negative
+TORNTPHARM,Mar 2013,2013.0,-94.0,247.0,7.7115204495785195,-21.60919540229885,FCF Negative
+TORNTPHARM,Mar 2014,2014.0,181.0,418.0,10.019175455417066,27.259036144578314,FCF Positive
+TORNTPHARM,Mar 2015,2015.0,-1303.0,2113.0,45.57808455565142,-173.50199733688416,FCF Negative
+TORNTPHARM,Mar 2016,2016.0,1873.0,869.0,12.995364139374907,108.07847663012117,FCF Positive
+TORNTPHARM,Mar 2017,2017.0,211.0,798.0,13.720770288858322,22.591006423982872,FCF Positive
+TORNTPHARM,Mar 2018,2018.0,-3783.0,4677.0,78.60504201680672,-557.9646017699115,FCF Negative
+TORNTPHARM,Mar 2019,2019.0,1552.0,246.0,3.2060471784178284,355.9633027522936,FCF Positive
+TORNTPHARM,Mar 2020,2020.0,1164.0,229.0,2.884494268799597,113.56097560975608,FCF Positive
+TORNTPHARM,Mar 2021,2021.0,1561.0,444.0,5.546533416614616,124.68051118210863,FCF Positive
+TORNTPHARM,Mar 2022,2022.0,1607.0,196.0,2.30371415138693,206.8211068211068,FCF Positive
+TORNTPHARM,Mar 2023,2023.0,33.0,2335.0,24.272349272349274,2.6506024096385543,FCF Positive
+TORNTPHARM,Mar 2024,2024.0,3106.0,160.0,1.4914243102162565,187.56038647342993,FCF Positive
+TORNTPHARM,Sep 2024,2024.0,,,,,FCF Negative
+TORNTPHARM,TTM,,,,,,FCF Negative
+TRENT,Mar 2013,2013.0,-245.0,276.0,12.94559099437148,907.4074074074074,FCF Negative
+TRENT,Mar 2014,2014.0,-94.0,48.0,2.0574367766823833,494.7368421052632,FCF Negative
+TRENT,Mar 2015,2015.0,-316.0,306.0,13.39754816112084,-244.9612403100775,FCF Negative
+TRENT,Mar 2016,2016.0,11.0,98.0,5.812574139976276,20.0,FCF Positive
+TRENT,Mar 2017,2017.0,58.0,44.0,2.4282560706401766,68.23529411764706,FCF Positive
+TRENT,Mar 2018,2018.0,73.0,4.0,0.18544274455261936,83.9080459770115,FCF Positive
+TRENT,Mar 2019,2019.0,-16.0,37.0,1.4068441064638784,-16.842105263157894,FCF Negative
+TRENT,Mar 2020,2020.0,-448.0,809.0,23.207114170969593,-422.64150943396226,FCF Negative
+TRENT,Mar 2021,2021.0,267.0,18.0,0.6941766293868107,-147.51381215469613,FCF Positive
+TRENT,Mar 2022,2022.0,2.0,56.0,1.2449977767896843,5.714285714285714,FCF Positive
+TRENT,Mar 2023,2023.0,492.0,103.0,1.2496966755641834,124.8730964467005,FCF Positive
+TRENT,Mar 2024,2024.0,841.0,508.0,4.105050505050505,56.939742721733246,FCF Positive
+TRENT,Sep 2024,2024.0,,,,,FCF Negative
+TRENT,TTM,,,,,,FCF Negative
+TVSMOTOR,Mar 2013,2013.0,344.0,120.0,1.5978695073235687,173.73737373737376,FCF Positive
+TVSMOTOR,Mar 2014,2014.0,235.0,235.0,2.8029580152671754,125.66844919786095,FCF Positive
+TVSMOTOR,Mar 2015,2015.0,-332.0,415.0,4.046411856474259,-101.21951219512195,FCF Negative
+TVSMOTOR,Mar 2016,2016.0,331.0,605.0,5.317746330315549,77.15617715617715,FCF Positive
+TVSMOTOR,Mar 2017,2017.0,-20.0,709.0,5.688838963331461,-3.9292730844793713,FCF Negative
+TVSMOTOR,Mar 2018,2018.0,-741.0,1095.0,6.7013463892288865,-111.42857142857143,FCF Negative
+TVSMOTOR,Mar 2019,2019.0,-2022.0,1104.0,5.476190476190476,-278.8965517241379,FCF Negative
+TVSMOTOR,Mar 2020,2020.0,-717.0,1090.0,5.782800148548994,-110.81916537867077,FCF Negative
+TVSMOTOR,Mar 2021,2021.0,269.0,882.0,4.541475722156429,44.243421052631575,FCF Positive
+TVSMOTOR,Mar 2022,2022.0,-3046.0,1471.0,6.039827550810921,-416.68946648426817,FCF Negative
+TVSMOTOR,Mar 2023,2023.0,-5713.0,1308.0,4.090823794332896,-436.44003055767763,FCF Negative
+TVSMOTOR,Mar 2024,2024.0,-2254.0,1001.0,2.557159279601482,-126.70039347948286,FCF Negative
+TVSMOTOR,Sep 2024,2024.0,,,,,FCF Negative
+TVSMOTOR,TTM,,,,,,FCF Negative
